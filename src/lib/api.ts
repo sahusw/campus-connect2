@@ -9,7 +9,7 @@ const CLASS_COLORS = [
   'bg-campus-violet-light border-campus-violet',
 ];
 const DISCOVER_EVENTS_CACHE_TTL_MS = 15 * 60 * 1000;
-const DISCOVER_EVENTS_CACHE_VERSION = 'v2';
+const DISCOVER_EVENTS_CACHE_VERSION = 'v4';
 
 type DiscoverEventsCacheEntry = {
   expiresAt: number;
@@ -152,4 +152,6 @@ export function fileToBase64(file: File): Promise<string> {
     reader.readAsDataURL(file);
   });
 }
+
+
 
