@@ -16,20 +16,19 @@ export const MOCK_CLASSES: ClassBlock[] = [
 ];
 
 export const MOCK_EVENTS: CampusEvent[] = [
-  { id: 'e1', title: 'MHacks Hackathon Kickoff', description: 'Join Michigan\'s largest hackathon! Build something amazing in 36 hours.', time: '18:00', date: 'Fri, Mar 20', day: 'Fri', location: 'North Campus', category: 'technology', relevance: 95, tags: ['hackathon', 'coding', 'prizes'] },
-  { id: 'e2', title: 'Startup Pitch Night', description: 'Watch student founders pitch their ideas to real investors.', time: '19:00', date: 'Wed, Mar 18', day: 'Wed', location: 'Ross School of Business', category: 'entrepreneurship', relevance: 88, tags: ['startups', 'networking', 'business'] },
-  { id: 'e3', title: 'AI Research Seminar', description: 'Prof. Smith presents latest findings in neural architecture search.', time: '16:00', date: 'Thu, Mar 19', day: 'Thu', location: 'BBB 1670', category: 'research', relevance: 92, tags: ['AI', 'research', 'CS'] },
-  { id: 'e4', title: 'Yoga & Mindfulness', description: 'Free yoga session for students. All levels welcome.', time: '08:00', date: 'Tue, Mar 17', day: 'Tue', location: 'CCRB Studio', category: 'wellness', relevance: 70, tags: ['yoga', 'wellness', 'free'] },
-  { id: 'e5', title: 'Open Mic Night', description: 'Perform or watch! Poetry, music, comedy – anything goes.', time: '20:00', date: 'Fri, Mar 20', day: 'Fri', location: 'Michigan Union', category: 'arts', relevance: 65, tags: ['music', 'performance', 'social'] },
-  { id: 'e6', title: 'Intramural Basketball', description: 'Sign up for spring intramural basketball leagues.', time: '17:00', date: 'Mon, Mar 16', day: 'Mon', location: 'IMSB', category: 'sports', relevance: 72, tags: ['basketball', 'sports', 'team'] },
-  { id: 'e7', title: 'Web Dev Workshop', description: 'Learn React and modern web development from scratch.', time: '15:00', date: 'Sat, Mar 21', day: 'Sat', location: 'Duderstadt Center', category: 'technology', relevance: 90, tags: ['coding', 'workshop', 'beginner'] },
-  { id: 'e8', title: 'Career Fair Prep', description: 'Resume reviews, mock interviews, and networking tips.', time: '12:00', date: 'Wed, Mar 18', day: 'Wed', location: 'Career Center', category: 'entrepreneurship', relevance: 85, tags: ['career', 'resume', 'networking'] },
+  { id: 'e1', title: 'MHacks Hackathon Kickoff', description: 'Join Michigan\'s largest hackathon! Build something amazing in 36 hours.', time: '18:00', date: 'Fri, Mar 20', day: 'Fri', location: 'North Campus', category: 'technology', relevance: 95, tags: ['hackathon', 'coding', 'prizes'], detailsUrl: 'https://mhacks.org' },
+  { id: 'e2', title: 'Startup Pitch Night', description: 'Watch student founders pitch their ideas to real investors.', time: '19:00', date: 'Wed, Mar 18', day: 'Wed', location: 'Ross School of Business', category: 'entrepreneurship', relevance: 88, tags: ['startups', 'networking', 'business'], detailsUrl: 'https://cfe.umich.edu' },
+  { id: 'e3', title: 'AI Research Seminar', description: 'Prof. Smith presents latest findings in neural architecture search.', time: '16:00', date: 'Thu, Mar 19', day: 'Thu', location: 'BBB 1670', category: 'research', relevance: 92, tags: ['AI', 'research', 'CS'], detailsUrl: 'https://cse.engin.umich.edu' },
+  { id: 'e4', title: 'Yoga & Mindfulness', description: 'Free yoga session for students. All levels welcome.', time: '08:00', date: 'Tue, Mar 17', day: 'Tue', location: 'CCRB Studio', category: 'wellness', relevance: 70, tags: ['yoga', 'wellness', 'free'], detailsUrl: 'https://recsports.umich.edu' },
+  { id: 'e5', title: 'Open Mic Night', description: 'Perform or watch! Poetry, music, comedy - anything goes.', time: '20:00', date: 'Fri, Mar 20', day: 'Fri', location: 'Michigan Union', category: 'arts', relevance: 65, tags: ['music', 'performance', 'social'], detailsUrl: 'https://uunions.umich.edu' },
+  { id: 'e6', title: 'Intramural Basketball', description: 'Sign up for spring intramural basketball leagues.', time: '17:00', date: 'Mon, Mar 16', day: 'Mon', location: 'IMSB', category: 'sports', relevance: 72, tags: ['basketball', 'sports', 'team'], detailsUrl: 'https://recsports.umich.edu/intramurals' },
+  { id: 'e7', title: 'Web Dev Workshop', description: 'Learn React and modern web development from scratch.', time: '15:00', date: 'Sat, Mar 21', day: 'Sat', location: 'Duderstadt Center', category: 'technology', relevance: 90, tags: ['coding', 'workshop', 'beginner'], detailsUrl: 'https://www.dc.umich.edu' },
+  { id: 'e8', title: 'Career Fair Prep', description: 'Resume reviews, mock interviews, and networking tips.', time: '12:00', date: 'Wed, Mar 18', day: 'Wed', location: 'Career Center', category: 'entrepreneurship', relevance: 85, tags: ['career', 'resume', 'networking'], detailsUrl: 'https://careercenter.umich.edu' },
 ];
 
 export function generateScheduleBlocks(classes: ClassBlock[], events: CampusEvent[]): ScheduleBlock[] {
   const blocks: ScheduleBlock[] = [];
 
-  // Add class blocks
   classes.forEach((c) => {
     c.days.forEach((day) => {
       blocks.push({
@@ -45,7 +44,6 @@ export function generateScheduleBlocks(classes: ClassBlock[], events: CampusEven
     });
   });
 
-  // Add study blocks
   const studyBlocks: Omit<ScheduleBlock, 'id'>[] = [
     { type: 'study', title: 'Study: EECS 183', startTime: '12:00', endTime: '13:00', day: 'Mon', color: 'bg-campus-sage-light/50 border-campus-sage/30' },
     { type: 'study', title: 'Study: MATH 115', startTime: '15:00', endTime: '16:00', day: 'Tue', color: 'bg-campus-coral-light/50 border-campus-coral/30' },
@@ -58,7 +56,6 @@ export function generateScheduleBlocks(classes: ClassBlock[], events: CampusEven
     blocks.push({ ...sb, id: `study-${i}` });
   });
 
-  // Add recommended events
   const topEvents = events.slice(0, 4);
   topEvents.forEach((ev) => {
     const endHour = parseInt(ev.time.split(':')[0]) + 1;
