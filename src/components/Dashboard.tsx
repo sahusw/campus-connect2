@@ -1,0 +1,148 @@
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { useAppStore } from '@/lib/store';
+import { MOCK_EVENTS, generateScheduleBlocks } from '@/lib/mockData';
+import { WeeklyCalendar } from '@/components/WeeklyCalendar';
+import { EventCard } from '@/components/EventCard';
+import { Sparkles, RefreshCw, Calendar, Star, LogOut, Loader2 } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+export function Dashboard() {
+  const { profile, classes, setStep, weekGenerated, setWeekGenerated, scheduleBlocks, setScheduleBlocks, setEvents } = useAppStore();
+  const [generating, setGenerating] = useState(false);
+  const [events] = useState(MOCK_EVENTS);
+
+  const generateWeek = () => {
+    setGenerating(true);
+    setTimeout(() => {
+      const blocks = generateScheduleBlocks(classes, events);
+      setScheduleBlocks(blocks);
+      setEvents(events);
+      setWeekGenerated(true);
+      setGenerating(false);
+    }, 1500);
+  };
+
+  const regenerate = () => {
+    setWeekGenerated(false);
+    setScheduleBlocks([]);
+    setTimeout(generateWeek, 300);
+  };
+
+  // Sort events by relevance
+  const sortedEvents = [...events].sort((a, b) => b.relevance - a.relevance);
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Top bar */}
+      <header className="border-b bg-card/80 backdrop-blur-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Sparkles className="w-5 h-5 text-primary" />
+            <span className="font-display text-lg">CampusFlow</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-sm text-muted-foreground hidden sm:block">
+              {profile.university}
+            </span>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => { setStep('onboarding'); setWeekGenerated(false); }}
+            >
+              <LogOut className="w-4 h-4" />
+            </Button>
+          </div>
+        </div>
+      </header>
+
+      <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* Hero / Generate section */}
+        {!weekGenerated && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="campus-gradient rounded-2xl p-8 mb-6 text-center space-y-4"
+          >
+            <Calendar className="w-12 h-12 mx-auto text-primary" />
+            <h1 className="text-3xl font-display">Ready to plan your week?</h1>
+            <p className="text-muted-foreground max-w-md mx-auto">
+              We'll combine your {classes.length} classes with campus events matched to your interests.
+            </p>
+            <Button
+              size="lg"
+              onClick={generateWeek}
+              disabled={generating}
+              className="gap-2 text-base px-8"
+            >
+              {generating ? (
+                <>
+                  <Loader2 className="w-5 h-5 animate-spin" /> Generating...
+                </>
+              ) : (
+                <>
+                  <Sparkles className="w-5 h-5" /> Generate My Week
+                </>
+              )}
+            </Button>
+          </motion.div>
+        )}
+
+        {weekGenerated && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="space-y-6"
+          >
+            {/* Controls */}
+            <div className="flex items-center justify-between">
+              <div>
+                <h1 className="text-2xl font-display">Your Week</h1>
+                <p className="text-sm text-muted-foreground">
+                  {classes.length} classes · {scheduleBlocks.filter(b => b.type === 'study').length} study blocks · {scheduleBlocks.filter(b => b.type === 'event').length} events
+                </p>
+              </div>
+              <Button variant="outline" onClick={regenerate} className="gap-2">
+                <RefreshCw className="w-4 h-4" /> Regenerate
+              </Button>
+            </div>
+
+            {/* Main layout */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              {/* Calendar */}
+              <div className="lg:col-span-2 overflow-x-auto">
+                <WeeklyCalendar blocks={scheduleBlocks} />
+              </div>
+
+              {/* Events sidebar */}
+              <div className="space-y-4">
+                <div className="flex items-center gap-2">
+                  <Star className="w-4 h-4 text-campus-coral" />
+                  <h2 className="font-display text-lg">Recommended Events</h2>
+                </div>
+                <div className="space-y-3 max-h-[600px] overflow-y-auto pr-1">
+                  {sortedEvents.map((event) => (
+                    <EventCard key={event.id} event={event} compact />
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Legend */}
+            <div className="flex flex-wrap gap-4 text-xs text-muted-foreground pt-2">
+              <span className="flex items-center gap-1.5">
+                <span className="w-3 h-3 rounded bg-campus-sage-light border border-campus-sage" /> Classes
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="w-3 h-3 rounded bg-campus-sage-light/50 border border-campus-sage/30" /> Study Blocks
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="w-3 h-3 rounded bg-campus-coral-light border border-campus-coral" /> Events
+              </span>
+            </div>
+          </motion.div>
+        )}
+      </main>
+    </div>
+  );
+}
