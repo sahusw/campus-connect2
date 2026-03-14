@@ -4,25 +4,6 @@ const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version',
 };
-const FIRECRAWL_RESULT_LIMIT = 2;
-const MAX_SCRAPED_CONTENT_CHARS = 2500;
-const MAX_RESULT_SNIPPET_CHARS = 500;
-
-function isValidHttpUrl(value: string | undefined) {
-  if (!value) return false;
-
-  try {
-    const parsed = new URL(value);
-    return parsed.protocol === 'http:' || parsed.protocol === 'https:';
-  } catch {
-    return false;
-  }
-}
-
-function buildFallbackDetailsUrl(university: string, event: { title?: string; location?: string; date?: string }) {
-  const query = [university, event.title || '', event.location || '', event.date || ''].filter(Boolean).join(' ');
-  return `https://www.google.com/search?q=${encodeURIComponent(query)}`;
-}
 
 serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response(null, { headers: corsHeaders });
@@ -39,6 +20,7 @@ serve(async (req) => {
     const FIRECRAWL_API_KEY = Deno.env.get('FIRECRAWL_API_KEY');
     if (!LOVABLE_API_KEY) throw new Error('LOVABLE_API_KEY is not configured');
 
+    // Step 1: Try to scrape university events page via Firecrawl
     let scrapedContent = '';
     if (FIRECRAWL_API_KEY) {
       try {
@@ -53,7 +35,7 @@ serve(async (req) => {
           },
           body: JSON.stringify({
             query: searchQuery,
-            limit: FIRECRAWL_RESULT_LIMIT,
+            limit: 5,
             scrapeOptions: { formats: ['markdown'] },
           }),
         });
@@ -62,13 +44,9 @@ serve(async (req) => {
           const searchData = await searchResp.json();
           if (searchData.data) {
             scrapedContent = searchData.data
-              .slice(0, FIRECRAWL_RESULT_LIMIT)
-              .map((r: any) => {
-                const snippet = (r.description || r.markdown || '').slice(0, MAX_RESULT_SNIPPET_CHARS);
-                return `## ${r.title || 'Event Page'}\nURL: ${r.url}\n${snippet}`;
-              })
+              .map((r: any) => `## ${r.title || 'Event Page'}\nURL: ${r.url}\n${r.markdown || r.description || ''}`)
               .join('\n\n---\n\n')
-              .slice(0, MAX_SCRAPED_CONTENT_CHARS);
+              .slice(0, 8000);
             console.log('Scraped content length:', scrapedContent.length);
           }
         } else {
@@ -79,6 +57,7 @@ serve(async (req) => {
       }
     }
 
+    // Step 2: Use LLM to generate/extract structured events
     const today = new Date();
     const twoWeeksOut = new Date(today.getTime() + 14 * 24 * 60 * 60 * 1000);
     const dateRange = `${today.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} to ${twoWeeksOut.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
@@ -89,7 +68,7 @@ Today's date is ${today.toISOString().split('T')[0]}.
 The student is a ${year || 'student'} interested in: ${(interests || []).join(', ')}.
 Their courses relate to: ${(courseKeywords || []).join(', ')}.
 
-${scrapedContent ? `Here is real data scraped from the web about campus events:\n\n${scrapedContent}\n\nUse this real data to extract actual events. When an event comes from scraped data, preserve the matching page URL in detailsUrl. If you do not know the exact event page, return an empty string for detailsUrl.` : `Generate realistic and plausible campus events for ${university} in the date range ${dateRange}. Make them specific to this university and the student's interests. If you do not know the exact event page, return an empty string for detailsUrl.`}
+${scrapedContent ? `Here is real data scraped from the web about campus events:\n\n${scrapedContent}\n\nUse this real data to extract actual events. Supplement with plausible events if needed.` : `Generate realistic and plausible campus events for ${university} in the date range ${dateRange}. Make them specific to this university and the student's interests.`}
 
 Return 8-12 events happening in the next 14 days. Each event should have:
 - title: specific event name
@@ -101,7 +80,6 @@ Return 8-12 events happening in the next 14 days. Each event should have:
 - category: one of: technology, entrepreneurship, sports, music, research, social, arts, wellness
 - relevance: 0-100 score based on how well it matches the student's interests and courses
 - tags: 2-3 relevant tags
-- detailsUrl: exact event page URL if known, otherwise an empty string
 
 Rank events by relevance to the student's profile. Events matching course subjects or stated interests should score higher.`;
 
@@ -139,9 +117,8 @@ Rank events by relevance to the student's profile. Events matching course subjec
                       category: { type: 'string', enum: ['technology', 'entrepreneurship', 'sports', 'music', 'research', 'social', 'arts', 'wellness'] },
                       relevance: { type: 'number' },
                       tags: { type: 'array', items: { type: 'string' } },
-                      detailsUrl: { type: 'string' },
                     },
-                    required: ['title', 'description', 'time', 'date', 'day', 'location', 'category', 'relevance', 'tags', 'detailsUrl'],
+                    required: ['title', 'description', 'time', 'date', 'day', 'location', 'category', 'relevance', 'tags'],
                     additionalProperties: false,
                   },
                 },
@@ -176,10 +153,10 @@ Rank events by relevance to the student's profile. Events matching course subjec
     if (!toolCall) throw new Error('No tool call in response');
 
     const parsed = JSON.parse(toolCall.function.arguments);
+    // Add IDs to events
     const events = (parsed.events || []).map((ev: any, i: number) => ({
       ...ev,
       id: `ev-${Date.now()}-${i}`,
-      detailsUrl: isValidHttpUrl(ev.detailsUrl) ? ev.detailsUrl : buildFallbackDetailsUrl(university, ev),
     }));
 
     console.log('Discovered events:', events.length);
