@@ -1,12 +1,14 @@
 import { useMemo } from 'react';
-import type { ScheduleBlock } from '@/lib/types';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { EventPopoverContent } from '@/components/EventPopoverContent';
+import type { CampusEvent, ScheduleBlock } from '@/lib/types';
 
-const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-const HOURS = Array.from({ length: 14 }, (_, i) => i + 8); // 8am to 9pm
+const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const HOURS = Array.from({ length: 14 }, (_, i) => i + 8);
 
 function timeToRow(time: string): number {
   const [h, m] = time.split(':').map(Number);
-  return (h - 8) * 4 + Math.floor(m / 15) + 2; // +2 for header row
+  return (h - 8) * 4 + Math.floor(m / 15) + 2;
 }
 
 function formatHour(h: number): string {
@@ -15,17 +17,27 @@ function formatHour(h: number): string {
 }
 
 const TYPE_LABELS: Record<string, string> = {
-  class: '📚',
-  study: '✏️',
-  event: '⭐',
+  class: 'C',
+  study: 'S',
+  event: 'E',
   free: '',
 };
 
 interface WeeklyCalendarProps {
   blocks: ScheduleBlock[];
+  events: CampusEvent[];
 }
 
-export function WeeklyCalendar({ blocks }: WeeklyCalendarProps) {
+function findMatchingEvent(block: ScheduleBlock, events: CampusEvent[]) {
+  return events.find((event) =>
+    event.title === block.title &&
+    event.day === block.day &&
+    event.time === block.startTime &&
+    (event.location || '') === (block.location || '')
+  );
+}
+
+export function WeeklyCalendar({ blocks, events }: WeeklyCalendarProps) {
   const dayColumns = useMemo(() => {
     return DAYS.map((day) => ({
       day,
@@ -34,9 +46,11 @@ export function WeeklyCalendar({ blocks }: WeeklyCalendarProps) {
   }, [blocks]);
 
   return (
-    <div className="campus-card overflow-hidden">
-      <div className="grid grid-cols-[60px_repeat(6,1fr)] min-h-[600px]" style={{ gridTemplateRows: `40px repeat(${14 * 4}, 1fr)` }}>
-        {/* Header */}
+    <div className="campus-card overflow-x-auto">
+      <div
+        className="grid min-h-[600px] min-w-[980px] grid-cols-[60px_repeat(7,minmax(130px,1fr))]"
+        style={{ gridTemplateRows: `40px repeat(${14 * 4}, 1fr)` }}
+      >
         <div className="border-b border-r bg-muted/50 p-2" />
         {DAYS.map((day) => (
           <div key={day} className="border-b border-r bg-muted/50 p-2 text-center">
@@ -44,19 +58,17 @@ export function WeeklyCalendar({ blocks }: WeeklyCalendarProps) {
           </div>
         ))}
 
-        {/* Time labels */}
         {HOURS.map((hour) => (
           <div
             key={hour}
-            className="border-r text-[10px] text-muted-foreground pr-2 text-right pt-0.5"
+            className="border-r pr-2 pt-0.5 text-right text-[10px] text-muted-foreground"
             style={{ gridRow: `${(hour - 8) * 4 + 2} / span 4`, gridColumn: 1 }}
           >
             {formatHour(hour)}
           </div>
         ))}
 
-        {/* Hour grid lines */}
-        {HOURS.map((hour) => (
+        {HOURS.map((hour) =>
           DAYS.map((_, di) => (
             <div
               key={`grid-${hour}-${di}`}
@@ -67,39 +79,61 @@ export function WeeklyCalendar({ blocks }: WeeklyCalendarProps) {
               }}
             />
           ))
-        ))}
+        )}
 
-        {/* Blocks */}
-        {dayColumns.map(({ day, blocks: dayBlocks }, di) =>
+        {dayColumns.map(({ blocks: dayBlocks }, di) =>
           dayBlocks.map((block) => {
             const startRow = timeToRow(block.startTime);
             const endRow = timeToRow(block.endTime);
-            const span = endRow - startRow;
-
-            return (
-              <div
-                key={block.id}
-                className={`${block.color} border-l-3 rounded-md m-0.5 p-1.5 overflow-hidden cursor-pointer transition-all hover:shadow-md z-10 flex flex-col`}
-                style={{
-                  gridRow: `${startRow} / span ${span}`,
-                  gridColumn: di + 2,
-                }}
-              >
+            const span = Math.max(1, endRow - startRow);
+            const matchingEvent = block.type === 'event' ? findMatchingEvent(block, events) : undefined;
+            const blockClassName = `${block.color} border-l-3 m-0.5 flex h-full flex-col overflow-hidden rounded-md p-1.5 transition-all hover:shadow-md z-10 ${matchingEvent ? 'cursor-pointer' : 'cursor-default'}`;
+            const blockStyle = {
+              gridRow: `${startRow} / span ${span}`,
+              gridColumn: di + 2,
+            };
+            const blockInner = (
+              <>
                 <div className="flex items-center gap-1">
                   <span className="text-[10px]">{TYPE_LABELS[block.type]}</span>
-                  <span className="text-[11px] font-semibold truncate">{block.title}</span>
+                  <span className="truncate text-[11px] font-semibold">{block.title}</span>
                 </div>
                 {span > 3 && (
-                  <span className="text-[10px] text-muted-foreground mt-0.5">
-                    {block.startTime}–{block.endTime}
+                  <span className="mt-0.5 text-[10px] text-muted-foreground">
+                    {block.startTime}-{block.endTime}
                   </span>
                 )}
                 {span > 5 && block.location && (
-                  <span className="text-[10px] text-muted-foreground truncate">
-                    📍 {block.location}
+                  <span className="truncate text-[10px] text-muted-foreground">
+                    Loc: {block.location}
                   </span>
                 )}
-              </div>
+              </>
+            );
+
+            if (!matchingEvent) {
+              return (
+                <div key={block.id} className={blockClassName} style={blockStyle}>
+                  {blockInner}
+                </div>
+              );
+            }
+
+            return (
+              <Popover key={block.id}>
+                <PopoverTrigger asChild>
+                  <button
+                    type="button"
+                    className={blockClassName}
+                    style={blockStyle}
+                  >
+                    {blockInner}
+                  </button>
+                </PopoverTrigger>
+                <PopoverContent side="right" align="start" sideOffset={8} className="w-80">
+                  <EventPopoverContent event={matchingEvent} />
+                </PopoverContent>
+              </Popover>
             );
           })
         )}

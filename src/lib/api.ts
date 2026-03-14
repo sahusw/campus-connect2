@@ -8,6 +8,67 @@ const CLASS_COLORS = [
   'bg-campus-amber-light border-campus-amber',
   'bg-campus-violet-light border-campus-violet',
 ];
+const DISCOVER_EVENTS_CACHE_TTL_MS = 15 * 60 * 1000;
+const DISCOVER_EVENTS_CACHE_VERSION = 'v4';
+
+type DiscoverEventsCacheEntry = {
+  expiresAt: number;
+  events: CampusEvent[];
+};
+
+function getDiscoverEventsCacheKey(
+  university: string,
+  interests: string[],
+  courseKeywords: string[],
+  year?: string
+) {
+  return [
+    'discover-events',
+    DISCOVER_EVENTS_CACHE_VERSION,
+    university.trim().toLowerCase(),
+    [...interests].sort().join('|').toLowerCase(),
+    [...courseKeywords].sort().join('|').toLowerCase(),
+    (year || '').trim().toLowerCase(),
+  ].join('::');
+}
+
+function readDiscoverEventsCache(cacheKey: string): CampusEvent[] | null {
+  if (typeof window === 'undefined') return null;
+
+  try {
+    const raw = window.localStorage.getItem(cacheKey);
+    if (!raw) return null;
+
+    const parsed = JSON.parse(raw) as DiscoverEventsCacheEntry;
+    if (!parsed?.expiresAt || !Array.isArray(parsed.events)) {
+      window.localStorage.removeItem(cacheKey);
+      return null;
+    }
+
+    if (parsed.expiresAt < Date.now()) {
+      window.localStorage.removeItem(cacheKey);
+      return null;
+    }
+
+    return parsed.events;
+  } catch {
+    return null;
+  }
+}
+
+function writeDiscoverEventsCache(cacheKey: string, events: CampusEvent[]) {
+  if (typeof window === 'undefined') return;
+
+  try {
+    const entry: DiscoverEventsCacheEntry = {
+      expiresAt: Date.now() + DISCOVER_EVENTS_CACHE_TTL_MS,
+      events,
+    };
+    window.localStorage.setItem(cacheKey, JSON.stringify(entry));
+  } catch {
+    // Ignore storage failures and continue without cache.
+  }
+}
 
 export async function parseScheduleImage(imageBase64: string): Promise<ClassBlock[]> {
   const { data, error } = await supabase.functions.invoke('parse-schedule', {
@@ -85,3 +146,6 @@ export function fileToBase64(file: File): Promise<string> {
     reader.readAsDataURL(file);
   });
 }
+
+
+

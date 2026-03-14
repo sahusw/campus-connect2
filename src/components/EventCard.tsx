@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import type { CampusEvent } from '@/lib/types';
-import { MapPin, Clock, TrendingUp } from 'lucide-react';
+import { Clock, MapPin, TrendingUp } from 'lucide-react';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { EventPopoverContent } from '@/components/EventPopoverContent';
 
 const CATEGORY_STYLES: Record<string, string> = {
   technology: 'bg-campus-sage-light text-campus-sage',
@@ -78,5 +80,18 @@ export function EventCard({ event, compact }: EventCardProps) {
         ))}
       </div>
     </motion.div>
+  );
+
+  return (
+    <Popover>
+      <PopoverTrigger asChild>
+        <button type="button" className="w-full rounded-2xl text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+          {cardBody}
+        </button>
+      </PopoverTrigger>
+      <PopoverContent align="start" className="w-80">
+        <EventPopoverContent event={event} />
+      </PopoverContent>
+    </Popover>
   );
 }
