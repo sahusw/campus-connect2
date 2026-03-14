@@ -117,7 +117,7 @@ function normalizeWhitespace(value: string | undefined) {
 
 function clipText(value: string | undefined, maxChars = 280) {
   const normalized = normalizeWhitespace(value);
-  return normalized.length > maxChars ? `${normalized.slice(0, maxChars - 1)}…` : normalized;
+  return normalized.length > maxChars ? `${normalized.slice(0, maxChars - 1)}ï¿½` : normalized;
 }
 
 function inferCategory(parts: string[]) {

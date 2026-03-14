@@ -23,31 +23,35 @@ interface EventCardProps {
 export function EventCard({ event, compact }: EventCardProps) {
   const catStyle = CATEGORY_STYLES[event.category] || 'bg-muted text-muted-foreground';
 
-  const cardBody = compact ? (
-    <div className="campus-card-hover p-3 space-y-1.5 text-left">
-      <div className="flex items-start justify-between gap-2">
-        <h4 className="font-medium text-sm leading-tight">{event.title}</h4>
-        <span className="flex items-center gap-1 text-xs text-campus-sage font-medium shrink-0">
-          <TrendingUp className="w-3 h-3" />
-          {event.relevance}%
-        </span>
+  if (compact) {
+    return (
+      <div className="campus-card-hover p-3 space-y-1.5">
+        <div className="flex items-start justify-between gap-2">
+          <h4 className="font-medium text-sm leading-tight">{event.title}</h4>
+          <span className="flex items-center gap-1 text-xs text-campus-sage font-medium shrink-0">
+            <TrendingUp className="w-3 h-3" />
+            {event.relevance}%
+          </span>
+        </div>
+        <div className="flex items-center gap-3 text-xs text-muted-foreground">
+          <span className="flex items-center gap-1">
+            <Clock className="w-3 h-3" /> {event.date} Â· {event.time}
+          </span>
+        </div>
+        <div className="flex gap-1.5 flex-wrap">
+          <span className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${catStyle}`}>
+            {event.category}
+          </span>
+        </div>
       </div>
-      <div className="flex items-center gap-3 text-xs text-muted-foreground">
-        <span className="flex items-center gap-1">
-          <Clock className="w-3 h-3" /> {event.date} · {event.time}
-        </span>
-      </div>
-      <div className="flex gap-1.5 flex-wrap">
-        <span className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${catStyle}`}>
-          {event.category}
-        </span>
-      </div>
-    </div>
-  ) : (
+    );
+  }
+
+  return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="campus-card-hover p-4 space-y-3 text-left"
+      className="campus-card-hover p-4 space-y-3"
     >
       <div className="flex items-start justify-between gap-2">
         <h3 className="font-medium leading-tight">{event.title}</h3>
@@ -59,7 +63,7 @@ export function EventCard({ event, compact }: EventCardProps) {
       <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
       <div className="flex items-center gap-4 text-sm text-muted-foreground">
         <span className="flex items-center gap-1.5">
-          <Clock className="w-4 h-4" /> {event.date} · {event.time}
+          <Clock className="w-4 h-4" /> {event.date} Â· {event.time}
         </span>
         <span className="flex items-center gap-1.5">
           <MapPin className="w-4 h-4" /> {event.location}

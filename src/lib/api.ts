@@ -107,10 +107,6 @@ export async function discoverEvents(
   courseKeywords: string[],
   year?: string
 ): Promise<CampusEvent[]> {
-  const cacheKey = getDiscoverEventsCacheKey(university, interests, courseKeywords, year);
-  const cachedEvents = readDiscoverEventsCache(cacheKey);
-  if (cachedEvents) return cachedEvents;
-
   const { data, error } = await supabase.functions.invoke('discover-events', {
     body: { university, interests, courseKeywords, year },
   });
@@ -118,9 +114,7 @@ export async function discoverEvents(
   if (error) throw new Error(error.message || 'Failed to discover events');
   if (data?.error) throw new Error(data.error);
 
-  const events = data.events || [];
-  writeDiscoverEventsCache(cacheKey, events);
-  return events;
+  return data.events || [];
 }
 
 export async function generateWeeklyPlan(
