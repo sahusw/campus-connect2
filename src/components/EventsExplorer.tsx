@@ -14,10 +14,9 @@ import type { Interest } from '@/lib/types';
 import {
   fetchUMichEvents,
   scoreEventsWithAI,
-  generateICS,
-  buildGCalURL,
   type UMichEvent,
 } from '@/lib/umichEvents';
+import { downloadICS as downloadICSFile, buildGCalURL } from '@/lib/calendarExport';
 
 const EVENT_TYPES = [
   'All Types',
@@ -164,28 +163,31 @@ export function EventsExplorer() {
   function downloadICS() {
     const sel = getSelectedEvents();
     if (!sel.length) return;
-    const blob = generateICS(sel);
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'umich-events.ics';
-    a.click();
-    URL.revokeObjectURL(url);
-    toast({ title: `Downloaded ${sel.length} events as .ics` });
+    // Convert UMichEvent to CampusEvent shape for the shared utility
+    const asCampusEvents = sel.map((e) => ({
+      id: e.id, title: e.title, description: e.description,
+      time: e.time, date: e.date, day: e.day, location: e.location,
+      category: e.category, relevance: e.relevance, tags: e.tags,
+      detailsUrl: e.url,
+    }));
+    downloadICSFile(asCampusEvents as any, 'umich-events.ics');
+    toast({ title: `Downloaded ${sel.length} event${sel.length !== 1 ? 's' : ''} as .ics` });
     setCalendarMenuOpen(false);
   }
 
   function addToGoogleCalendar() {
     const sel = getSelectedEvents();
     if (!sel.length) return;
-    if (sel.length === 1) {
-      window.open(buildGCalURL(sel[0]), '_blank');
-    } else {
-      // Open up to 5 in separate tabs
-      sel.slice(0, 5).forEach((e) => window.open(buildGCalURL(e), '_blank'));
-      if (sel.length > 5) {
-        toast({ title: `Opened first 5 events`, description: 'Download .ics to add all at once.' });
-      }
+    const MAX = 5;
+    sel.slice(0, MAX).forEach((e) => {
+      const asCampus = { id: e.id, title: e.title, description: e.description,
+        time: e.time, date: e.date, day: e.day, location: e.location,
+        category: e.category, relevance: e.relevance, tags: e.tags, detailsUrl: e.url };
+      const url = buildGCalURL(asCampus as any);
+      if (url) window.open(url, '_blank');
+    });
+    if (sel.length > MAX) {
+      toast({ title: `Opened first ${MAX} in Google Calendar`, description: `Use "Download .ics" to add all ${sel.length} at once.` });
     }
     setCalendarMenuOpen(false);
   }

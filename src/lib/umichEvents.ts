@@ -1,4 +1,4 @@
-import type { Interest } from '../../types';
+import type { Interest } from './types';
 
 export interface UMichEvent {
   id: string;

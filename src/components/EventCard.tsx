@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import type { CampusEvent } from '@/lib/types';
-import { Clock, MapPin, TrendingUp } from 'lucide-react';
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
-import { EventPopoverContent } from '@/components/EventPopoverContent';
+import { Clock, MapPin, TrendingUp, CalendarPlus, Square, CheckSquare2 } from 'lucide-react';
+import { buildGCalURL } from '@/lib/calendarExport';
 
 const CATEGORY_STYLES: Record<string, string> = {
   technology: 'bg-campus-sage-light text-campus-sage',
@@ -18,15 +17,37 @@ const CATEGORY_STYLES: Record<string, string> = {
 interface EventCardProps {
   event: CampusEvent;
   compact?: boolean;
+  selected?: boolean;
+  onToggleSelect?: (id: string) => void;
 }
 
-export function EventCard({ event, compact }: EventCardProps) {
+export function EventCard({ event, compact, selected = false, onToggleSelect }: EventCardProps) {
   const catStyle = CATEGORY_STYLES[event.category] || 'bg-muted text-muted-foreground';
+  const calUrl = buildGCalURL(event);
+  const selectable = !!onToggleSelect;
 
   if (compact) {
     return (
-      <div className="campus-card-hover p-3 space-y-1.5">
-        <div className="flex items-start justify-between gap-2">
+      <div
+        className={`campus-card-hover p-3 space-y-1.5 relative transition-all ${
+          selected ? 'ring-2 ring-primary bg-primary/5' : ''
+        }`}
+      >
+        {/* Select checkbox */}
+        {selectable && (
+          <button
+            onClick={() => onToggleSelect(event.id)}
+            className="absolute top-2 right-2 text-muted-foreground hover:text-primary transition-colors"
+            title={selected ? 'Deselect' : 'Select for calendar'}
+          >
+            {selected
+              ? <CheckSquare2 className="w-4 h-4 text-primary" />
+              : <Square className="w-4 h-4" />
+            }
+          </button>
+        )}
+
+        <div className="flex items-start justify-between gap-2 pr-6">
           <h4 className="font-medium text-sm leading-tight">{event.title}</h4>
           <span className="flex items-center gap-1 text-xs text-campus-sage font-medium shrink-0">
             <TrendingUp className="w-3 h-3" />
@@ -38,10 +59,22 @@ export function EventCard({ event, compact }: EventCardProps) {
             <Clock className="w-3 h-3" /> {event.date} · {event.time}
           </span>
         </div>
-        <div className="flex gap-1.5 flex-wrap">
+        <div className="flex items-center gap-1.5 flex-wrap">
           <span className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${catStyle}`}>
             {event.category}
           </span>
+          {calUrl && !selectable && (
+            <a
+              href={calUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="ml-auto flex items-center gap-1 text-[10px] text-muted-foreground hover:text-primary transition-colors"
+              title="Add to Google Calendar"
+            >
+              <CalendarPlus className="w-3 h-3" />
+            </a>
+          )}
         </div>
       </div>
     );
@@ -51,9 +84,24 @@ export function EventCard({ event, compact }: EventCardProps) {
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="campus-card-hover p-4 space-y-3"
+      className={`campus-card-hover p-4 space-y-3 relative transition-all ${
+        selected ? 'ring-2 ring-primary bg-primary/5' : ''
+      }`}
     >
-      <div className="flex items-start justify-between gap-2">
+      {selectable && (
+        <button
+          onClick={() => onToggleSelect(event.id)}
+          className="absolute top-3 right-3 text-muted-foreground hover:text-primary transition-colors"
+          title={selected ? 'Deselect' : 'Select for calendar'}
+        >
+          {selected
+            ? <CheckSquare2 className="w-4 h-4 text-primary" />
+            : <Square className="w-4 h-4" />
+          }
+        </button>
+      )}
+
+      <div className="flex items-start justify-between gap-2 pr-6">
         <h3 className="font-medium leading-tight">{event.title}</h3>
         <span className="flex items-center gap-1 text-sm text-campus-sage font-semibold shrink-0">
           <TrendingUp className="w-4 h-4" />
@@ -78,20 +126,17 @@ export function EventCard({ event, compact }: EventCardProps) {
             {tag}
           </span>
         ))}
+        {calUrl && (
+          <a
+            href={calUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-auto flex items-center gap-1 text-xs text-muted-foreground hover:text-primary transition-colors"
+          >
+            <CalendarPlus className="w-3.5 h-3.5" /> Add to Google Calendar
+          </a>
+        )}
       </div>
     </motion.div>
-  );
-
-  return (
-    <Popover>
-      <PopoverTrigger asChild>
-        <button type="button" className="w-full rounded-2xl text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
-          {cardBody}
-        </button>
-      </PopoverTrigger>
-      <PopoverContent align="start" className="w-80">
-        <EventPopoverContent event={event} />
-      </PopoverContent>
-    </Popover>
   );
 }
