@@ -1,1 +1,13 @@
 project_id = "ocabhqfpfszsiyfwcpft"
+
+[functions.parse-schedule]
+verify_jwt = false
+
+[functions.discover-events]
+verify_jwt = false
+
+[functions.generate-plan]
+verify_jwt = false
+
+[functions.infer-topics]
+verify_jwt = false

@@ -1,9 +1,10 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useAppStore } from '@/lib/store';
-import { MOCK_CLASSES } from '@/lib/mockData';
-import { Upload, Image, FileText, ArrowRight, Check, Loader2 } from 'lucide-react';
+import { parseScheduleImage, fileToBase64 } from '@/lib/api';
+import { Upload, Image, FileText, ArrowRight, Check, Loader2, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useToast } from '@/hooks/use-toast';
 
 export function ScheduleUpload() {
   const { setStep, setClasses } = useAppStore();
@@ -11,32 +12,60 @@ export function ScheduleUpload() {
   const [uploaded, setUploaded] = useState(false);
   const [parsing, setParsing] = useState(false);
   const [parsed, setParsed] = useState(false);
+  const [parsedClasses, setParsedClasses] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const { toast } = useToast();
+
+  const processFile = async (file: File) => {
+    if (!file.type.startsWith('image/') && file.type !== 'application/pdf') {
+      toast({ title: 'Invalid file', description: 'Please upload an image or PDF file.', variant: 'destructive' });
+      return;
+    }
+
+    setUploaded(true);
+    setParsing(true);
+    setError(null);
+
+    try {
+      const base64 = await fileToBase64(file);
+      const classes = await parseScheduleImage(base64);
+
+      if (classes.length === 0) {
+        setError('No courses found. Try a clearer screenshot.');
+        setParsing(false);
+        return;
+      }
+
+      setParsedClasses(classes);
+      setClasses(classes);
+      setParsed(true);
+      setParsing(false);
+    } catch (e) {
+      console.error('Parse error:', e);
+      setError(e instanceof Error ? e.message : 'Failed to parse schedule');
+      setParsing(false);
+      setUploaded(false);
+    }
+  };
 
   const handleDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault();
     setDragOver(false);
-    simulateUpload();
+    const file = e.dataTransfer.files[0];
+    if (file) processFile(file);
   }, []);
 
   const handleFileSelect = () => {
-    simulateUpload();
+    fileInputRef.current?.click();
   };
 
-  const simulateUpload = () => {
-    setUploaded(true);
-    setParsing(true);
-    // Simulate AI parsing
-    setTimeout(() => {
-      setParsing(false);
-      setParsed(true);
-      setClasses(MOCK_CLASSES);
-    }, 2000);
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) processFile(file);
   };
 
   const proceed = () => {
-    if (!parsed) {
-      setClasses(MOCK_CLASSES);
-    }
     setStep('dashboard');
   };
 
@@ -53,6 +82,15 @@ export function ScheduleUpload() {
             Drop a screenshot of your weekly class schedule. We support Canvas, Google Calendar, and more.
           </p>
         </div>
+
+        {/* Hidden file input */}
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/*,application/pdf"
+          className="hidden"
+          onChange={handleInputChange}
+        />
 
         {/* Upload zone */}
         <div
@@ -88,19 +126,31 @@ export function ScheduleUpload() {
             <div className="space-y-3">
               <Check className="w-10 h-10 mx-auto text-primary" />
               <div className="font-medium">Schedule parsed successfully!</div>
-              <div className="text-sm text-muted-foreground">Found {MOCK_CLASSES.length} courses</div>
+              <div className="text-sm text-muted-foreground">Found {parsedClasses.length} courses</div>
             </div>
           )}
         </div>
 
+        {/* Error message */}
+        {error && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex items-center gap-2 p-3 rounded-lg bg-destructive/10 text-destructive text-sm"
+          >
+            <AlertCircle className="w-4 h-4 shrink-0" />
+            {error}
+          </motion.div>
+        )}
+
         {/* Parsed results */}
-        {parsed && (
+        {parsed && parsedClasses.length > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             className="space-y-2"
           >
-            {MOCK_CLASSES.map((c) => (
+            {parsedClasses.map((c) => (
               <div key={c.id} className={`campus-card p-3 flex items-center gap-3 border-l-4 ${c.color}`}>
                 <div className="flex-1">
                   <div className="font-medium text-sm">{c.abbreviation}</div>
