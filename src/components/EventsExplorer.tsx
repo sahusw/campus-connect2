@@ -10,11 +10,10 @@ import { Input } from '@/components/ui/input';
 import { Checkbox } from '@/components/ui/checkbox';
 import { useToast } from '@/hooks/use-toast';
 import { useAppStore } from '@/lib/store';
-import type { Interest } from '@/lib/types';
+import type { Interest, CampusEvent } from '@/lib/types';
 import {
   fetchUMichEvents,
   scoreEventsWithAI,
-  type UMichEvent,
 } from '@/lib/umichEvents';
 import { downloadICS as downloadICSFile, buildGCalURL } from '@/lib/calendarExport';
 
@@ -59,8 +58,8 @@ export function EventsExplorer() {
   const { toast } = useToast();
 
   const [tab, setTab] = useState<Tab>('all');
-  const [events, setEvents] = useState<UMichEvent[]>([]);
-  const [suggestedEvents, setSuggestedEvents] = useState<UMichEvent[]>([]);
+  const [events, setEvents] = useState<CampusEvent[]>([]);
+  const [suggestedEvents, setSuggestedEvents] = useState<CampusEvent[]>([]);
   const [loadingEvents, setLoadingEvents] = useState(false);
   const [loadingSuggestions, setLoadingSuggestions] = useState(false);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
@@ -69,7 +68,6 @@ export function EventsExplorer() {
   const [showTypeMenu, setShowTypeMenu] = useState(false);
   const [calendarMenuOpen, setCalendarMenuOpen] = useState(false);
 
-  // Fetch real events on mount
   useEffect(() => {
     loadEvents();
   }, []);
@@ -91,16 +89,16 @@ export function EventsExplorer() {
   }
 
   async function loadSuggestions() {
-    if (!events.length) { toast({ title: 'Events still loading…', description: 'Please wait a moment and try again.' }); return; }
+    if (!events.length) {
+      toast({ title: 'Events still loading...', description: 'Please wait a moment and try again.' });
+      return;
+    }
+
     setLoadingSuggestions(true);
     setTab('suggested');
     try {
       const courseKeywords = classes.flatMap((c) => [c.name, c.abbreviation]);
-      const scored = await scoreEventsWithAI(
-        events,
-        profile.interests || [],
-        courseKeywords
-      );
+      const scored = await scoreEventsWithAI(events, profile.interests || [], courseKeywords);
       setSuggestedEvents(scored.filter((e) => e.relevance >= 40).slice(0, 30));
     } catch (err) {
       toast({
@@ -114,7 +112,6 @@ export function EventsExplorer() {
     }
   }
 
-  // Filtered view for "All" tab
   const displayedEvents = useMemo(() => {
     let list = tab === 'suggested' ? suggestedEvents : events;
     if (search.trim()) {
@@ -124,7 +121,7 @@ export function EventsExplorer() {
           e.title.toLowerCase().includes(q) ||
           e.description.toLowerCase().includes(q) ||
           e.location.toLowerCase().includes(q) ||
-          e.eventType.toLowerCase().includes(q)
+          (e.eventType || '').toLowerCase().includes(q)
       );
     }
     if (typeFilter !== 'All Types') {
@@ -154,7 +151,7 @@ export function EventsExplorer() {
     setSelectedIds(new Set());
   }
 
-  function getSelectedEvents(): UMichEvent[] {
+  function getSelectedEvents(): CampusEvent[] {
     return [...events, ...suggestedEvents].filter(
       (e, i, arr) => selectedIds.has(e.id) && arr.findIndex((x) => x.id === e.id) === i
     );
@@ -163,14 +160,7 @@ export function EventsExplorer() {
   function downloadICS() {
     const sel = getSelectedEvents();
     if (!sel.length) return;
-    // Convert UMichEvent to CampusEvent shape for the shared utility
-    const asCampusEvents = sel.map((e) => ({
-      id: e.id, title: e.title, description: e.description,
-      time: e.time, date: e.date, day: e.day, location: e.location,
-      category: e.category, relevance: e.relevance, tags: e.tags,
-      detailsUrl: e.url,
-    }));
-    downloadICSFile(asCampusEvents as any, 'umich-events.ics');
+    downloadICSFile(sel, 'umich-events.ics');
     toast({ title: `Downloaded ${sel.length} event${sel.length !== 1 ? 's' : ''} as .ics` });
     setCalendarMenuOpen(false);
   }
@@ -180,14 +170,14 @@ export function EventsExplorer() {
     if (!sel.length) return;
     const MAX = 5;
     sel.slice(0, MAX).forEach((e) => {
-      const asCampus = { id: e.id, title: e.title, description: e.description,
-        time: e.time, date: e.date, day: e.day, location: e.location,
-        category: e.category, relevance: e.relevance, tags: e.tags, detailsUrl: e.url };
-      const url = buildGCalURL(asCampus as any);
+      const url = buildGCalURL(e);
       if (url) window.open(url, '_blank');
     });
     if (sel.length > MAX) {
-      toast({ title: `Opened first ${MAX} in Google Calendar`, description: `Use "Download .ics" to add all ${sel.length} at once.` });
+      toast({
+        title: `Opened first ${MAX} in Google Calendar`,
+        description: `Use "Download .ics" to add all ${sel.length} at once.`,
+      });
     }
     setCalendarMenuOpen(false);
   }
@@ -196,7 +186,6 @@ export function EventsExplorer() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <div className="border-b bg-card/80 backdrop-blur-sm sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2">
@@ -209,7 +198,6 @@ export function EventsExplorer() {
             )}
           </div>
 
-          {/* Tabs */}
           <div className="flex items-center gap-1 bg-muted rounded-lg p-1">
             <button
               onClick={() => setTab('all')}
@@ -248,7 +236,6 @@ export function EventsExplorer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-6 space-y-4">
-        {/* "For You" banner */}
         <AnimatePresence>
           {tab === 'suggested' && (
             <motion.div
@@ -271,14 +258,13 @@ export function EventsExplorer() {
           )}
         </AnimatePresence>
 
-        {/* Search + filter bar */}
         <div className="flex items-center gap-2 flex-wrap">
           <div className="relative flex-1 min-w-[200px]">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <Input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search events, locations, keywords…"
+              placeholder="Search events, locations, keywords..."
               className="pl-9 h-9 bg-card"
             />
             {search && (
@@ -288,7 +274,6 @@ export function EventsExplorer() {
             )}
           </div>
 
-          {/* Type filter dropdown */}
           <div className="relative">
             <button
               onClick={() => setShowTypeMenu((v) => !v)}
@@ -322,7 +307,6 @@ export function EventsExplorer() {
             </AnimatePresence>
           </div>
 
-          {/* Select all / clear */}
           <Button variant="outline" size="sm" onClick={selectAll} className="gap-1.5 h-9">
             <CheckSquare className="w-3.5 h-3.5" /> Select all
           </Button>
@@ -333,15 +317,13 @@ export function EventsExplorer() {
           )}
         </div>
 
-        {/* Result count */}
         <p className="text-xs text-muted-foreground">
           {loadingEvents || loadingSuggestions
-            ? 'Loading…'
+            ? 'Loading...'
             : `${displayedEvents.length} event${displayedEvents.length !== 1 ? 's' : ''}`}
           {selectedCount > 0 && ` · ${selectedCount} selected`}
         </p>
 
-        {/* Loading skeleton */}
         {(loadingEvents || (tab === 'suggested' && loadingSuggestions)) && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {Array.from({ length: 6 }).map((_, i) => (
@@ -355,7 +337,6 @@ export function EventsExplorer() {
           </div>
         )}
 
-        {/* Event grid */}
         {!loadingEvents && !(tab === 'suggested' && loadingSuggestions) && (
           <>
             {displayedEvents.length === 0 ? (
@@ -365,12 +346,9 @@ export function EventsExplorer() {
                 <p className="text-sm">Try adjusting your search or filters</p>
               </div>
             ) : (
-              <motion.div
-                layout
-                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"
-              >
+              <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {displayedEvents.map((event) => (
-                  <EventCard
+                  <ExplorerEventCard
                     key={event.id}
                     event={event}
                     selected={selectedIds.has(event.id)}
@@ -384,7 +362,6 @@ export function EventsExplorer() {
         )}
       </div>
 
-      {/* Sticky calendar action bar */}
       <AnimatePresence>
         {selectedCount > 0 && (
           <motion.div
@@ -398,22 +375,12 @@ export function EventsExplorer() {
                 {selectedCount} event{selectedCount !== 1 ? 's' : ''} selected
               </span>
               <div className="flex flex-wrap gap-2 ml-auto">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={clearSelection}
-                  className="gap-1.5"
-                >
+                <Button variant="outline" size="sm" onClick={clearSelection} className="gap-1.5">
                   <X className="w-3.5 h-3.5" /> Clear
                 </Button>
 
-                {/* Calendar dropdown */}
                 <div className="relative">
-                  <Button
-                    size="sm"
-                    onClick={() => setCalendarMenuOpen((v) => !v)}
-                    className="gap-1.5"
-                  >
+                  <Button size="sm" onClick={() => setCalendarMenuOpen((v) => !v)} className="gap-1.5">
                     <CalendarPlus className="w-3.5 h-3.5" />
                     Add to Calendar
                     <ChevronDown className="w-3 h-3" />
@@ -433,7 +400,7 @@ export function EventsExplorer() {
                           <Download className="w-4 h-4 text-muted-foreground" />
                           <div>
                             <div className="font-medium">Download .ics file</div>
-                            <div className="text-xs text-muted-foreground">Works with Apple, Outlook & more</div>
+                            <div className="text-xs text-muted-foreground">Works with Apple, Outlook and more</div>
                           </div>
                         </button>
                         <button
@@ -461,16 +428,16 @@ export function EventsExplorer() {
   );
 }
 
-// ---- Single Event Card ----
-
-interface EventCardProps {
-  event: UMichEvent;
+interface ExplorerEventCardProps {
+  event: CampusEvent;
   selected: boolean;
   onToggle: () => void;
   showRelevance: boolean;
 }
 
-function EventCard({ event, selected, onToggle, showRelevance }: EventCardProps) {
+function ExplorerEventCard({ event, selected, onToggle, showRelevance }: ExplorerEventCardProps) {
+  const timeText = event.timeDisplay ? `${event.date} · ${event.timeDisplay}` : (event.time ? `${event.date} · ${event.time}` : event.date);
+
   return (
     <motion.div
       layout
@@ -481,20 +448,14 @@ function EventCard({ event, selected, onToggle, showRelevance }: EventCardProps)
       }`}
       onClick={onToggle}
     >
-      {/* Checkbox */}
       <div className="absolute top-3 right-3" onClick={(e) => { e.stopPropagation(); onToggle(); }}>
-        <Checkbox
-          checked={selected}
-          onCheckedChange={onToggle}
-          className="h-4 w-4"
-        />
+        <Checkbox checked={selected} onCheckedChange={onToggle} className="h-4 w-4" />
       </div>
 
       <div className="space-y-2.5 pr-6">
-        {/* Type badge + relevance */}
         <div className="flex items-center gap-1.5 flex-wrap">
           <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-muted text-muted-foreground">
-            {event.eventType}
+            {event.eventType || event.category}
           </span>
           {showRelevance && event.relevance > 0 && (
             <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold border ${RELEVANCE_COLOR(event.relevance)}`}>
@@ -503,16 +464,13 @@ function EventCard({ event, selected, onToggle, showRelevance }: EventCardProps)
           )}
         </div>
 
-        {/* Title */}
         <h3 className="font-medium text-sm leading-snug line-clamp-2">{event.title}</h3>
 
-        {/* Date/time */}
         <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
           <Clock className="w-3 h-3 shrink-0" />
-          <span>{event.date}{event.timeDisplay ? ` · ${event.timeDisplay}` : ''}</span>
+          <span>{timeText}</span>
         </div>
 
-        {/* Location */}
         {event.location && (
           <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <MapPin className="w-3 h-3 shrink-0" />
@@ -520,27 +478,27 @@ function EventCard({ event, selected, onToggle, showRelevance }: EventCardProps)
           </div>
         )}
 
-        {/* Description */}
         {event.description && (
           <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed">{event.description}</p>
         )}
 
-        {/* Tags + link */}
         <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
           {event.tags.slice(0, 2).map((tag) => (
             <span key={tag} className="px-2 py-0.5 rounded-full text-[10px] bg-muted text-muted-foreground">
               {tag}
             </span>
           ))}
-          <a
-            href={event.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            className="ml-auto text-[10px] text-primary flex items-center gap-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
-          >
-            Details <ExternalLink className="w-2.5 h-2.5" />
-          </a>
+          {event.url && (
+            <a
+              href={event.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="ml-auto text-[10px] text-primary flex items-center gap-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
+            >
+              Details <ExternalLink className="w-2.5 h-2.5" />
+            </a>
+          )}
         </div>
       </div>
     </motion.div>

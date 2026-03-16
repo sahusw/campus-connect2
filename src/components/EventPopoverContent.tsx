@@ -8,7 +8,7 @@ interface EventPopoverContentProps {
 
 export function EventPopoverContent({ event }: EventPopoverContentProps) {
   const calendarUrl = buildGCalURL(event);
-  const detailsUrl = (event as any).detailsUrl as string | undefined;
+  const detailsUrl = event.url;
 
   return (
     <div className="space-y-3">

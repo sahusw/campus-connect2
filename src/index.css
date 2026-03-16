@@ -45,7 +45,7 @@
     --sidebar-border: 40 18% 88%;
     --sidebar-ring: 152 32% 42%;
 
-    /* Custom CampusFlow tokens */
+    /* Custom Mandala tokens */
     --campus-sage: 152 32% 42%;
     --campus-sage-light: 152 28% 90%;
     --campus-coral: 12 76% 61%;
@@ -96,3 +96,4 @@
     background: linear-gradient(160deg, hsl(var(--background)), hsl(var(--campus-sage-light)) 50%, hsl(var(--campus-coral-light)));
   }
 }
+

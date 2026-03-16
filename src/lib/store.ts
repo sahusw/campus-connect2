@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import type { UserProfile, ClassBlock, CampusEvent, ScheduleBlock } from './types';
+import { SUPPORTED_UNIVERSITY } from './constants';
 
 interface AppState {
   step: 'onboarding' | 'upload' | 'dashboard';
@@ -22,7 +23,9 @@ interface AppState {
 export const useAppStore = create<AppState>((set) => ({
   step: 'onboarding',
   onboardingStep: 0,
-  profile: {},
+  profile: {
+    university: SUPPORTED_UNIVERSITY,
+  },
   classes: [],
   events: [],
   scheduleBlocks: [],
@@ -30,7 +33,13 @@ export const useAppStore = create<AppState>((set) => ({
 
   setStep: (step) => set({ step }),
   setOnboardingStep: (onboardingStep) => set({ onboardingStep }),
-  updateProfile: (data) => set((s) => ({ profile: { ...s.profile, ...data } })),
+  updateProfile: (data) => set((s) => ({
+    profile: {
+      ...s.profile,
+      ...data,
+      university: SUPPORTED_UNIVERSITY,
+    },
+  })),
   setClasses: (classes) => set({ classes }),
   setEvents: (events) => set({ events }),
   setScheduleBlocks: (scheduleBlocks) => set({ scheduleBlocks }),

@@ -1,21 +1,27 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '@/lib/store';
+import { SUPPORTED_UNIVERSITY } from '@/lib/constants';
 import { INTERESTS_OPTIONS, YEAR_OPTIONS, TIME_OPTIONS } from '@/lib/mockData';
-import type { Interest, Year, TimePreference } from '@/lib/types';
-import { ArrowRight, ArrowLeft, Sparkles } from 'lucide-react';
+import type { Interest, TimePreference } from '@/lib/types';
+import { ArrowRight, ArrowLeft } from 'lucide-react';
+import { MandalaLogo } from '@/components/MandalaLogo';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 
 const STEPS = ['university', 'year', 'interests', 'times'] as const;
 
 export function OnboardingFlow() {
   const { onboardingStep, setOnboardingStep, updateProfile, profile, setStep } = useAppStore();
-  const [university, setUniversity] = useState(profile.university || '');
+
+  useEffect(() => {
+    if (profile.university !== SUPPORTED_UNIVERSITY) {
+      updateProfile({ university: SUPPORTED_UNIVERSITY });
+    }
+  }, [profile.university, updateProfile]);
 
   const canProceed = () => {
     switch (STEPS[onboardingStep]) {
-      case 'university': return university.trim().length > 0;
+      case 'university': return true;
       case 'year': return !!profile.year;
       case 'interests': return (profile.interests?.length || 0) > 0;
       case 'times': return (profile.timePreferences?.length || 0) > 0;
@@ -25,7 +31,7 @@ export function OnboardingFlow() {
 
   const next = () => {
     if (STEPS[onboardingStep] === 'university') {
-      updateProfile({ university: university.trim() });
+      updateProfile({ university: SUPPORTED_UNIVERSITY });
     }
     if (onboardingStep < STEPS.length - 1) {
       setOnboardingStep(onboardingStep + 1);
@@ -57,7 +63,6 @@ export function OnboardingFlow() {
   return (
     <div className="min-h-screen campus-gradient-hero flex items-center justify-center p-4">
       <div className="w-full max-w-lg">
-        {/* Progress */}
         <div className="flex gap-2 mb-8">
           {STEPS.map((_, i) => (
             <div
@@ -81,19 +86,16 @@ export function OnboardingFlow() {
               <div className="space-y-6">
                 <div>
                   <div className="flex items-center gap-2 mb-2">
-                    <Sparkles className="w-5 h-5 text-primary" />
-                    <span className="text-sm font-medium text-primary">CampusFlow</span>
+                    <MandalaLogo className="w-6 h-6 text-primary" />
+                    <span className="text-sm font-medium text-primary">Mandala</span>
                   </div>
-                  <h1 className="text-3xl font-display mb-2">What university do you attend?</h1>
-                  <p className="text-muted-foreground">We'll find events and opportunities on your campus.</p>
+                  <h1 className="text-3xl font-display mb-2">Mandala currently serves UMich only</h1>
+                  <p className="text-muted-foreground">Your account will be set to the University of Michigan for event discovery and planning.</p>
                 </div>
-                <Input
-                  value={university}
-                  onChange={(e) => setUniversity(e.target.value)}
-                  placeholder="e.g., University of Michigan"
-                  className="h-14 text-lg bg-card"
-                  onKeyDown={(e) => e.key === 'Enter' && canProceed() && next()}
-                />
+                <div className="campus-card p-5 bg-card">
+                  <div className="text-sm text-muted-foreground mb-1">Supported school</div>
+                  <div className="text-lg font-medium">{SUPPORTED_UNIVERSITY}</div>
+                </div>
               </div>
             )}
 
@@ -177,7 +179,6 @@ export function OnboardingFlow() {
           </motion.div>
         </AnimatePresence>
 
-        {/* Navigation */}
         <div className="flex justify-between mt-8">
           <Button
             variant="ghost"
@@ -200,3 +201,4 @@ export function OnboardingFlow() {
     </div>
   );
 }
+

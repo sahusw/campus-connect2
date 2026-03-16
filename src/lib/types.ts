@@ -34,6 +34,11 @@ export interface CampusEvent {
   category: Interest;
   relevance: number;
   tags: string[];
+  url?: string;
+  dtstart?: string;
+  dtend?: string;
+  eventType?: string;
+  timeDisplay?: string;
 }
 
 export interface ScheduleBlock {

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import type { CampusEvent } from '@/lib/types';
-import { Clock, MapPin, TrendingUp, CalendarPlus, Square, CheckSquare2 } from 'lucide-react';
+import { Clock, MapPin, TrendingUp, CalendarPlus, Square, CheckSquare2, ExternalLink } from 'lucide-react';
 import { buildGCalURL } from '@/lib/calendarExport';
 
 const CATEGORY_STYLES: Record<string, string> = {
@@ -33,7 +33,6 @@ export function EventCard({ event, compact, selected = false, onToggleSelect }: 
           selected ? 'ring-2 ring-primary bg-primary/5' : ''
         }`}
       >
-        {/* Select checkbox */}
         {selectable && (
           <button
             onClick={() => onToggleSelect(event.id)}
@@ -63,6 +62,19 @@ export function EventCard({ event, compact, selected = false, onToggleSelect }: 
           <span className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${catStyle}`}>
             {event.category}
           </span>
+          {event.url && (
+            <a
+              href={event.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="flex items-center gap-1 text-[10px] text-muted-foreground hover:text-primary transition-colors"
+              title="View event details"
+            >
+              <ExternalLink className="w-3 h-3" />
+              Details
+            </a>
+          )}
           {calUrl && !selectable && (
             <a
               href={calUrl}

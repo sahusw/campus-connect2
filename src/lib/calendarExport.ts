@@ -88,7 +88,7 @@ export function buildGCalURL(event: CampusEvent): string | null {
 
   const details = [
     event.description,
-    (event as any).detailsUrl ? `More info: ${(event as any).detailsUrl}` : '',
+    event.url ? `More info: ${event.url}` : '',
   ].filter(Boolean).join('\n\n');
 
   const params = new URLSearchParams({
@@ -105,10 +105,10 @@ export function generateICS(events: CampusEvent[]): Blob {
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//CampusFlow//UMich Events//EN',
+    'PRODID:-//Mandala//UMich Events//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:CampusFlow Events',
+    'X-WR-CALNAME:Mandala Events',
   ];
 
   const now = toICalUTC(new Date());
@@ -118,11 +118,11 @@ export function generateICS(events: CampusEvent[]): Blob {
     if (!start) continue;
 
     const end = new Date(start.getTime() + 60 * 60 * 1000);
-    const uid = `campusflow-event-${ev.id}@umich.edu`;
-    const detailsUrl = (ev as any).detailsUrl || '';
+    const uid = `mandala-event-${ev.id}@umich.edu`;
+    const eventUrl = ev.url || '';
 
     const descParts = [ev.description];
-    if (detailsUrl) descParts.push(`More info: ${detailsUrl}`);
+    if (eventUrl) descParts.push(`More info: ${eventUrl}`);
     if (ev.tags?.length) descParts.push(`Tags: ${ev.tags.join(', ')}`);
 
     lines.push('BEGIN:VEVENT');
@@ -133,7 +133,7 @@ export function generateICS(events: CampusEvent[]): Blob {
     pushLine(lines, `SUMMARY:${esc(ev.title)}`);
     pushLine(lines, `DESCRIPTION:${esc(descParts.join('\n\n'))}`);
     pushLine(lines, `LOCATION:${esc(ev.location || '')}`);
-    if (detailsUrl) pushLine(lines, `URL:${detailsUrl}`);
+    if (eventUrl) pushLine(lines, `URL:${eventUrl}`);
     lines.push('END:VEVENT');
   }
 
@@ -141,7 +141,7 @@ export function generateICS(events: CampusEvent[]): Blob {
   return new Blob([lines.join('\r\n')], { type: 'text/calendar;charset=utf-8' });
 }
 
-export function downloadICS(events: CampusEvent[], filename = 'campusflow-events.ics'): void {
+export function downloadICS(events: CampusEvent[], filename = 'mandala-events.ics'): void {
   triggerDownload(generateICS(events), filename);
 }
 
@@ -184,7 +184,7 @@ export function generateClassICS(classes: ClassBlock[], mode: ClassExportMode): 
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//CampusFlow//UMich Classes//EN',
+    'PRODID:-//Mandala//UMich Classes//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     'X-WR-CALNAME:My Classes',
@@ -205,7 +205,7 @@ export function generateClassICS(classes: ClassBlock[], mode: ClassExportMode): 
       endDate.setHours(eh, em, 0, 0);
       if (endDate <= startDate) endDate.setDate(endDate.getDate() + 1); // safety
 
-      const uid = `campusflow-class-${cls.id}-${dayName}@umich.edu`;
+      const uid = `mandala-class-${cls.id}-${dayName}@umich.edu`;
       const summary = `${cls.abbreviation} — ${cls.name}`;
 
       lines.push('BEGIN:VEVENT');
@@ -251,3 +251,4 @@ function triggerDownload(blob: Blob, filename: string): void {
   document.body.removeChild(a);
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
+

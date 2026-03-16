@@ -1,0 +1,2107 @@
+﻿Identifier,"Start Date / Time","End Date / Time",Title,Subtitle,Type,Description,Permalink,"Building Name",Room,"Location Name",Cost,Tags,Sponsors
+145767-21897794,"2026-03-10 15:00:00","2026-03-10 17:00:00","Spin Radical Molecular Semiconductors","Sir Richard Friend, Research Professor University of Cambridge, Physics","Lecture / Discussion","Carbon based semiconducting molecular materials now support a wide range of practical technologies, particularly as organic LEDs, OLEDs, used in smartphone and TV displays.  The electronic processes that govern their semiconducting properties are strongly controlled by their low dielectric screening, so that excited states, excitons, are often spatially localised and generally show strong magnetic exchange interactions.  The exchange interaction presents a challenge for the engineering of efficient OLEDs. Only 25% of electron-hole capture events in the OLED produce emissive spin singlet excitons, and 75% capture events form spin triplet excitons that are not emissive.  A number of engineering approaches have been developed to overcome this challenge, including the use of organo-metallic emitters that can show efficient phosphorescence. 
+
+We have been working with spin-radical molecules that show high luminescence yield within the spin doublet manifold, and can be designed so that this ‘bright’ doublet exciton lies lower in energy than ‘dark’ higher spin states.  These enable efficient OLED operation in the red and near-IR, and can be engineered to show high luminescence yield.
+
+When coupled together, either intermolecularly or intramolecularly these spin radical systems show properties of Mott-Hubbard spin systems, where the lowest energy electronic excitation is a charge transfer between antiferromagnetically arranged neighbouring radical sites at the cost of the Hubbard U.  This process is radiatively allowed and enables optical write and read of spin.  We are exploring how these excited states can be used to assist charge photogeneration in the absence of a donor-acceptor heterojunction, and to engineer spin-optical interfaces that allow easy magnetic field control of luminescence.
+
+About the speaker
+
+Richard Friend is at the Department of Physics at the University of Cambridge. His research encompasses the physics, materials science and engineering of semiconductor devices made with carbon-based semiconductors, particularly polymers. His research advances have shown that carbon-based semiconductors have significant applications in LEDs, solar cells, lasers, and electronics. He explores novel schemes that seek to improve the performance of LEDs and solar cells, using carbon-based semiconductors. His current projects include materials with unpaired electron spins that show novel couplings of spin with luminescence.
+
+Professor Friend is a Fellow of the Royal Society and of the Royal Academy of Engineering, and a Foreign Member of the US National Academy of Engineering. He has received many international awards for his research, including Laureate of the Millennium Prize for Technology (2010) the Harvey Prize (2011) of the Israel Institute of Technology, the von Hippel Award of the Materials Research Society (2015) and the Isaac Newton Prize of the Institute of Physics (2024). He was knighted for “Services to Physics” in the Queen’s Birthday Honours List, 2003.",https://events.umich.edu/event/145767,"Lurie Robert H. Engin. Ctr","Johnson Rooms (3rd Floor)","Lurie Robert H. Engin. Ctr",,"Computer Engineering
+Electrical And Computer Engineering
+Electrical Engineering and Computer Science
+engineering
+Lecture","Electrical and Computer Engineering"
+140496-21887245,"2026-03-10 16:00:00","2026-03-10 17:30:00","DISCO Network Presents - Against Surveillance & Spectacle: Building Global Resistance to Tech-Mediated Oppression","Victoria Copeland, Megan Fereday, Kim Fernandes, Wells Lucas Santo, and Shin Yang in conversation with M. Remi Yergeau","Lecture / Discussion","What does it mean to be in community? This panel brings together activists, scholars, and writers to explore connections between critical social issues—health justice, discrimination, technofascism, and surveillance—and the possibilities of grassroots response. Panelists will discuss tensions between collectivizing and collaborating: How do we negotiate care when our access to care hinges on being identified and enumerated by the state? What tactics for resistance might we use in digital communities that are subject to increased surveillance? How can we be there for and with each other?
+
+This event is open to the public, and we encourage all interested faculty, graduate students, and undergraduate students to attend. 
+
+Sandwiches from Potbelly will be provided to the first 100 attendees.
+
+A corresponding opportunity for undergraduate and graduate students to enjoy a networking lunch with the panelists will be available. Interested students may register for this session using the same form as the main event.
+
+Advance registration is recommended:
+
+Register to attend in-person: https://myumi.ch/5kG6V
+Register to attend on Zoom: https://myumi.ch/g3bqG 
+
+Meet the Panelists
+
+Victoria Copeland is a disabled organizer and researcher based at the UCLA Center for Resilience and Digital Justice. She is interested in abolitionist approaches to addressing harm, specifically that which is mediated by data and technology. Their research is often conducted in collaboration with grassroots organizations and explores the various ways that state violence permeates through our relationships with institutions, ourselves, and each other and how we can resist it. Victoria received her Ph.D and Masters in Social Welfare, and was formerly a Senior Policy Analyst focused on technology and social policy.
+
+Megan Fereday is a nonbinary, multiply-neurodivergent PhD student based at the University of Southampton. Their PhD project (funded AHRC) investigates the role of social media platforms in young people’s queer-neurodivergent resistance practices, and explores the possibilities and potentials of digital neuroqueering among younger users. Megan is a member of the Narratives of Neurodiversity Network and the Queer Medical Humanities Network, and is currently enrolled in the Neurodivergent Humanities Network’s mentorship scheme. Megan’s work has been recently published in the Journal of Cultural Analysis and Social Change.  
+
+Kim Fernandes is an Assistant Professor of Sociocultural Anthropology at Brown University. They hold a joint PhD (with distinction) in Anthropology and Education from the University of Pennsylvania, and recently completed a postdoctoral fellowship at the University of Toronto's Faculty of Information. Kim's ethnographic and historical research addresses questions of how the body is shaped through interactions with data and technology, focusing particularly on the enumeration and identification of disability. Their work has been funded by the Social Science Research Council and the Taraknath Das Foundation. Kim is the Managing Editor of Platypus, an interdisciplinary science studies blog. They are also an affiliate at Data & Society and the Center for Information, Technology and Public Life.
+
+Wells Lucas Santo (he/she/they) is a queer, non-binary, and disabled Indonesian and Taiwanese American PhD student at the University of Michigan School of Information focusing on critical race and algorithmic justice, in particular on how algorithmic technologies disparately impact marginalized communities across the interlocking axes of race, gender, sexuality, and disability. Prior to his return to academia, he worked in the non-profit education equity space, where he built inclusive, accessible, and culturally responsive curriculum on artificial intelligence and social justice, serving as the Director of Education at SMASH (Kapor Center), the original Education Manager at AI4ALL, and an Advisory Board Member for the AI4K12 initiative. In these capacities, he has spoken about the societal implications of AI at venues such as the United Nations Youth Assembly, the Annual oSTEM Conference, and top universities such as Columbia, NYU, and CMU. His current research focuses on the “Asian” racial classification and its formation and history in the United States, specifically how state data, diasporic community activism, image datasets, and facial analysis algorithms reify and essentialize a US-centric, pan-Asian racial category, which is then exported transnationally as a racial/colonial project.
+
+Cheng-Hsiu (Shin) Yang is a digital governance strategist and interdisciplinary researcher working at the intersection of AI-integrated product design, legal frameworks, and community infrastructure. She holds an LL.M. in Interdisciplinary Legal Studies from National Chengchi University and is currently pursuing her LL.M. at UCLA School of Law (Class of 2026). With a hybrid background in law and product management, Shin has led cross-functional teams in privacy-focused AI product development, and separately, in building open-source infrastructure for independent community platforms. Her work focuses on designing ethical governance frameworks for digital spaces that operate without identity verification, public profiles, or algorithmic enforcement—prioritizing anonymity, relational trust, and rhythm-based moderation. For a decade, she has maintained a self-hosted digital community platform centered in Taiwan and serving primarily Mandarin-speaking gender and sexual minorities. The platform has grown into a pluralistic ecosystem with over 50,000 monthly users, governed by ethical, and community-led practices. She has also contributed to global discussions on the governance of intimate and stigmatized content online, especially in contexts where overregulation limits expression and safety. Her research explores plural digital publics, platform ethics, and post-verification governance models.
+
+Meet the Moderator 
+
+M. Remi Yergeau (they/them/theirs) is an associate professor in Communication and Media Studies. Their scholarly interests include critical disability studies, rhetoric, digital studies, trans and queer studies, and neurodiversity. Yergeau is an autistic academic. Their knowledge of the autistic internet is informed by the scholarly and the personal: they once ran a neurodiversity blog, led a student chapter of an autistic-led org, and coordinated local protests. Their book, Authoring Autism: On Rhetoric and Neurological Queerness (Duke UP), is a winner of the 2017 Modern Language Association First Book Prize, the 2019 CCCC Lavender Rhetorics Book Award for Excellence in Queer Scholarship, and the 2019 Rhetoric Society of America Book Award.
+
+We want to make our events accessible to all participants. ASL interpretation and CART captioning services will be provided. If you anticipate needing additional accommodations to participate, please email Cherice Chan at chericec@umich.edu.",https://events.umich.edu/event/140496,"Weiser Hall","10th Floor","Weiser Hall",,"Anthropology
+Digital Culture
+digital humanities
+Digital Scholarship
+Digital Studies
+Digital Studies Institute
+Disability","Computer Science and Engineering Division"
+138671-21895602,"2026-03-10 17:00:00","2026-03-10 18:00:00","First Year Success Seminar Series","More W26 seminars are on the way! You can check back on this page for updates and use the same RSVP link to sign up.","Workshop / Seminar","Upcoming W26 topics include undergraduate research, alumni panels on majors and careers, graduate school pathways, student panels on internships/co-op, and more! If you have any questions, please don't hesitate to contact the event organizer.
+
+Use the RSVP link to stay updated. 
+
+💼 Internships & Co-ops: How Students Land Them + What They Learn
+Thu, March 26, 2026, 5–6pm
+📍2150 Dow
+
+• Wondering how engineering students get internships or co-ops — and what those experiences are really like?
+
+• This student panel brings together undergraduates from different engineering majors (CEE, ME, NERS) to talk about how they found their roles, what skills they developed, and how internships and co-ops shape career exploration and future opportunities.
+
+
+Pizza provided*. 🍕  
+*To avoid food waste and ensure accurate food orders, please RSVP to the Google calendar invite (you'll receive it after you RSVP) if you do plan to join us (we hope you do!).",https://events.umich.edu/event/138671,BBB,1690,BBB,,"Engineering
+First Year
+free food
+Undergraduate Students
+Welcome to Michigan","College of Engineering First Year Program
+Engineering Career Resource Center
+International Programs in Engineering
+Engineering Advising Center"
+146406-21899047,"2026-03-11 09:00:00","2026-03-11 11:00:00","Prehensile Contact Modeling and Perception for Dexterous Manipulation","Robotics PhD Defense, Xili Yi",Presentation,"Chair: Nima Fazeli
+March 11, 2026, 9am
+Ford Robotics Building 2300 and on Zoom
+
+Abstract
+Contact is central to dexterous manipulation, yet it remains one of the hardest aspects of robotics to model, control, and perceive. In this dissertation, we investigate how robots can better reason about prehensile contact through a unified perspective of modeling, action, and perception.
+
+We develop analytical models for frictional patch contact in planar manipulation, show how fingertip micro-vibrations can enable in-hand object reconfiguration with simple grippers, and present a multimodal framework that combines vision and active audio sensing to estimate contact under occlusion. We also explore a vibration-based tactile sensing direction for inferring touch location and force from structured acoustic signals.
+
+Together, these contributions help make contact-rich manipulation more predictable, observable, and effective, advancing robotic systems that can interact more robustly with the physical world.",https://events.umich.edu/event/146406,"Ford Robotics Building",2300,"Ford Robotics Building",,"Michigan Robotics
+Robotics","Michigan Robotics"
+145955-21898177,"2026-03-11 10:00:00","2026-03-11 11:00:00","PhD Defense: Caleb Jeanniton","Towards Safer Cities: Characterizing the Effect of Mobility Technologies on Human Decision Making at Traffic Intersections","Lecture / Discussion","Join us for Caleb Jeanniton's PhD defense titled, ""Towards Safer Cities: Characterizing the Effect of Mobility Technologies on Human Decision Making at Traffic Intersections.""
+Chair: Leia Stirling
+Learn more: https://ioe.engin.umich.edu/people/jeanniton-caleb/
+Zoom: https://umich.zoom.us/j/96317368531",https://events.umich.edu/event/145955,"Industrial and Operations Engineering Building",G690,"Industrial and Operations Engineering Building",,"Dissertation
+Industrial And Operations Engineering
+Ioe Defenses","Industrial & Operations Engineering"
+143466-21893231,"2026-03-11 11:00:00","2026-03-11 12:00:00","Navigating Different Types of Relationships","Campus Mind Works Wellness Group",Well-being,"College has a lot of different relationships - friends, advisors, professors, peers, family. Join our wellness group on Navigating Different Types of Relationships to learn some tips for balancing relationships, hear from other students and get some free lunch! This FREE in-person educational wellness group is for students only and will include an interactive presentation facilitated by staff from the Eisenberg Family Depression Center and is a collaborative service with U-M Engineering's C.A.R.E. Center and the Newnan Academic Advising Center.
+
+Registration is not required for in-person wellness groups, but is recommended so there is enough lunch for all attendees. You can register using the link. Learn more at campusmindworks.org",https://events.umich.edu/event/143466,"Haven Hall",G634,"Haven Hall",,"Campus Mind Works
+Central Campus
+Food
+Free
+Free Food
+Graduate and Professional Students
+Health & Wellness
+In Person
+mental health
+Undergraduate Students
+Well-being
+Wellness
+Workshop","Michigan Engineering C.A.R.E. Center"
+139740-21894086,"2026-03-11 12:00:00","2026-03-11 13:00:00","2025-2026 MICDE Ph.D. in Scientific Computing Student Seminars","See Sessions for details","Workshop / Seminar","The MICDE PhD Student Seminar Series showcases the research of students in the Ph.D. in Scientific Computing. Lunch will be served. These events are open to the public, but we request that all who plan to attend register in advance via Sessions (see link). 
+
+Presenter details will be available on the registration form and on the MICDE events calendar. Planned sessions will be canceled if no one signs up to present, and registrants will be notified.
+
+If you have any questions, please email micde-phd@umich.edu.",https://events.umich.edu/event/139740,,,"Room 3127, Green Court Building",,"Aerospace Engineering
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+College Of Engineering
+Computation
+Computational Medicine
+Computational Modeling
+Computational Science
+Computational Social Science
+Data Science
+Engineering
+Free
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Health Behavior & Health Equity
+In Person
+Interdisciplinary
+Machine Learning
+Materials Science
+Micde
+Phd Seminar
+Political Science
+Prospective Graduate Students
+Public Health
+Research
+Science
+Scientific Computing
+Sessions","Michigan Institute for Computational Discovery and Engineering"
+142310-21890460,"2026-03-11 12:30:00","2026-03-11 14:00:00","ClariTEA: Informal Undergraduate Advising Event",,"Social / Informal Gathering","ClariTEA is a weekly informal, drop-in advising event where Robotics and Interested Undergraduate students meet with Robotics Undergraduate Academic Advisors. Refreshments and TEA are offered at each meeting.
+
+Join us in having a conversation with the Robotics Undergraduate community.",https://events.umich.edu/event/142310,"Ford Robotics Building",2000,"Ford Robotics Building",,"Michigan Robotics
+Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+146397-21899040,"2026-03-11 15:00:00","2026-03-11 16:00:00","Keeping Children Safe on the Road: Emerging Evidence from Pregnancy to Adolescence","Sjaan Koppel, PhD","Lecture / Discussion","This presentation brings together two applied behavioural studies that sit at different points in the life course but share a common challenge: safety-critical behaviours often change when people move outside familiar contexts. The presentation will begin with pregnancy and seatbelt use - an area where compliance is high, yet 'correct' use is far from assured, and then move to adolescence, focusing on independent mobility and safety in the context of rideshare use.",https://events.umich.edu/event/146397,"Transportation Research Institute","Collaborative Meeting Space (Room 139)","Transportation Research Institute",,"Career
+Civil and Environmental Engineering
+Discussion
+Education
+Electrical Engineering and Computer Science
+Engineering
+Faculty
+Free
+Graduate and Professional Students
+Graduate Students
+Information and Technology
+Leadership
+Lecture
+Michigan Engineering
+Networking
+Professional Development
+Research
+Science
+Talk
+Undergraduate
+Undergraduate Students
+Virtual
+Webcast","University of Michigan Transportation Research Institute"
+144168-21894764,"2026-03-11 15:30:00","2026-03-11 17:00:00","ChE Undergraduate Winter Open House",,"Reception / Open House","Curious about Chemical Engineering? 
+
+Join us for an exciting drop-in event to meet with faculty and peer mentors and dive into what ChE is really all about!
+Faculty from a range of specialties—including Human Health, Net Zero, and Matter by Design—will be on hand for fun, informal round-table discussions. Whether you want to learn about groundbreaking research or discover the amazing careers our graduates pursue, this is your chance! 
+Enjoy light refreshments while making new connections, asking questions, and exploring the limitless possibilities of Chemical Engineering.
+Don’t miss out on this great opportunity—Please RSVP so we can prepare for you!",https://events.umich.edu/event/144168,"Herbert H. Dow  Building","Pod Room","Herbert H. Dow  Building",,"Sessions
+Undergraduate
+Undergraduate Students","Chemical Engineering"
+138273-21882703,"2026-03-11 16:00:00","2026-03-11 17:00:00","2026 Ford Motor Company Distinguished Lecture in Physics | Organic Semiconductors – From OLED displays to new applications","Richard Friend, Professor of Physics (Cavendish Laboratory, University of Cambridge)",Presentation,"Lecture Abstract: Organic molecules with semiconducting properties are now used as the light-emitting diodes, LEDs, in organic LEDdisplays. These are now the dominant technologies for high-performance displays used in smartphones and televisions, but their potential applications are far broader, from solar cells to printable electronics to bio-interfaces. I will describe some of the journey from early discoveries to practical display technology, and outline some of our current research on the new phenomena these materials can exhibit, including their use as optically-accessed quantum sensors.
+
+Find out more about Professor Richard Friend by visiting our Ford Lecture event page at https://myumi.ch/g35nR.
+
+This lecture will be held in person and livestreamed: https://youtu.be/P6lg1HTqkW8",https://events.umich.edu/event/138273,"Rackham Graduate School (Horace H.)","Amphitheater, 4th Floor, Rackham Building","Rackham Graduate School (Horace H.)",,"AEM Featured
+College Of Engineering
+Faculty
+Free
+Graduate Students
+Lecture
+Lifelong Learning
+Natural Sciences
+Physics
+seminar
+Smoke-free
+Undergrad Physics Events
+Undergraduate Students","Michigan Engineering"
+145388-21897226,"2026-03-11 16:30:00","2026-03-11 18:00:00","Robotics Pathways and Careers Speaker Series - Winter 2026",,"Workshop / Seminar","The Robotics Pathways and Careers Speaker Series (RPCSS) invites professionals working in robotics to come talk with current undergraduates about their career path, how a background in robotics has impacted their professional growth, and what they hope to see in students looking to enter the profession.
+
+The 90-minute format of the event will consist of a 40-minute presentation from the invited speaker and up to 30 minutes of moderated Q&A and discussion. Session available as in-person and virtual event. Virtual information is included in registration information.
+
+RSVP Required for Event.",https://events.umich.edu/event/145388,"Ford Robotics Building",2300,"Ford Robotics Building",,"Career
+Robotics
+Undergraduate Students","Michigan Robotics"
+145168-21896755,"2026-03-11 17:00:00","2026-03-11 18:00:00","Thriving in STEM | ""Art of the Heart"" Book Discussion","Dr. Jay H. Kleiman and Mrs. Georgi Kleiman","Lecture / Discussion","WHAT IS THE MISSING LINK IN TODAY'S MEDICAL CARE DELIVERY?
+
+Medical school training has historically relied on the biological sciences, and their application, for diagnosis and treatment, with technology an adjunct to care. Although many major medical schools now incorporate “doctoring” into their curriculum, traditional medical training lacked an emphasis on the psycho-social aspects of the doctor-patient relationship.
+
+Join the “Art of the Heart: The Doctor-Patient Partnership” book discussion to explore the solution as author, Jay H. Kleiman, M.D., recounts the profound career moments that define the doctor-patient partnership, illuminating the path toward preventing physician burnout. 
+
+HOW DO I GET THE BOOK?
+
+Book copies are available on Amazon for $10, in both paperback and Kindle versions (and free for students with Kindle Unlimited).  If you need financial assistance purchasing the book, complete this GoogleForm (myumi.ch/z98zn) by Tuesday, February 17 to have a copy provided for you. 
+
+WHAT CAN I EXPECT AT THE BOOK DISCUSSION EVENT?
+
+A virtual Book Discussion will be held on Wednesday, March 11 from 5 - 6 PM with the author, Jay H. Kleiman, M.D., and his wife, Georgi.  This will provide you the opportunity to directly engage with the author and his spouse to learn from their lived experiences.  A set of discussion prompts and questions is available to view in advance; however, live questions from participants are highly encouraged.",https://events.umich.edu/event/145168,,,,,"All Majors Welcome
+Basic Science
+biology
+Biopsychology, Cognition, And Neuroscience (Bcn)
+Biosciences
+Books
+Central Campus
+chemistry
+Discussion
+First-gen
+first-generation
+Free
+Health & Wellness
+literary
+Literature
+Medicine
+Natural Sciences
+Neuroscience
+Newnan
+Newnan Lsa Academic Advising Center
+Open To All Majors
+physics
+pre health
+Pre-Health
+Prospective Graduate Students
+science
+science learning center
+Sessions
+slc
+Storytelling
+the career center
+transfer
+Transfer Student Center
+Transfer Students
+Undergraduate
+Undergraduate Students
+Women In Science
+Women In Science And Engineering
+Women In Stem","Women in Science and Engineering (WISE) Program"
+142259-21890279,"2026-03-12 11:00:00","2026-03-12 12:00:00","Quantum Research Institute |  Learning from Quantum Experiments via Structured Signal Processing","Yulong Dong, University of Michigan","Workshop / Seminar","In-Person: West Hall 411
+Zoom: https://umich.zoom.us/j/98748463202?jst=2
+
+Abstract:
+The pursuit of quantum advantage in solving large-scale computational problems is often seen as a shining treasure. Achieving this goal, however, requires the accurate realization of smaller-scale quantum gates and control operations. Understanding and characterizing modular gate and control errors is therefore essential for building reliable quantum applications. Earlier work has typically pursued either universal algorithms with theoretical guarantees or black-box engineering approaches with no guarantees. Yet, problem-specific structures offer opportunities for efficient and robust system characterization at the intersection of theory and practice. In this talk, I will present how structured signal transformation and processing can be used to exploit such structures. I will first introduce a gate characterization method that is both resource-efficient and robust against complex experimental errors, drawing parallels to parameter estimation in classical statistics. I will then generalize this idea to functional signals and present a novel non-parametric estimation paradigm.
+
+Bio:
+Yulong Dong is an Assistant Professor in ECE, with a courtesy appointment in Mathematics, at the University of Michigan. He earned his Ph.D. in Applied Mathematics from UC Berkeley in 2023. Before joining UMich, he worked as a research intern at Google Quantum AI, then as a research scientist at ByteDance AI Lab in California, and subsequently at the University of Washington. His research focuses on numerical analysis, optimization, and quantum computing, with particular emphasis on quantum algorithms for scientific computing and high-precision quantum learning and sensing. His work not only provides rigorous theoretical results but also maintains close connections to practical applications. More broadly, his research aims to bridge quantum computing with applied mathematics and information theory by addressing challenging problems in quantum algorithms and sensing from numerical-analysis and information-theoretic perspectives.",https://events.umich.edu/event/142259,"Off Campus Location",411,"West Hall",,"Astronomy
+Chemistry
+Computer Science And Engineering
+Electrical And Computer Engineering
+Electrical Engineering And Computer Science
+Physics
+Quantum
+Quantum Computing
+Quantum Science","Electrical and Computer Engineering
+Computer Science and Engineering Division
+Materials Science and Engineering
+Electrical Engineering and Computer Science"
+138834-21896903,"2026-03-12 11:00:00","2026-03-12 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+143389-21892978,"2026-03-12 11:30:00","2026-03-12 12:30:00","ChE SEMINAR: Millie Sullivan, University of Delaware","""Unlocking Intracellular Therapeutic Targets through Novel Nanostructured Biomaterials""","Workshop / Seminar","ABSTRACT:
+Nucleic acid cargoes offer unmatched diversity in gene regulatory potential and therapeutics, and understanding of nucleic acid functionality continues to expand rapidly and dramatically through seminal discoveries including RNA interference approaches and gene editing technologies.  In nature, the basis for gene regulation is ultimately encoded by the exquisite specificity with which cells are able to control both the location and accessibility of nucleic acid constructs to govern their activation states.  My research program seeks to understand and control gene activation using synthetic constructs through nature-inspired approaches to control and quantify cell binding interactions and stability in polymer and peptide nanocarriers.  The basis of our approaches is the design of stimuli-responsive polymers and peptides whose interactions with nucleic acids and cells can be controlled dynamically by specific intracellular or external triggers.  We exploit our ability to control nucleic acid binding/release and cellular processing to gain new mechanistic insights over nucleic acid delivery, leading to design advances including histone-inspired DNA targeting, light-responsive gene silencing, and collagen turnover-stimulated gene expression.  This talk will highlight ways we have used nature-inspired peptides and responsive polymers to control gene transfer in regenerative medicine.",https://events.umich.edu/event/143389,"North Campus Research Complex Building 10","B10 Auditorium","North Campus Research Complex Building 10",,"chemical engineering
+Chemistry","Chemical Engineering"
+143188-21892403,"2026-03-12 11:30:00","2026-03-12 15:00:00","ECRC - Engineering Full-Time and Internship Career Day",,"Careers / Jobs","The Full-Time and Internship Career Day will be held on Thursday, March 12 from 11:30 AM-3:00 PM. This event is intended to help employers connect with students studying programs offered through the College of Engineering, as well as LSA Computer Science and Data Science, for full-time, internship and co-op employment opportunities. 
+
+Interactions with employers will be on a first come first served basis on the day of the event.
+
+Additional event details are available in Career Forge and Career Fair Plus. You can access Career Fair Plus via a web browser or the app (Google Play or Apple App Store). Be sure to search for “University of Michigan Engineering”.
+
+Interactive booth maps will be available through the CF+ app.",https://events.umich.edu/event/143188,"Duderstadt Center",,"Duderstadt Center",,"Career
+Graduate Students
+Michigan Engineering
+Undergraduate Students","Engineering Career Resource Center"
+145867-21897970,"2026-03-12 11:30:00","2026-03-12 15:00:00","Startup Career Fair","Your next big opportunity could be right here.","Careers / Jobs","Ready to launch your career in the exciting world of startups?
+
+The U-M Center for Entrepreneurship and MPowered Entrepreneurship present The Startup Career Fair: your chance to connect with innovative companies, explore career opportunities, and take the first step towards an inspiring career journey.
+
+Join us for sessions on both the central and north campuses. Details below:
+
+North Campus Session:
+Thursday, March 12, 2026
+11:30 AM - 3 PM
+First floor Duderstadt Center
+
+Central Campus Session:
+Friday, March 13, 2026
+11 AM - 4 PM
+Ross Steward Lobby
+
+Students register here: https://myumi.ch/W6Wbr
+Questions? Contact mpowered-directors@umich.edu",https://events.umich.edu/event/145867,"Duderstadt Center","First Floor","Duderstadt Center",,"Business
+Career
+Career Fair
+Center For Entrepreneurship
+Cfe
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Founder
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Michigan Engineering
+Mpowered
+Networking
+North campus
+Startups
+Undergraduate
+Undergraduate Students","Center for Entrepreneurship
+MPowered Entrepreneurship"
+143067-21892316,"2026-03-12 12:00:00","2026-03-12 14:00:00","Grub @ the (Idea)Hub",,"Reception / Open House","Join the Center for Campus Involvement (CCI) for Grub at the (Idea)Hub for free food, networking, and to learn about the resources available to student organizations. Whether you are a member of a student organization, leading an organization, interested in joining a group, or forming a new organization - this event is for you! Come and go as you are able and free food will be available while supplies last.",https://events.umich.edu/event/143067,"Michigan Union","IdeaHub (2nd Floor)","Michigan Union",,"Student Organizations","Center for Campus Involvement CCI"
+144572-21895502,"2026-03-12 14:00:00","2026-03-12 15:00:00","IOE 899: Sjaan Koppel","Age Is Not Risk: Understanding Older Driver Safety Through Behaviour, Adaptation, and Naturalistic Evidence","Lecture / Discussion","This presentation examines older driver safety through a behavioural science lens, challenging the assumption that chronological age alone defines driving risk. Drawing on longitudinal, naturalistic driving evidence, it highlights the roles of functional capacity, task demands, and self-regulation in shaping real-world driving behaviour. The findings have important implications for assessment, licensing policy, and supporting safe mobility in an ageing population.",https://events.umich.edu/event/144572,"Industrial and Operations Engineering Building",1680,"Industrial and Operations Engineering Building",,"899 Seminar Series
+Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering","Industrial & Operations Engineering"
+145728-21897738,"2026-03-12 15:00:00","2026-03-12 16:00:00","Biomedical Engineering (BME 500) Seminar Series","""Engineering immunotherapies for autoimmunity and cancer,"" with Cory Berkland, Ph.D.","Workshop / Seminar","Engineering immunotherapies for autoimmunity and cancer
+
+Abstract:
+Effective delivery of drugs to direct immune responses requires an understanding of biological barriers, physicochemical properties of drug molecules, formulation and transport in vivo.  Designing molecular structures that persist at the administration site or that promote drainage to regional lymphatic networks may enhance immune responses while sparing immune-related adverse events.  Here, drug transport and local elimination mechanisms will be overviewed.  Then, examples of molecular designs to direct drug delivery will be presented.  Autoimmune therapies were designed by our lab to promote the drainage of autoantigens to secondary lymphoid organs to treat autoimmune diseases.  Specifically, the size and solubility of these molecular constructs were tuned to promote access to the lymphatic compartment and induce immune tolerance in mouse models of type 1 diabetes.  Our lab has also recently explored the design of immunostimulants that persist in tumor tissue after intratumoral/perilesional injection.  Intratumoral immunotherapy is proposed to work synergistically with checkpoint inhibitors making a nonresponsive ‘cold’ tumor ‘hot’ by recruiting and activating tumor infiltrating lymphocytes.  This approach can suffer from systemic immune-related adverse reactions, however, if enough immunostimulant escapes the site of administration.  Data on the use of electrostatic mechanisms to promote tumor retention will be presented.  These examples underscore the need for rational design of drug molecules or formulations based upon the route of delivery and biological barriers encountered.     
+
+Bio:
+Cory Berkland is the Mark and Becky Levin Professor in the Departments of Biomedical Engineering and Chemistry at Washington University in Saint Louis.  Previously, he was the Solon E. Summerfield Professor in the Department of Pharmaceutical Chemistry and in the Department of Chemical Engineering at The University of Kansas.  He received MS and PhD degrees from the Department of Chemical and Biomolecular Engineering at the University of Illinois in Urbana-Champaign and a BS degree in Chemical Engineering from Iowa State University in Ames.  His lab studies pharmaceuticals and materials with an emphasis on molecular design and transport in the human body.  He is a co-founder of Orbis Biosciences (acquired by Adare Pharmaceuticals), Savara Pharmaceuticals (NASDAQ:SVRA), Bond Biosciences, Kinimmune, Axioforce, and other start-ups.  He has served as a board member, executive, and fundraiser for these companies.",https://events.umich.edu/event/145728,"Lurie Biomedical Engineering (formerly ATL)",1130,"Lurie Biomedical Engineering (formerly ATL)",,"Basic Science
+Biointerfaces
+Biology
+biomedical
+biomedical engineering
+Bioninterfaces
+Biosciences
+Biotechnology
+bme
+engineer
+engineering
+Medicine
+Michigan Engineering
+seminar","Biomedical Engineering"
+146100-21898388,"2026-03-12 18:00:00","2026-03-12 21:00:00","Dancing with the Dragon | WORKSHOP for Decorating the Dragon",,"Workshop / Seminar","Presented as part of the Dancing with the Dragon Inititative. Learn more: https://myumi.ch/JPVp8
+
+Attend a workshop to decorate the dragon body with garlands and glitter, bells and bottlecaps, sequins and sparkle! Events will be held on March 12, 17, 19 from 6 - 9 PM at the Duderstadt Design Lab (1321 Duderstadt Center).
+
+*Accommodation: If there is anything we can do to make this event accessible to you, please contact us at cstep@umich.edu. Please be aware that advance notice is necessary as some accommodations may require more time for the university to arrange.*",https://events.umich.edu/event/146100,"Duderstadt Center","Duderstadt Design Lab (1321 Duderstadt Center), Ann Arbor","Duderstadt Center",,"art
+art and design
+ArtsEngine
+Asia
+china
+Chinese Studies
+Community",ArtsEngine
+137880-21880972,"2026-03-13 10:00:00","2026-03-13 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+145867-21897971,"2026-03-13 11:00:00","2026-03-13 16:00:00","Startup Career Fair","Your next big opportunity could be right here.","Careers / Jobs","Ready to launch your career in the exciting world of startups?
+
+The U-M Center for Entrepreneurship and MPowered Entrepreneurship present The Startup Career Fair: your chance to connect with innovative companies, explore career opportunities, and take the first step towards an inspiring career journey.
+
+Join us for sessions on both the central and north campuses. Details below:
+
+North Campus Session:
+Thursday, March 12, 2026
+11:30 AM - 3 PM
+First floor Duderstadt Center
+
+Central Campus Session:
+Friday, March 13, 2026
+11 AM - 4 PM
+Ross Steward Lobby
+
+Students register here: https://myumi.ch/W6Wbr
+Questions? Contact mpowered-directors@umich.edu",https://events.umich.edu/event/145867,"Ross School of Business","Steward Lobby","Ross School of Business",,"Business
+Career
+Career Fair
+Center For Entrepreneurship
+Cfe
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Founder
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Michigan Engineering
+Mpowered
+Networking
+North campus
+Startups
+Undergraduate
+Undergraduate Students","Center for Entrepreneurship
+MPowered Entrepreneurship"
+145309-21897033,"2026-03-13 11:30:00","2026-03-13 12:20:00","EHour: Jenna Birch","Featuring Jenna Birch, Founder of SISU","Lecture / Discussion","Ready to unlock new perspectives on storytelling, branding, and startup culture? 
+
+Meet Jenna Birch, founder of SISU, a creative communications consultancy empowering startups and venture capital firms to stand out in a crowded marketplace. Jenna’s journey spans building communities for leading VC marketing minds, shaping narratives at top Silicon Valley firms, and helping big ideas get the recognition they deserve.
+
+Jenna will share how communications and content strategy fuel entrepreneurial success—whether you’re launching a new app, building a brand, or connecting people to game-changing solutions. With roots in journalism and experience with high-profile startups and VCs, Jenna’s authentic advice will help you sharpen your own voice and make a real impact.
+
+At EHour, expect behind-the-scenes stories, practical lessons on building your story, and actionable steps for any student (no matter your major) to turn creative thinking into entrepreneurial skills. You'll leave inspired to tell your own story, connect with campus innovators, and see how brand-building brings ventures to life.
+
+Entrepreneurship Hour is open to everyone. Bring your questions, your creativity, and your friends. Don’t miss this chance to hear from Jenna and join a supportive student entrepreneurial community!
+
+Friday, March 13
+11:30 AM – 12:30 PM
+Stamps Auditorium, North Campus",https://events.umich.edu/event/145309,"Walgreen Drama Center","Stamps Auditorium","Walgreen Drama Center",,"Business
+Career
+Center For Entrepreneurship
+Cfe
+Entrepreneur
+Entrepreneur Services
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Innovation
+Michigan Engineering
+Networking
+North campus
+Talk
+Undergraduate
+Undergraduate Students","Center for Entrepreneurship"
+142667-21891278,"2026-03-13 12:00:00","2026-03-13 13:00:00","IOE Community Event",,"Social / Informal Gathering","Join fellow members of the IOE community for some delicious treats in the Community Suite!",https://events.umich.edu/event/142667,"Industrial and Operations Engineering Building","Community Suite (IOE 1700)","Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+142959-21891857,"2026-03-13 12:00:00","2026-03-13 13:00:00","NERS Colloquium: The Most Brilliant Human Mind","Documentary film on the life of John von Neumann","Workshop / Seminar","Screening of the documentary film, ""The Most Brilliant Human Mind.""
+
+Synopsis
+John von Neumann, one of the most incredible Hungarian-born scientists of all time, was named Man of the Century by the Financial Times in 1999.
+
+Among other scientific works, Neumann pioneered game theory and, along with Alan Turing and Claude Shannon, was one of the conceptual inventors of the stored-program digital computer. In late 1943 Neumann began to work on the Manhattan Project at the invitation of J. Robert Oppenheimer, and helped to design the first atomic bomb.
+
+This biography showcases the famous mathematician's work and legacy from the perspective of his daughter and colleagues. It is based on artefacts and documents from scientific history collections and on the personal memories of Marina von Neumann Whitman, Neumann's daughter.
+
+The film's production team has been filming all around the world, from Budapest to Los Alamos and Princeton, with the participation of several Hungarian and American scientists.
+
+The NERS Colloquia Series invites leading researchers, industry experts, and thought leaders from across the nuclear engineering and radiological sciences community to share their insights with students, faculty, and guests. Covering a wide range of topics—from cutting-edge research and emerging technologies to policy, education, and professional development—the weekly talks offer an opportunity to explore current issues and innovations shaping the future of the field.",https://events.umich.edu/event/142959,"Chrysler Center",220,"Chrysler Center",,"Michigan Engineering","Nuclear Engineering & Radiological Sciences"
+146457-21899133,"2026-03-13 12:00:00","2026-03-13 14:00:00","UM Basketball Watch Party",,"Social / Informal Gathering","Cheer on our Wolverines in the Big 10 Men's Basketball Tournament! Watch the game with free swag, tasty snacks, and good company.",https://events.umich.edu/event/146457,"Michigan Union",Courtyard,"Michigan Union",,"Basketball
+Cci
+Food
+Free
+Watch Party","Center for Campus Involvement CCI"
+146445-21899097,"2026-03-13 16:00:00","2026-03-13 17:00:00","QuantUM Technical Speaker Event with Professor Kira",,"Lecture / Discussion","Join us at our first speaker event of the semester! We will be hosting EECS professor Dr. Mack Kira in West Hall 340! Come learn about Professor Kira's cutting edge research at the University, and seize the opportunity to ask any burning questions you may have. There will be catered food!! See you all there!",https://events.umich.edu/event/146445,"West Hall",340,"West Hall",,"Career
+Computer Engineering
+Computer Science
+Electrical Engineering and Computer Science
+Quantum Science
+Research
+Talk",QuantUM
+145844-21897947,"2026-03-13 19:00:00",,"Yotonix: Across the Yotoverse","Presented by Photonix and Revolution, Sponsored by UAC",Performance,"We hope your spider senses are tingling~ Yotonix is BACK this year for it's tenth anniversary with a super thrilling punch... Join us at Mendelssohn for an evening of animated flow arts and glowsticking from Photonix, and some action-packed Chinese yo-yo from Revolution!",https://events.umich.edu/event/145844,,,"GA - Mendelssohn","See Site For Pricing Information",Mutotix,"Center for Campus Involvement CCI"
+146237-21898691,"2026-03-13 20:00:00","2026-03-13 23:00:00","Lucky UMix",,"Social / Informal Gathering","Join CCI at Lucky UMix this St. Patrick’s season! 🍀 Join us at the Michigan Union for a night packed with great food, a festive mocktail bar, karaoke, crafts, and tons of fun activities. Hunt for hidden gold coins in our Union-wide scavenger hunt and redeem them for prizes like Smiskis and LEGO sets. With inflatables, balloon and caricature artists, and more surprises, it’s a night you won’t want to miss!",https://events.umich.edu/event/146237,"Michigan Union",,"Michigan Union",,"Cci
+Food
+Free
+Fun
+Prizes
+St Patrick's Day","Center for Campus Involvement CCI"
+144048-21894588,"2026-03-14 10:30:00","2026-03-14 11:30:00","Saturday Morning Physics | Magnets and Amplitudes: A Glimpse into the Quantum Realm","Aaron Chan and Justin Berman (U-M Physics Graduate Students) Present the Van Loo Student Talks",Presentation,"Aaron Chan, ""Extreme Magnetic Fields: How and Why""
+Laboratory experimental apparatus can produce magnetic fields up to 100T—about 30 times stronger than hospital MRI machines and 10,000 times larger than a regular fridge magnet. In this talk, I will discuss the cutting-edge technology used by the National High Magnetic Field Laboratory to produce such powerful magnetic fields and the interesting physical phenomena probed in such extreme environments. 
+
+Justin Berman, ""Bootstrapping High-Energy Theories from Low-Energy Clues""
+A key goal of particle physics theories is to predict how particles scatter off one another. However, experimentally probing these interactions at very high energies is extremely difficult. In this talk, I explain how fundamental principles of physics let us “bootstrap” low-energy data into predictions about high-energy particles, independent of the underlying theory. By using this bootstrap technique, I show that we can find upper and lower limits on the masses of particles in an approximation of the real world, which predict the existence and properties of a massive particle that has not yet been observed.
+
+We celebrate the Van Loo Family Student Presentations this Saturday!
+
+Lecture and Q&A, live-streamed on: https://myumi.ch/5kVRx",https://events.umich.edu/event/144048,"Weiser Hall","170 & 182","Weiser Hall",,"Applied Physics
+College Of Engineering
+Complex Systems
+Faculty
+Family
+Free
+Graduate And Professional Students
+Graduate Students
+Lecture
+Lifelong Learning
+Mathematics
+Michigan Engineering
+Physics
+Postdoctoral Research Fellows
+Prospective Undergraduate Students
+Quantum
+Quantum Computing
+Quantum Science
+Smoke-free","Graduate Society of Women Engineers
+Graduate Society of Black Engineers and Scientists
+M-STEM Academies"
+146422-21899064,"2026-03-16 16:00:00","2026-03-16 17:00:00","Entrepreneurship Graduate Certificate Info Session","Learn how an entrepreneurial education can benefit you.","Lecture / Discussion","Curious about applying an entrepreneurial mindset to your next step? Join the Center for Entrepreneurship’s Graduate Certificate Learn More virtual info session to see how this flexible credential can add entrepreneurial capability to your discipline and help you stand out.
+
+When: March 16, 2026, 4-5pm
+Where: Zoom (link will be sent after registration)
+
+We’ll cover:
+• What the certificate offers you
+• How you can fit it into your degree plan, no matter your major
+• Q&A - Ask us Anything
+
+Come with your questions, leave with inspiration + actionable next steps to build your entrepreneurial toolkit.",https://events.umich.edu/event/146422,"Off Campus Location",,Virtual,,"Business
+Career
+Center For Entrepreneurship
+Cfe
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+Michigan Engineering
+Networking
+Startup
+Startups
+Undergraduate
+Undergraduate Students
+Welcome to Michigan","Center for Entrepreneurship"
+142662-21891273,"2026-03-16 17:30:00","2026-03-16 19:00:00","March BIndx Meeting",,Meeting,"The Black Industrial Engineers (BIndx, pronounced BIND-ex) group is composed of IOE students and faculty who come together informally for meaningful conversations and fellowship to promote learning, mentoring, and networking. The BIndx program was initiated to promote a learning space where students feel comfortable engaging with faculty. BIndx meetings occur as informal monthly discussions to help form relationships between faculty and minoritized students. BIndx hosts a diverse group of guest speakers throughout the semester with a specific focus to facilitate conversations, build connections, and empower self-reflection.",https://events.umich.edu/event/142662,"Industrial and Operations Engineering Building",2717,"Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+145206-21896801,"2026-03-17 12:30:00","2026-03-17 14:00:00","Undergraduate Town Hall",,"Class / Instruction","This semester, we will be doing our yearly IOE Undergraduate Town Hall. Food will be provided. This is your chance to ask and give input to the IOE Department about anything related to curriculum, opportunities, and more.",https://events.umich.edu/event/145206,"Industrial and Operations Engineering Building",G690,"Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+146234-21898688,"2026-03-17 13:00:00","2026-03-17 14:00:00","Faculty Student Lunch Event: Viswanath Nagarajan",,"Social / Informal Gathering","Please fill out the form below if you would like to attend the faculty-student lunch with Prof. Viswanath Nagarajan on Tuesday, March 17th from 1:00 - 2:00pm! Space is limited, so please only sign up for this event if you are sure you will be able to attend. Spots for this lunch will be filled on a first come, first served basis, and a waitlist will be formed after all spots have been filled.",https://events.umich.edu/event/146234,"Industrial and Operations Engineering Building",,"Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+146162-21898608,"2026-03-17 14:00:00","2026-03-17 15:00:00","PhD Defense: Hyesun Chung","From Dyads to Teams: Modeling Multi-Referent Multi-Level Trust in Human-AI Teams","Lecture / Discussion","Join us for Hyseun's doctoral defense.
+
+Title: From Dyads to Teams: Modeling Multi-Referent Multi-Level Trust in Human-AI Teams
+Chair:  X. Jessie Yang
+Learn more: https://ioe.engin.umich.edu/people/chung-hyesun/",https://events.umich.edu/event/146162,"Industrial and Operations Engineering Building",2717,"Industrial and Operations Engineering Building",,"Dissertation
+Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering","Industrial & Operations Engineering"
+145974-21898201,"2026-03-17 15:00:00","2026-03-17 16:00:00","Portrayals of Engineering and Technical Roles in an Engineering Workforce Development Program: An Embedded Qualitative Case Study","Winifred Opoku / The Ohio State University","Workshop / Seminar","Abstract: U.S. competitiveness in advanced manufacturing depends not only on engineers, but on an interdependent engineering and technical workforce that includes engineering technologists and technicians. Yet, how federally funded engineering workforce development (EWD) programs define, differentiate, and communicate the value of engineering and technical roles remains underexamined. Positioned within engineering education research that examines pathways, professional formation, and the education–workforce interface, this study investigates how a national, federally supported EWD initiative constructs and portrays engineering and technical occupational roles through its public-facing program materials and leader narratives. Drawing on qualitative document analysis and semi-structured interviews within an embedded qualitative case study of a national EWD initiative, the study applies a sociocultural value-systems lens to examine how patterned beliefs about knowledge, skill, and expertise are enacted at the programmatic and organizational level. Findings reveal consistent distinctions in how roles are framed across dimensions of work, worker, and occupation, with implications for engineering pathways, learner identity formation, and program alignment across educational and workforce contexts. By foregrounding the often-overlooked roles of technologists and technicians, this work contributes new empirical insight to engineering education scholarship and extends EER conversations beyond degree-centric models to include federally supported workforce pathways relevant to contemporary manufacturing practice.
+
+Biography: Winifred Opoku is a doctoral candidate in Engineering Education at The Ohio State University. She is an embedded researcher with the NSF-funded HAMMER Engineering Research Center, where her work engages questions of engineering workforce development, advanced manufacturing, and cross-sector collaboration. Winifred is also a member of the Beliefs in Engineering Research Group, contributing to scholarship that examines how beliefs, values, and cultural assumptions shape engineering education and practice. Her broader research interests sit at the intersection of engineering education, workforce development, and innovation systems, with a focus on how educational and workforce institutions construct pathways and roles across the engineering and technical workforce. Prior to graduate study, Winifred trained and worked as an HVAC/MEP design engineer, an experience that continues to inform her research perspective. Outside of research, she enjoys graphic design and creative projects that blend technical thinking with visual storytelling.",https://events.umich.edu/event/145974,"Duderstadt Center","Presentation Room 1180 and Zoom","Duderstadt Center",,"Engineering
+Graduate
+Michigan Engineering
+Research
+Stem","Engineering Education Research"
+146126-21898419,"2026-03-17 16:00:00","2026-03-17 18:00:00","The Future of Health AI","Keynote and Fireside Discussion","Lecture / Discussion","Join industry and startup leaders as they break down how AI is transforming healthcare now and where it’s headed next. Note: This event is for U-M students, faculty, and staff.
+
+March 17, 2026
+4PM - 6PM
+​Ross School of Business
+701 Tappan Ave, Ann Arbor, MI 48109, USA
+Robertson Auditorium
+
+RSVP here: https://myumi.ch/y1EmP
+
+Event Schedule
+
+​4:00 PM
+Arrival and Networking
+
+​4:30–6:00 PM
+​Welcome and Introduction
+
+​Perspectives on the Future of Health AI
+Jim Mault, MD
+Founder & Chairman, BioIntelliSense
+​David Rhew, MD
+Chief Medical Officer, Microsoft
+
+​Spotlight on U-M Health AI Startups
+
+​Fireside Conversation and Audience Q&A
+
+​6:00–6:30 PM
+Networking Reception
+
+​This event is hosted by: 
+​Pinkert Healthcare Accelerator (Zell Lurie Institute for Entrepreneurship)
+​Michigan Biomedical Venture Fund (Center for Entrepreneurship + Fast Forward Medical Innovation)
+
+​UM Partner Groups:
+​AI & Digital Health Innovation + e-HAIL
+​Michigan Medicine
+​Innovation Partnerships
+​Dept of Computational Medicine & Bioinformatics",https://events.umich.edu/event/146126,"Ross School of Business","Robertson Auditorium","Ross School of Business",,"Artificial Intelligence
+Biomedical Engineering
+Business
+Career
+Center For Entrepreneurship
+Cfe
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Founder
+Free
+Genai
+Generative Ai
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Lecture
+Medicine
+Michigan Engineering
+Talk
+Undergraduate
+Undergraduate Students
+Zell Lurie Institute For Entrepreneurial Studies
+Zell Lurie Institute For Entrepreneurship
+Zli","Center for Entrepreneurship"
+146122-21898410,"2026-03-17 18:00:00","2026-03-17 21:00:00","Dancing with the Dragon | WORKSHOP for Decorating the Dragon",,"Workshop / Seminar","Presented as part of the Dancing with the Dragon Inititative. Learn more: https://myumi.ch/JPVp8
+
+Attend a workshop to decorate the dragon body with garlands and glitter, bells and bottlecaps, sequins and sparkle! Events will be held on March 12, 17, 19 from 6 - 9 PM at the Duderstadt Design Lab (1321 Duderstadt Center).
+
+*Accommodation: If there is anything we can do to make this event accessible to you, please contact us at cstep@umich.edu. Please be aware that advance notice is necessary as some accommodations may require more time for the university to arrange.*",https://events.umich.edu/event/146122,"Duderstadt Center","Duderstadt Design Lab (1321 Duderstadt Center). Ann Arbor","Duderstadt Center",,"art
+art and design
+ArtsEngine
+Asia
+china
+Chinese Studies
+Community",ArtsEngine
+146331-21898902,"2026-03-17 18:15:00","2026-03-17 21:15:00","Sporcle Trivia North Campus",,"Social / Informal Gathering","Got luck? See if you do! Come celebrate St. Patricks Day with CCI and compete in Sporcle Trivia! We will have prizes and food!",https://events.umich.edu/event/146331,"Pierpont Commons",,"Pierpont Commons",,"Cci
+Food
+Free
+Fun
+St Patrick's Day
+Trivia","Center for Campus Involvement CCI"
+146235-21898689,"2026-03-17 19:00:00","2026-03-17 22:00:00","Shamrock Showdown",,"Social / Informal Gathering","Celebrate St. Patrick’s Day with nonstop fun and fresh activities! Dive into arcade classics and friendly competitions. Snap memorable moments at our photo booth and try out exciting new games—all in a safe and welcoming space. Enjoy tasty snacks and connect with fellow Wolverines! Hosted by CCI, Beyond the Diag, Wolverine Wellness, and DPSS, this event promises games, good vibes, and surprises at every turn.",https://events.umich.edu/event/146235,"Michigan Union",,"Michigan Union",,"beyond the diag
+Cci
+Food
+Free
+Fun
+St Patricks Day
+Wolverine Wellness","Center for Campus Involvement CCI"
+143996-21894384,"2026-03-18 09:00:00","2026-03-18 15:00:00","Career Cafe featuring Sandia National Labs",,"Careers / Jobs","Stop by the Career Cafe to speak with representatives from Sandia National Labs who will networking with candidates for future opportunities.
+
+The Career Cafe provides students with an opportunity to connect with employers for networking and/or recruitment purposes in a casual setting. The Career Cafe is open to students across all majors and degree levels within the College of Engineering. Students participate on a drop in basis and may use this opportunity to explore different career paths, learn about various employment opportunities, and when appropriate, present themselves as a candidate for open positions.
+
+About Sandia
+- Sandia National Labs is the nation's premier science and engineering lab for national security and technology innovation. We are a world-class team of scientists, engineers, technologists, post docs, and professionals all focused on cutting-edge technology, ranging from homeland defense, global security, biotechnology, and environmental preservation to computer security, and nuclear defense. We are looking for people like you who share our dedication to Sandia's mission-serving the nation. Sandia offers many challenges and rewarding career opportunities for engineers, scientists, computer specialists, technologists, professionals and students throughout our mission areas of defense, nonproliferation, energy, and homeland security.
+
+Student pre-registration is not needed for this event. You can find more information in Career Fair Plus (CF+)
+
+This is a College of Engineering event.",https://events.umich.edu/event/143996,"Duderstadt Center","Second Floor","Duderstadt Center",,"Career
+Graduate Students
+Michigan Engineering
+Undergraduate Students","Engineering Career Resource Center"
+146383-21898978,"2026-03-18 10:30:00","2026-03-18 23:30:00","PhD Defense: Doo Won Han","Towards Trustworthy Human-Autonomy Interaction: Understanding Human Behavior in Interaction with Automated Vehicles","Lecture / Discussion","Join us for Doo Won Han's PhD defense titled, ""Towards Trustworthy Human-Autonomy Interaction: Understanding Human Behavior in Interaction with Automated Vehicles.""
+Chair:  X. Jessie Yang
+Learn more: https://ioe.engin.umich.edu/people/han-doowon/
+Zoom link: https://umich.zoom.us/j/93016437635",https://events.umich.edu/event/146383,"Industrial and Operations Engineering Building",2717,"Industrial and Operations Engineering Building",,"Dissertation
+Industrial And Operations Engineering
+Ioe Defenses","Industrial & Operations Engineering"
+139740-21894087,"2026-03-18 12:00:00","2026-03-18 13:00:00","2025-2026 MICDE Ph.D. in Scientific Computing Student Seminars","See Sessions for details","Workshop / Seminar","The MICDE PhD Student Seminar Series showcases the research of students in the Ph.D. in Scientific Computing. Lunch will be served. These events are open to the public, but we request that all who plan to attend register in advance via Sessions (see link). 
+
+Presenter details will be available on the registration form and on the MICDE events calendar. Planned sessions will be canceled if no one signs up to present, and registrants will be notified.
+
+If you have any questions, please email micde-phd@umich.edu.",https://events.umich.edu/event/139740,,,"Room 4425, Green Court Building",,"Aerospace Engineering
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+College Of Engineering
+Computation
+Computational Medicine
+Computational Modeling
+Computational Science
+Computational Social Science
+Data Science
+Engineering
+Free
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Health Behavior & Health Equity
+In Person
+Interdisciplinary
+Machine Learning
+Materials Science
+Micde
+Phd Seminar
+Political Science
+Prospective Graduate Students
+Public Health
+Research
+Science
+Scientific Computing
+Sessions","Michigan Institute for Computational Discovery and Engineering"
+143482-21893255,"2026-03-18 12:00:00","2026-03-18 13:00:00","Navigating Different Types of Relationships","Campus Mind Works Wellness Group",Well-being,"College has a lot of different relationships - friends, advisors, professors, peers, family. Join our wellness group on Navigating Different Types of Relationships to learn some tips for balancing relationships, hear from other students and get some free lunch! This FREE in-person educational wellness group is for students only and will include an interactive presentation facilitated by staff from the Eisenberg Family Depression Center and is a collaborative service with U-M Engineering's C.A.R.E. Center and the Newnan Academic Advising Center.
+
+Registration is not required for in-person wellness groups, but is recommended so there is enough lunch for all attendees. You can register using the link. Learn more at campusmindworks.org",https://events.umich.edu/event/143482,"Chrysler Center",265,"Chrysler Center",,"Campus Mind Works
+Food
+Free
+Free Food
+Graduate and Professional Students
+Health & Wellness
+In Person
+mental health
+north campus
+Undergraduate Students
+Well-being
+Wellness
+Workshop","Michigan Engineering C.A.R.E. Center"
+142310-21890461,"2026-03-18 12:30:00","2026-03-18 14:00:00","ClariTEA: Informal Undergraduate Advising Event",,"Social / Informal Gathering","ClariTEA is a weekly informal, drop-in advising event where Robotics and Interested Undergraduate students meet with Robotics Undergraduate Academic Advisors. Refreshments and TEA are offered at each meeting.
+
+Join us in having a conversation with the Robotics Undergraduate community.",https://events.umich.edu/event/142310,"Ford Robotics Building",2000,"Ford Robotics Building",,"Michigan Robotics
+Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+143922-21894275,"2026-03-18 17:30:00","2026-03-18 19:00:00","Spencer Lecture Featuring Climate Science","Dr. Katharine Hayhoe",Presentation,"Join the University of Michigan Department of Climate and Space for a special presentation from Leading Climate Scientist Dr. Katharine Hayhoe! Everyone is welcome to attend the seminar and reception, as the University of Michigan welcomes this distinguished scientist. 
+
+On Wednesday, March 18, 2026, the U-M Department of Climate and Space Sciences and Engineering will present the 2026 Nelson W. Spencer Lecture featuring Dr. Katharine Hayhoe, Chief Scientist for the Nature Conservancy. The Spencer Lecture will be held at 5:30pm in the Leinweber Computer Science and Information Building, Room 1355, with a reception to follow.
+
+About the Lecturer:
+Dr. Katharine Hayhoe is an atmospheric scientist from Canada. She is a Paul Whitfield Horn Distinguished Professor and an Endowed Chair in Public Policy and Public Law at the Texas Tech University Department of Political Science. In 2021, Hayhoe joined the Nature Conservancy as Chief Scientist.
+
+Among her accomplishments, she has been named:
+""100 Most Influential People"", Time Magazine (2014) 
+“United Nations Champion of the Earth”, Science and Innovation Category (2019)
+""100 Leading Global Thinkers"", Foreign Policy Magazine (2014, 2019) 
+""50 World's Greatest Leaders”, Fortune Magazine (2017)
+
+About the Nelson W. Spencer Lecture:
+Nelson W. Spencer became the director of the U-M Space Physics Research Laboratory in 1948 and remained its guiding force until 1960. During his tenure, SPRL established itself as a prominent leader in the exploration of the Earth's upper atmosphere. Dr. Spencer believed in the importance of including science goals in all space flight missions, and was a pioneer in America’s space science program. Each year, a special guest speaker is invited to the Climate and Space Sciences and Engineering Department to present a lecture in Dr. Spencer's honor.
+
+RSVP: https://forms.gle/czFU58HqhuR42RFb9
+
+Event Location:
+Leinweber Computer Science and Information Building
+2200 Hayward Street
+Ann Arbor, Michigan
+48109",https://events.umich.edu/event/143922,"Leinweber LCSIB",1355,"Leinweber LCSIB",,"Climate
+Climate and Space Sciences and Engineering
+Climate Change
+Environment
+Natural Sciences
+Reception
+Science
+Social Impact
+Sustainability","Climate and Space Sciences and Engineering
+ClimateBlue"
+145750-21897777,"2026-03-19 10:00:00","2026-03-19 13:00:00","ECRC Career Cafe featuring IMC Trading",,"Careers / Jobs","Stop by the Career Cafe to speak with representatives from IMC Trading to network for future opportunities.
+
+The Career Cafe provides students with an opportunity to connect with employers for networking and/or recruitment purposes in a casual setting. The Career Cafe is open to students across all majors and degree levels within the College of Engineering. Students participate on a drop in basis and may use this opportunity to explore different career paths, learn about various employment opportunities, and when appropriate, present themselves as a candidate for open positions.
+
+About IMC Trading
+IMC is a global trading firm powered by a cutting-edge research environment and a world-class technology backbone. Since 1989, we’ve been a stabilizing force in financial markets, providing essential liquidity upon which market participants depend. Across our offices in the US, Europe, Asia Pacific, and India, our talented quant researchers, engineers, traders, and business operations professionals are united by our uniquely collaborative, high-performance culture, and our commitment to giving back. From entering dynamic new markets to embracing disruptive technologies, and from developing an innovative research environment to diversifying our trading strategies, we dare to continuously innovate and collaborate to succeed.
+
+Student pre-registration is not needed for this event. You can also view this event information in Career Fair Plus.
+
+This is a College of Engineering event.",https://events.umich.edu/event/145750,"Duderstadt Center","Second Floor","Duderstadt Center",,"Career
+Michigan Engineering
+Undergraduate Students","Engineering Career Resource Center"
+138834-21896904,"2026-03-19 11:00:00","2026-03-19 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+145237-21896910,"2026-03-19 13:00:00","2026-03-19 16:00:00","Naval Architecture & Marine Engineering Open House",,"Reception / Open House","Curious about Naval Architecture & Marine Engineering? Come hang with us at the NA&ME Open House!
+
+🗓 March 19th | 1–4 PM
+📍 Marine Hydrodynamics Lab, West Hall (1085 S. University Ave, Ann Arbor)
+
+Check out our labs, take a ride on the tow tank carriage, chat with students and professors, learn what makes our major unique, and of course grab some snacks and swag. 
+Don’t miss it!",https://events.umich.edu/event/145237,"West Hall",126,"West Hall",,"Engineering
+Michigan Engineering
+Naval Architecture And Marine Engineering
+Undergraduate Students","Naval Architecture & Marine Engineering"
+146152-21898595,"2026-03-19 15:00:00","2026-03-19 16:00:00","Biomedical Engineering (BME 500) Seminar Series","""Patterned Biomaterials: New Tools to Probe and Control Complex Biological Systems,"" with Jouha Min, Ph.D.","Workshop / Seminar","Patterned Biomaterials: New Tools to Probe and Control Complex Biological Systems
+
+Abstract:
+Engineered materials and molecular sensing tools are transforming how we study and control complex biological systems. Yet many technologies operate at a single scale—either manipulating cellular environments without molecular precision or profiling molecular signals without spatial or mechanical context. My lab addresses this challenge through chemical and materials innovation, developing scalable platforms that integrate molecular design with quantitative analysis. We focus on two complementary directions: (1) physico-chemical design of soft interfaces with tunable nanoscale architecture and dynamic mechanics to probe and control material–biology interactions, and (2) biomolecular sensing platforms that combine polymer chemistry, optical or electrochemical detection, and data-driven analysis for accessible diagnostics. In this talk, I will highlight two representative efforts: nature-inspired nanopatterned coatings with dynamically tunable surface topography for long-term antibacterial activity, and integrated bioanalytical sensing technologies for early, point-of-care detection of sepsis.  
+
+Bio:
+Dr. Jouha Min is an Assistant Professor in the Department of Chemical Engineering at University of Michigan. She received her B.S. in Chemical Engineering from Cornell University in 2010 and her Ph.D. in Chemical Engineering from MIT, where she was advised by Paula Hammond and Richard Braatz. She conducted her postdoctoral research with Ralph Weissleder at Harvard Medical School and Massachusetts General Hospital, where she worked at the interface of engineering, biology, and clinical translation. Dr. Min’s research group applies core principles of chemical and biological engineering—including transport phenomena, reaction kinetics, materials synthesis, and systems-level analysis—to develop new methodologies for probing and controlling material–biology interactions across three-dimensional space and time. Her work aims to establish a quantitative and mechanistic foundation for transformative advances in disease diagnosis, treatment, and prevention. She is the recipient of several honors, including the NSF CAREER Award (2025), the NIH R35 MIRA Award (2025), and the V Foundation V Scholar Award (2023).",https://events.umich.edu/event/146152,"Lurie Biomedical Engineering (formerly ATL)",1130,"Lurie Biomedical Engineering (formerly ATL)",,"Basic Science
+Biointerfaces
+Biology
+biomedical
+biomedical engineering
+Bioninterfaces
+Biosciences
+Biotechnology
+bme
+engineer
+engineering
+Medicine
+Michigan Engineering
+seminar","Biomedical Engineering"
+146568-21899297,"2026-03-19 15:00:00","2026-03-19 16:00:00","IOE 899: Irene Lo","Optimization Meets Participation: Iterative School Zone Generation with LLMs","Lecture / Discussion","Designing zones for school choice systems requires eliciting complex preferences and balancing multiple stakeholder objectives. We propose a stakeholder-in-the-loop framework for school zone generation that iterates between using optimization to generate zone boundaries for given preferences, and allowing stakeholders to participate and learn their preferences by reacting to zones. To facilitate stakeholder participation, we use LLMs to translate between natural language preferences and optimization constraints. To enable real-time use of our framework, we develop faster computational approaches for the multi-school zoning problem using both math programming and sampling-based methods. Our framework produces zones with substantially improved diversity and proximity metrics relative to existing benchmarks, while also generating individual-level preference representations that can be aggregated using standard social choice methods. Our approach has supported preliminary discussions about school zone boundaries in San Francisco and is generalizable to other redistricting contexts.
+
+Dr. Irene Lo is an assistant professor in the Department of Management Science & Engineering at Stanford University. Her research sits at the intersection of operations research, computer science theory, and economic theory. She designs markets and allocation systems that improve both efficiency and equity, with applications in education, the environment, and the developing world. She leads a Stanford Impact Lab on Equitable Access to Education, co-launched the ACM Conference series on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO), and is a William T. Grant Scholar.",https://events.umich.edu/event/146568,"Industrial and Operations Engineering Building",1680,"Industrial and Operations Engineering Building",,"899 Seminar Series
+Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering","Industrial & Operations Engineering"
+146522-21899232,"2026-03-19 16:00:00","2026-03-19 18:00:00","UUWeekly: Game Night",,"Social / Informal Gathering","We’re bringing out Life-Sized Chess, hosting Mario Kart tournaments, and stacking the tables with your favorite board and card games. We’ve got the food and snacks covered so you can refuel while you play!",https://events.umich.edu/event/146522,"Michigan Union",Courtyard,"Michigan Union",,"Cci
+Food
+Free
+Fun
+Game Night","Center for Campus Involvement CCI"
+145730-21897740,"2026-03-19 17:00:00","2026-03-19 19:00:00","Undergraduate Advising Super Session","Food, prizes, face time with robotics faculty",Presentation,"UM students enrolling in Robotics classes for Fall 2026 will have an opportunity to find out more about Robotics classes, relevant resources, and our new major concentrations! Students will have the opportunity to connect with departmental faculty, staff, and student leaders.",https://events.umich.edu/event/145730,"Ford Robotics Building",1050,"Ford Robotics Building",,"Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+146452-21899130,"2026-03-19 17:30:00","2026-03-19 18:30:00","Maximize Your Summer with FGE",,"Livestream / Virtual","Greetings FGE Community!
+
+We hope you had a rejuvenating spring break. As we dive into the second half of the semester, it’s time to look ahead. Join 1st Gen Engin (FGE) for a virtual workshop dedicated to helping you navigate your summer plans and set yourself up for future success. Click the link on the side to RSVP. 
+
+📋 What We’ll Cover:
+Internships: Tips on onboarding and networking.
+
+Research: Finding and securing positions on or off campus.
+
+Summer Classes: Balancing your course load and requirements.
+
+And more! We want this to be a conversation, so bring your questions.
+
+🗓️ Event Details:
+Date: Thursday, March 19, 2026
+
+Time: 5:30 p.m. – 6:30 p.m.
+
+Location: Virtual
+
+RSVP link is on the side!",https://events.umich.edu/event/146452,"Off Campus Location",,Virtual,,"Career
+First Generation
+First-gen-week
+First-generation
+Michigan Engineering
+Professional Development
+Social
+Transfer Students
+Undergraduate
+Undergraduate Students","1st Gen Engin"
+146124-21898418,"2026-03-19 18:00:00","2026-03-19 21:00:00","Dancing with the Dragon | WORKSHOP for Decorating the Dragon",,"Workshop / Seminar","Presented as part of the Dancing with the Dragon Inititative. Learn more: https://myumi.ch/JPVp8
+
+Attend a workshop to decorate the dragon body with garlands and glitter, bells and bottlecaps, sequins and sparkle! Events will be held on March 12, 17, 19 from 6 - 9 PM at the Duderstadt Design Lab (1321 Duderstadt Center).
+
+*Accommodation: If there is anything we can do to make this event accessible to you, please contact us at cstep@umich.edu. Please be aware that advance notice is necessary as some accommodations may require more time for the university to arrange.*",https://events.umich.edu/event/146124,"Duderstadt Center","Duderstadt Design Lab (1321 Duderstadt Center). Ann Arbor","Duderstadt Center",,"art
+art and design
+ArtsEngine
+Asia
+china
+Chinese Studies
+Community",ArtsEngine
+146330-21898903,"2026-03-19 18:00:00","2026-03-19 20:00:00","Learn Writing Dialogue With NERDS","A workshop for students to ""learn/with"" student orgs","Workshop / Seminar","Interested in writing better theatre scripts? Want your dialogue to feel more representative and respectful? Learn some tips for making your dialogue more authentic! No experience necessary!
+
+NERDS (Not Even Really Drama Students) have created Intersectional, Queer, student-crafted musical theatre at the University of Michigan since 2016, and are excited to share some of their knowledge and skills with you, regardless of your skill level. Bring your laptop or something to write with, and NERDS will help you develop theatre dialogue that sounds authentic.
+
+The Arts Initiative's ""Learn/With"" workshops are designed to give students a chance to explore an artform or skill that's new to them by learning with their peers in one of U-M's many student arts orgs. Take a chance and see what you learn!",https://events.umich.edu/event/146330,"Michigan League","League Underground","Michigan League",,"Arts For All
+Arts Initiative
+Artsrx
+Free
+Student Org
+Theater
+Workshop
+Writing","Center for Campus Involvement CCI"
+137880-21880973,"2026-03-20 10:00:00","2026-03-20 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+145310-21897035,"2026-03-20 11:30:00","2026-03-20 12:20:00","EHour: Allison Winstel","Featuring Allison Winstel, Chief of Staff at mHub","Lecture / Discussion","Ready to see how entrepreneurial thinking can drive innovation across tech, business, and impact? Meet Allison Winstel, Chief of Staff at mHUB, the Midwest’s top hub for hardtech startups, physical product innovation, and building the future of manufacturing.
+
+Allison’s journey blends strategic leadership, social impact, and cross-sector experience. At mHUB, she champions the growth of hundreds of startups, accelerates groundbreaking technology, and empowers diverse teams to turn ambitious ideas into real-world solutions. She’s passionate about equipping the next generation of leaders with skills for entrepreneurial problem-solving, collaboration, and scaling positive change.
+
+Join us at EHour as Allison shares candid stories from her path, lessons on building inclusive and thriving startup communities, and actionable advice for anyone interested in entrepreneurship, no matter your background or major. Expect practical takeaways, authentic conversation, and a welcoming space to connect with fellow changemakers.
+
+Entrepreneurship Hour is fireside chat-style, free, and open to all students, staff, and campus community members. Bring your curiosity and questions!
+
+Friday, March 20
+11:30 AM – 12:30 PM
+Stamps Auditorium, North Campus",https://events.umich.edu/event/145310,"Walgreen Drama Center","Stamps Auditorium","Walgreen Drama Center",,"Business
+Career
+Center For Entrepreneurship
+Cfe
+Discussion
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Innovation
+Lecture
+Michigan Engineering
+Talk
+Undergraduate
+Undergraduate Students","Center for Entrepreneurship"
+146144-21898441,"2026-03-20 11:30:00","2026-03-20 12:20:00","EHour: Fred Richard","Featuring Fred Richard, Olympic Gymnast and CEO of FrederickFlips","Lecture / Discussion","Ready to flip your perspective on entrepreneurship and resilience? 
+
+Join us for Entrepreneurship Hour featuring Frederick Richard, Olympic bronze medalist, NCAA champion, U-M student athlete, and CEO of FrederickFlips. Fred’s journey as the youngest American male to medal at the World Championships and Paris Olympics is all about breaking boundaries—both in sport and in business.
+
+During this inspiring session, Fred will share how he turned challenges into strengths, from overcoming adversity in gymnastics to leading his own startup. Hear about the mentality and creative process behind FrederickFlips, practical lessons in brand-building, leadership, and making your passion accessible. No matter your academic background, you’ll leave with real, actionable insights on turning resilience into opportunity.
+
+Entrepreneurship Hour is open to everyone at Michigan. Don’t miss this chance to connect, ask questions, and learn from an Olympic athlete who’s making an impact beyond the gymnastics mat.
+
+Friday, March 20
+11:30 AM – 12:30 PM
+Stamps Auditorium, North Campus",https://events.umich.edu/event/146144,"Walgreen Drama Center","Stamps Auditorium","Walgreen Drama Center",,"Business
+Career
+Center For Entrepreneurship
+Cfe
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Founder
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Innovation
+Leadership
+Lecture
+Media
+Michigan Engineering
+Networking
+North campus
+Startup
+Startups
+Storytelling
+Talk
+Undergraduate
+Undergraduate Students","Center for Entrepreneurship"
+142960-21891858,"2026-03-20 12:00:00","2026-03-20 13:00:00","NERS Colloquium: The NERS Mural","Devin Wright, Detroit-based Artist","Workshop / Seminar","Michigan-based artist Devin J. Wright will present a talk exploring the NERS Mural, a collaborative, multi-year artwork located in the tunnel connecting the Cooley Building and the Michigan Memorial Phoenix Project. The mural stands as a visual reflection of the Department of Nuclear Engineering and Radiological Sciences, highlighting its history, values, and forward-looking research through the lens of student creativity.
+
+The NERS Mural is a living artwork composed of student-driven panels added annually through the NERS 250 Introduction to Nuclear Engineering course. Each panel is developed in close collaboration with sophomores, who contribute their ideas through questionnaires, group discussions, and concept development workshops. Their perspectives shape the themes, imagery, and symbols that appear on the wall, ensuring the mural is not only about the department, but created by its community.
+
+Wright will discuss the artistic process behind the mural, including the decision for the panels to read from right to left in reference to Japanese narrative traditions. This design choice honors the department’s historical ties to Japan and underscores its global connections.
+
+The talk will also highlight the origins of the project, which was sparked by former department chair Todd Allen and realized through partnerships with NERS leadership and the University of Michigan Arts Initiative. Together, the mural and its ongoing additions serve as a lasting expression of the intersection of art, science, and education within NERS.
+
+The NERS Colloquia Series invites leading researchers, industry experts, and thought leaders from across the nuclear engineering and radiological sciences community to share their insights with students, faculty, and guests. Covering a wide range of topics—from cutting-edge research and emerging technologies to policy, education, and professional development—the weekly talks offer an opportunity to explore current issues and innovations shaping the future of the field.",https://events.umich.edu/event/142960,"Chrysler Center",220,"Chrysler Center",,"Michigan Engineering","Nuclear Engineering & Radiological Sciences"
+146462-21899146,"2026-03-20 17:00:00","2026-03-20 18:00:00","Maize in Bloom",,"Social / Informal Gathering","Celebrate the start of spring at Maize in Bloom! Join us at the Ingalls Mall for a lively evening filled with bumper cars, games, balloon animals and face painting, music from a live DJ, and sweet treats like cotton candy and Mini Melts. It’s a spring celebration packed with fun—stop by anytime from 5–8 PM on March 20 and enjoy the festivities!",https://events.umich.edu/event/146462,"Ingalls Mall",,"Ingalls Mall",,"Cci
+Food
+Free
+Fun
+Outdoors
+Spring","Center for Campus Involvement CCI"
+145019-21896554,"2026-03-20 19:30:00",,"Into the Woods","Presented by MUSKET",Performance,"In Into the Woods, the brilliant Stephen Sondheim and James Lapine take us to a magical, bewildering place full of witches, wolves, giants, and mysterious strangers. Here, wishes come true, but at a price. The story opens with the characters professing their desires, at the heart of which is baker and his wife longing to have a child. In order to do so, the witch sends them on a journey through the woods. Here, they cross paths with familiar fairytale characters, each chasing their own desires and learning their own lessons. As we witness the consequences of their wishes, we’re forced to reckon what we owe to those around us.",https://events.umich.edu/event/145019,,,"Power Center","See Site For Pricing Information",Mutotix,"Center for Campus Involvement CCI"
+145785-21897812,"2026-03-21 18:30:00","2026-03-21 20:00:00","Learn Brazilian Zouk Steps with Zouk Dance Club","A workshop for students to ""learn/with"" student orgs","Workshop / Seminar","Interested in learning a new dance? Learn the basic steps of Zouk, then try them out after at the social dance! No experience necessary!
+
+The Arts Initiative's ""Learn/With"" workshops are designed to give students a chance to explore an artform or skill that's new to them by learning with their peers in one of U-M's many student arts orgs. Take a chance and see if it's your new thing!
+
+Workshop will start at 6:30 and will include light snacks.*
+Social Dance will follow at 8pm.
+
+*This workshop is for students only, but the social dance is open to community members as well",https://events.umich.edu/event/145785,"Michigan Union","Anderson Room","Michigan Union",,"Art
+Arts For All
+Artsrx
+Dance
+Music
+Student Org
+Workshop","Center for Campus Involvement CCI"
+146324-21898880,"2026-03-23 10:00:00","2026-03-23 11:00:00","PhD Defense: Yuanchen Wang","Experimental Investigation and Queueing Network Modeling of Human Performance in Robot Target Prediction","Lecture / Discussion","Join us for Yuanchen Wang's PhD defense titled, ""Experimental Investigation and Queueing Network Modeling of Human Performance in Robot Target Prediction.""
+Chair: X. Jessie Yang
+Zoom: https://umich.zoom.us/j/3068267870",https://events.umich.edu/event/146324,"Industrial and Operations Engineering Building",,"Industrial and Operations Engineering Building",,"Dissertation
+Industrial And Operations Engineering
+Ioe Defenses","Industrial & Operations Engineering"
+145534-21897483,"2026-03-23 11:30:00","2026-03-23 13:30:00","Thriving in STEM | Chemistry Majors & Mocktails","American Chemical Society, Department of Chemistry, Science Learning Center","Workshop / Seminar","Connect with current students majoring in Chemistry, Biochemistry, and Biomolecular Science.  Engage with your peers to learn about their experience in courses, degree paths, and how they came to their major decisions.  Enjoy some tasty beverages and boost your scientific skills by sampling chemistry mocktails. A Chemistry Advisor will be available throughout the event if you are ready to declare your major.  
+
+This is a drop-in style event.  Feel free to come and go as your schedule allows.  Registration is appreciated, but walk-ins are welcomed.",https://events.umich.edu/event/145534,,,"1720 Chemistry, Science Learning Center Flex Room",,"All Majors Welcome
+Basic Science
+chemistry
+First-gen
+first-generation
+Food
+Free
+In Person
+Majors
+Natural Sciences
+Open To All Majors
+pre health
+Pre Med
+Pre-Health
+science
+science learning center
+Sessions
+slc
+Transfer Students
+Undergraduate
+Undergraduate Students
+Women In Science","Women in Science and Engineering (WISE) Program"
+146166-21898611,"2026-03-23 17:00:00","2026-03-23 18:00:00","IOE Senior Design Info Session",,Meeting,"Learn about the different types of senior design course offerings by hearing firsthand from previous students about their project experience. Great opportunity to gain insight into the different course options and ask questions. Food will be provided as well!",https://events.umich.edu/event/146166,"Industrial and Operations Engineering Building",1610,"Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+146460-21899137,"2026-03-23 18:00:00","2026-03-23 20:00:00","Beyond the Org: Leadership That Transfers",,"Workshop / Seminar","Beyond the Org: Leadership That Transfers is an alumni–student engagement event hosted by the Center for Campus Involvement (CCI) that explores how student organization leadership experiences translate into professional skills and career pathways. Through a moderated alumni panel and structured networking segment, alumni from diverse student organization backgrounds will share candid insights on how leadership, teamwork, workload management, and relationship-building developed at Michigan carried forward into their post-graduate lives. The event is designed to help current student leaders better understand the long-term value of their involvement while creating meaningful opportunities for connection and learning from alumni experiences.",https://events.umich.edu/event/146460,"Michigan Union","Pendelton Room","Michigan Union",,"Cci
+Networking
+Student Organization
+Workshop","Center for Campus Involvement CCI"
+146034-21898298,"2026-03-24 15:00:00","2026-03-24 17:00:00","MICDE State of AI & the Future of Institutions",,"Workshop / Seminar","MICDE State of AI & the Future of Institutions is a two-hour strategic conversation convened by the Michigan Institute for Computational Discovery and Engineering (MICDE). As AI rapidly reshapes research, education, governance, and industry, institutions face choices that will define their relevance for decades. This forum brings together faculty members and institutional leaders to examine where AI truly stands today and discuss how U-M must evolve to remain credible, competitive, and mission-driven in an AI-native era.",https://events.umich.edu/event/146034,"Palmer Commons","Forum Hall","Palmer Commons",,"Aerospace
+Ai In Science And Engineering
+Artificial Intelligence
+Biomedical Engineering
+Biophysics
+Biosciences
+Biostatistics
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+Climate and Space Sciences and Engineering
+College Of Engineering
+Complex Systems
+Computation
+Computational Medicine
+Computational Science
+Computational Social Science
+Data Science
+Earth And Environmental Sciences
+Ecology
+Ecology And Evolutionary Biology
+Economics
+Electrical And Computer Engineering
+Electrical Engineering and Computer Science
+Energy Institute
+Engineering
+Generative Ai
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Kinesiology
+Life Science
+Lsaresearch
+Materials Science
+Mathematics
+Mechanical Engineering
+Medicine
+Micde
+Micde Seminar
+Michigan Engineering
+Michigan Robotics
+Midas
+Natural Sciences
+Naval Architecture and Marine Engineering
+Neuroscience
+Nuclear Engineering and Radiological Sciences
+Pharmacy
+Physics
+Political Science
+Psychology
+Public Health
+Rackham
+Sociology
+Statistics
+Undergraduate Students","Michigan Institute for Computational Discovery and Engineering"
+145898-21898019,"2026-03-24 17:00:00","2026-03-24 19:00:00","Mingle N' Match","Networking for Entrepreneurs","Social / Informal Gathering","Ready to connect with fellow innovators, builders, and future founders?
+
+Mingle ’n’ Match brings together students interested in entrepreneurship to connect, share ideas, and find teammates—whether you’re just getting started, recruiting, or looking to join a team. RSVP here: https://myumi.ch/8q9AG",https://events.umich.edu/event/145898,"Ross School of Business",R1230,"Ross School of Business",,"Entrepreneur Services
+Entrepreneurship
+Food
+Free
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Leadership
+Michigan Engineering
+Networking
+Startups
+Undergraduate
+Undergraduate Students
+Zell Lurie Institute For Entrepreneurial Studies
+Zell Lurie Institute For Entrepreneurship
+Zli
+Business
+Career
+Center For Entrepreneurship
+Cfe
+Discussion
+Entrepreneur","Center for Entrepreneurship"
+143479-21893248,"2026-03-24 17:30:00","2026-03-24 19:00:00","March WISE Night In",,"Workshop / Seminar","Join WISE for a dinner party with a side of professional development. Our undergraduate WISE Mentors will lead a short, fun, and productive activity designed to jump start your career/internship search, followed by a delicious catered dinner to chill, eat, and make some new friends.",https://events.umich.edu/event/143479,,,,,Sessions,"Women in Science and Engineering (WISE) Program"
+146554-21899265,"2026-03-24 18:30:00","2026-03-24 19:30:00","GEICO Corporate Information Sessions",,"Careers / Jobs","3/24/2026 | 6:30 pm | DOW 1018 (FOOD PROVIDED: Cottage Inn Pizza)
+Majors:  All Engineering Majors
+Positions: Full Time, Intern
+Degrees: Bachelors, Masters
+
+Resumes Collected
+US Citizenship or Permanent Resident
+
+GEICO (Government Employees Insurance Company) is a leading American auto insurer, ranking as the second-largest in the U.S. A Berkshire Hathaway subsidiary founded in 1936, it specializes in direct-to-consumer private passenger auto insurance, offering policies online and by phone. GEICO also covers motorcycles, RVs, homeowners, and renters.",https://events.umich.edu/event/146554,"Chemistry Dow Lab",1018,"Chemistry Dow Lab",,"Aerospace Engineering
+Biomedical Engineering
+Career
+Career Fair
+Chemical Engineering
+Civil and Environmental Engineering
+Civil Engineering
+Climate and Space Sciences and Engineering
+College Of Engineering
+Computer Engineering
+Computer Science
+Computer Science And Engineering
+Corporate
+Corporate Event
+Data Science
+Electrical And Computer Engineering
+Electrical Engineering
+Electrical Engineering and Computer Science
+Engineering
+Food
+Free
+free food
+Full Time
+Graduate
+Graduate Students
+In Person
+Industrial and Operations Engineering
+Information and Technology
+Internship
+Masters Students
+Materials Science
+Materials Science And Engineering
+Mechanical Engineering
+Michigan Engineering
+Naval Architecture and Marine Engineering
+Networking
+north campus
+Nuclear Engineering and Radiological Sciences
+Professional Development
+Recruiting
+Undergraduate
+Undergraduate Students","Society of Women Engineers"
+145748-21897775,"2026-03-25 10:00:00","2026-03-25 13:00:00","ECRC Career Cafe featuring Geico",,"Careers / Jobs","Stop by the Career Cafe to speak with representatives from GEICO to network for future opportunities.
+
+The Career Cafe provides students with an opportunity to connect with employers for networking and/or recruitment purposes in a casual setting. The Career Cafe is open to students across all majors and degree levels within the College of Engineering. Students participate on a drop in basis and may use this opportunity to explore different career paths, learn about various employment opportunities, and when appropriate, present themselves as a candidate for open positions.
+
+About GEICO
+- For more than 75 years, GEICO has stood out from the rest of the insurance industry! We are one of the nation's largest and fastest-growing auto insurers thanks to our low rates, outstanding service and clever marketing. We're an industry leader employing thousands of dedicated and hard-working associates. As a wholly owned subsidiary of Berkshire Hathaway, we offer associates training and career advancement in a financially stable and rewarding workplace.
+
+Student pre-registration is not needed for this event. You can also view this event information in Career Fair Plus.
+
+This is a College of Engineering event.",https://events.umich.edu/event/145748,"Duderstadt Center","Second Floor","Duderstadt Center",,"Career
+Graduate Students
+Michigan Engineering
+Undergraduate Students","Engineering Career Resource Center"
+144275-21895103,"2026-03-25 11:30:00","2026-03-25 12:30:00","Lunch-n-Learn: What to do the first 30-60-90 days on the Job",,"Careers / Jobs","Whether you're starting a full-time position or you have a summer internship, there are certain things you need to do within the first month in order to ensure success. Attend this session to learn what they are! Lunch provided.",https://events.umich.edu/event/144275,"Industrial and Operations Engineering Building",G690,"Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+139740-21894088,"2026-03-25 12:00:00","2026-03-25 13:00:00","2025-2026 MICDE Ph.D. in Scientific Computing Student Seminars","See Sessions for details","Workshop / Seminar","The MICDE PhD Student Seminar Series showcases the research of students in the Ph.D. in Scientific Computing. Lunch will be served. These events are open to the public, but we request that all who plan to attend register in advance via Sessions (see link). 
+
+Presenter details will be available on the registration form and on the MICDE events calendar. Planned sessions will be canceled if no one signs up to present, and registrants will be notified.
+
+If you have any questions, please email micde-phd@umich.edu.",https://events.umich.edu/event/139740,,,"Room 4425, Green Court Building",,"Aerospace Engineering
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+College Of Engineering
+Computation
+Computational Medicine
+Computational Modeling
+Computational Science
+Computational Social Science
+Data Science
+Engineering
+Free
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Health Behavior & Health Equity
+In Person
+Interdisciplinary
+Machine Learning
+Materials Science
+Micde
+Phd Seminar
+Political Science
+Prospective Graduate Students
+Public Health
+Research
+Science
+Scientific Computing
+Sessions","Michigan Institute for Computational Discovery and Engineering"
+142310-21890462,"2026-03-25 12:30:00","2026-03-25 14:00:00","ClariTEA: Informal Undergraduate Advising Event",,"Social / Informal Gathering","ClariTEA is a weekly informal, drop-in advising event where Robotics and Interested Undergraduate students meet with Robotics Undergraduate Academic Advisors. Refreshments and TEA are offered at each meeting.
+
+Join us in having a conversation with the Robotics Undergraduate community.",https://events.umich.edu/event/142310,"Ford Robotics Building",2000,"Ford Robotics Building",,"Michigan Robotics
+Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+146555-21899266,"2026-03-25 17:30:00","2026-03-25 18:30:00","BASF Corporate Information Session",,"Careers / Jobs","3/25/2026 | 5:30 pm | GGBL 1025 (FOOD PROVIDED: Jerusalem Garden)
+Majors:  Chemical Engineering, Computer Engineering, Computer Science, Data Science, Electrical Engineering, Mechanical Engineering
+Positions: Intern, Full-time
+Degrees: Bachelors, PhD
+
+US Citizenship or Permanent Resident
+
+At BASF, we create chemistry for a sustainable future. Our ambition: We want to be the preferred chemical company to enable our customers’ green transformation. We combine economic success with environmental protection and social responsibility. Around 108,000 employees in the BASF Group contribute to the success of our customers in nearly all sectors and almost every country in the world. Our portfolio comprises, as core businesses, the segments Chemicals, Materials, Industrial Solutions, and Nutrition & Care; our standalone businesses are bundled in the segments Surface Technologies and Agricultural Solutions. BASF generated sales of around €60 billion in 2025. BASF shares are traded on the stock exchange in Frankfurt (BAS) and as American Depositary Receipts (BASFY) in the United States.",https://events.umich.edu/event/146555,"GG Brown Laboratory",1025,"GG Brown Laboratory",,"Career
+Chemical Engineering
+College Of Engineering
+Computer Engineering
+Computer Science
+Computer Science And Engineering
+Corporate
+Corporate Event
+Data Science
+Electrical And Computer Engineering
+Electrical Engineering
+Electrical Engineering And Computer Science
+Engineering
+Food
+Free
+free food
+Full Time
+Graduate
+Graduate Students
+In Person
+Internship
+Masters Students
+Mechanical Engineering
+Michigan Engineering
+Networking
+north campus
+Professional Development
+Undergraduate
+Undergraduate Students","Society of Women Engineers"
+143479-21893249,"2026-03-25 17:30:00","2026-03-25 19:00:00","March WISE Night In",,"Workshop / Seminar","Join WISE for a dinner party with a side of professional development. Our undergraduate WISE Mentors will lead a short, fun, and productive activity designed to jump start your career/internship search, followed by a delicious catered dinner to chill, eat, and make some new friends.",https://events.umich.edu/event/143479,,,,,Sessions,"Women in Science and Engineering (WISE) Program"
+146269-21898813,"2026-03-25 18:00:00","2026-03-25 21:00:00","Innovation Challenge","Design and build to win major prizes!","Recreational / Games","In 2017, University of Michigan students launched the 100-Year Space Mission, an ambitious effort to preserve the voices of the U-M community for a century. A CubeSat was designed and built, but technical and regulatory barriers prevented the mission from launching.
+
+The archive still exists. The CubeSat still exists. The engineering challenge remains open.
+
+This year’s MPowered Innovation Challenge invites student teams to design a CubeSat-class robotic system capable of:
+
+• Emerging from a spacecraft near or on the lunar surface
+• Delivering a U-M time capsule to a designated location
+• Planting a University of Michigan flag
+• Capturing and returning video or images documenting the deployment
+
+This is a conceptual systems engineering challenge grounded in real aerospace constraints.
+
+Teams will be expected to:
+• Define and justify Size, Weight, and Power, also known as SWaP
+• Consider launch cost implications based on mass
+• Design a communications strategy to return images or video
+• Defend engineering tradeoffs clearly and realistically
+• Present a physical, digital, or hybrid demonstration
+
+Why Participate?
+• Compete for cash prizes
+• Showcase your work to faculty and space technology experts
+• Build a high-impact portfolio project
+• Contribute ideas that could inform a near-term lunar mission concept
+
+Prizes will be awarded for:
+• Best in Show
+• Best SWaP Optimization, Feasible Design
+• Best Communications Concept
+
+Important Dates
+Teaser released: February 25
+Challenge announcement: March 4
+Team registration deadline: March 14
+Competition night: March 25, 6 to 9 PM
+
+This challenge is open to students across engineering, robotics, computer science, design, business, and beyond.
+
+Start with constraints. Design within them. Defend your tradeoffs. We look forward to seeing what you build.
+
+Any questions? Contact MPowered Innovation Challenge Director Bodhi White bodhes@umich.edu
+
+We Will Reach Out Within 72 Hours of Form Submission.
+
+More details about the challenge and RSVP info: https://myumi.ch/VVjNW",https://events.umich.edu/event/146269,"Duderstadt Center",Basement,"Duderstadt Center",,"Center For Entrepreneurship
+Cfe
+Climate and Space Sciences and Engineering
+Design Thinking
+Electrical Engineering and Computer Science
+Engineering
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Free
+Games
+Graduate
+Graduate and Professional Students
+Graduate Professional Student Life
+Graduate School
+Graduate Students
+In Person
+In-person
+Innovation
+Michigan Engineering
+Michigan Robotics
+North campus
+Science
+Startup
+Startups
+Transfer Students
+Undergraduate
+Undergraduate Students
+Welcome to Michigan","Center for Entrepreneurship
+MPowered Entrepreneurship"
+142260-21890280,"2026-03-26 11:00:00","2026-03-26 12:00:00","Quantum Research Institute | Have we seen a demonstration of experimental quantum advantage?","Bill Fefferman (University of Chicago)","Workshop / Seminar","In-Person: Michigan Memorial Phoenix Project, 2301 Bonisteel Blvd, Ann Arbor, MI 48109, USA, PML2000
+Zoom: https://umich.zoom.us/j/94764879233?jst=2
+
+Abstract: A major goal for the field of quantum computation is “quantum advantage"" -- the first experimental demonstration of a quantum computation that is beyond the capabilities of any classical computer.  While we have now seen many quantum advantage claims made by experimental groups around the world, many of these claims have been disproven.  
+
+In this talk, we'll discuss the status quo regarding the latest experimental quantum advantage claims and the evidence for their classical hardness.  We’ll then discuss the classical verification problem, and propose a new quantum advantage proposal that uses ideas from quantum error correction to enable a large gap between classical verification and simulation.
+
+Bio:
+I am an Associate Professor in the Department of Computer Science at the University of Chicago.
+Previously, I held research positions at the University of California at Berkeley, advised by Umesh Vazirani, and in QuICS, at the University of Maryland/NIST.
+I received my Ph.D. in computer science from the Department of Computer and Mathematical Sciences and the Institute for Quantum Information and Matter at Caltech, co-advised by Alexei Kitaev and Chris Umans.",https://events.umich.edu/event/142260,,PML2000,,,"Astronomy
+Chemistry
+Computer Science And Engineering
+Electrical And Computer Engineering
+Electrical Engineering And Computer Science
+Physics
+Quantum
+Quantum Computing
+Quantum Science","Electrical and Computer Engineering
+Computer Science and Engineering Division
+Electrical Engineering and Computer Science"
+138834-21896905,"2026-03-26 11:00:00","2026-03-26 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+143067-21892317,"2026-03-26 12:00:00","2026-03-26 14:00:00","Grub @ the (Idea)Hub",,"Reception / Open House","Join the Center for Campus Involvement (CCI) for Grub at the (Idea)Hub for free food, networking, and to learn about the resources available to student organizations. Whether you are a member of a student organization, leading an organization, interested in joining a group, or forming a new organization - this event is for you! Come and go as you are able and free food will be available while supplies last.",https://events.umich.edu/event/143067,"Michigan Union","IdeaHub (2nd Floor)","Michigan Union",,"Student Organizations","Center for Campus Involvement CCI"
+145954-21898176,"2026-03-26 14:00:00","2026-03-26 15:00:00","IOE 899: Yue Wang","Learning for Autonomy: Trust Modeling in Human–Robot Collaboration and Distributional Multi-Agent Reinforcement Learning","Lecture / Discussion","This seminar begins with an overview of research at the Interdisciplinary & Intelligent Research (I2R) Lab focused on human–robot interaction and autonomy. We discuss computational models for human trust in robots, how trust can be quantified and learned, and how it can be incorporated into robot decision-making, motion planning, and control to achieve safer autonomy with higher user acceptance. Building on these models, the talk highlights learning-based approaches that enable robots to reason under uncertainty and adapt to human preferences. We consider reinforcement learning in which key quantities, such as value functions, are represented probabilistically rather than as point estimates. These methods enable more stable and dataefficient learning. We then address collaborative settings involving multiple agents. By inferring global context through structured local information exchange, these approaches support scalable, robust collaboration without reliance on centralized critics or global information.",https://events.umich.edu/event/145954,"Industrial and Operations Engineering Building",1680,"Industrial and Operations Engineering Building",,"899 Seminar Series
+Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering","Industrial & Operations Engineering"
+145389-21897227,"2026-03-26 16:30:00","2026-03-26 18:00:00","Robotics Pathways and Careers Speaker Series - Winter 2026","Jason Ma - Dyna Robotics","Workshop / Seminar","The Robotics Pathways and Careers Speaker Series (RPCSS) invites professionals working in robotics to come talk with current undergraduates about their career path, how a background in robotics has impacted their professional growth, and what they hope to see in students looking to enter the profession.
+
+The 90-minute format of the event will consist of a 40-minute presentation from the invited speaker and up to 30 minutes of moderated Q&A and discussion. Session available as in-person and virtual event. Virtual information is included in registration information.
+
+RSVP Required for Event.",https://events.umich.edu/event/145389,"Ford Robotics Building",2300,"Ford Robotics Building",,"Career
+Robotics
+Undergraduate Students","Michigan Robotics"
+138671-21897781,"2026-03-26 17:00:00","2026-03-26 18:00:00","First Year Success Seminar Series","More W26 seminars are on the way! You can check back on this page for updates and use the same RSVP link to sign up.","Workshop / Seminar","Upcoming W26 topics include undergraduate research, alumni panels on majors and careers, graduate school pathways, student panels on internships/co-op, and more! If you have any questions, please don't hesitate to contact the event organizer.
+
+Use the RSVP link to stay updated. 
+
+💼 Internships & Co-ops: How Students Land Them + What They Learn
+Thu, March 26, 2026, 5–6pm
+📍2150 Dow
+
+• Wondering how engineering students get internships or co-ops — and what those experiences are really like?
+
+• This student panel brings together undergraduates from different engineering majors (CEE, ME, NERS) to talk about how they found their roles, what skills they developed, and how internships and co-ops shape career exploration and future opportunities.
+
+
+Pizza provided*. 🍕  
+*To avoid food waste and ensure accurate food orders, please RSVP to the Google calendar invite (you'll receive it after you RSVP) if you do plan to join us (we hope you do!).",https://events.umich.edu/event/138671,"Herbert H. Dow  Building",2150,"Herbert H. Dow  Building",,"Engineering
+First Year
+free food
+Undergraduate Students
+Welcome to Michigan","College of Engineering First Year Program
+Engineering Career Resource Center
+International Programs in Engineering
+Engineering Advising Center"
+137880-21880974,"2026-03-27 10:00:00","2026-03-27 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+142961-21891859,"2026-03-27 12:00:00","2026-03-27 13:00:00","NERS Colloquium: Osborn Lecture","Marvin Adams, Texas A&M University","Workshop / Seminar","Marvin Adams’s research interests are computational transport theory, efficient algorithms for massively parallel scientific and engineering calculations, and quantification of uncertainties in predictive science and engineering. He is a Regents Fellow, HTRI Professor, and associate director of the Institute for National Security and Cybersecurity Education & Research at Texas A&M. He earned a B.S. in nuclear engineering from Mississippi State University and an M.S.E. and Ph.D., both in nuclear engineering from the University of Michigan.
+
+The Richard K. Osborn Lecture  series has been made possible by a generous endowment by MIT Professor Emeritus Sidney Yip, a former student of Professor Osborn. These annual lectures are a tribute to Professor Osborn’s unwavering dedication to education of students in fundamental science. It is the goal of these lectures to inspire future generations of students in nuclear theory and simulation.",https://events.umich.edu/event/142961,"Chrysler Center",220,"Chrysler Center",,"Michigan Engineering","Nuclear Engineering & Radiological Sciences"
+146470-21899147,"2026-03-27 20:00:00","2026-03-27 23:00:00",PokeUMix,,"Social / Informal Gathering","Catch the fun at PokéUMix! Join us at Pierpont Commons for a Pokémon-themed night packed with activities like custom card making, DIY charm bracelets, balloon animals, a scavenger hunt, and even a haunted house. Stop by March 27 from 8–11 PM for a night of games, creativity, and adventure!",https://events.umich.edu/event/146470,"Pierpont Commons",,"Pierpont Commons",,"Cci
+Food
+Free
+Fun
+Pokemon
+Umix","Center for Campus Involvement CCI"
+146127-21898420,"2026-03-29 15:00:00","2026-03-29 16:30:00","Dancing with the Dragon | VOLUNTEER to Dance the Dragon",,"Workshop / Seminar","Train together with your friends! Volunteers will train with Golden Tiger Kung Fu & Extended Learning Academy on March 29—fill out our registration form to participate. We need teams of 8 people to bring the new, reimagined U-M dragon to life.
+
+REGISTRATION REQUIRED: https://myumi.ch/61AAm
+   
+   Performances are scheduled at Hill Auditorium on April 6 and the FoolMoon Festival on April 10. Volunteer dancers must be available to perform at BOTH events!   
+
+*Accommodation: If there is anything we can do to make this event accessible to you, please contact us at cstep@umich.edu. Please be aware that advance notice is necessary as some accommodations may require more time for the university to arrange.*",https://events.umich.edu/event/146127,"Duderstadt Center","Room 3358","Duderstadt Center",,"art
+art and design
+ArtsEngine
+Asia
+china
+Chinese Studies
+Community
+Community Engagement
+Dance
+visual arts",ArtsEngine
+146461-21899138,"2026-03-30 18:30:00","2026-03-30 20:30:00","UUWeekly Movie Night: Zootopia 2",,"Social / Informal Gathering","Hop over to the League for UUWeekly Movie Night: Zootopia 2! Join us for a fun and cozy evening watching the latest adventure in Zootopia at Vandenberg. Bring your friends, grab some free food, and settle in for a great movie night on March 30 from 6:30–8:30 PM.",https://events.umich.edu/event/146461,"Michigan League",Vandenberg,"Michigan League",,"Cci
+Food
+Free
+Movie Night
+Zootopia 2","Center for Campus Involvement CCI"
+146164-21898609,"2026-03-31 20:00:00","2026-03-31 20:50:00","Skating with IOE",,"Social / Informal Gathering","Free skating with the IOE community at Yost Ice Arena!",https://events.umich.edu/event/146164,"Yost Ice Arena",,"Yost Ice Arena",,"Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+142310-21890463,"2026-04-01 12:30:00","2026-04-01 14:00:00","ClariTEA: Informal Undergraduate Advising Event",,"Social / Informal Gathering","ClariTEA is a weekly informal, drop-in advising event where Robotics and Interested Undergraduate students meet with Robotics Undergraduate Academic Advisors. Refreshments and TEA are offered at each meeting.
+
+Join us in having a conversation with the Robotics Undergraduate community.",https://events.umich.edu/event/142310,"Ford Robotics Building",2000,"Ford Robotics Building",,"Michigan Robotics
+Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+138834-21896906,"2026-04-02 11:00:00","2026-04-02 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+143392-21892979,"2026-04-02 11:30:00","2026-04-02 12:30:00","ChE SEMINAR: Lynn Loo, Princeton University",,"Workshop / Seminar","More details to come.",https://events.umich.edu/event/143392,"North Campus Research Complex Building 10","B10 Auditorium","North Campus Research Complex Building 10",,"chemical engineering
+Chemistry","Chemical Engineering"
+145897-21898018,"2026-04-02 15:00:00","2026-04-02 16:00:00","2026 Wilbert Steffy Lectureship with Pinar Keskinocak","“Designing and Operationalizing Interventions for Infectious Diseases”","Lecture / Discussion","Pinar Keskinocak is the H. Milton and Carolyn J. Stewart School Chair and Professor in the School of Industrial and Systems Engineering (ISyE) at Georgia Tech. She is the co-founder and Director of the Center for Health and Humanitarian Systems (CHHS). Previously, she served as Associate Chair for Faculty Development in ISyE, College of Engineering ADVANCE Professor, and Interim Associate Dean for Faculty Development and Scholarship.
+
+Her research spans supply chain management and applications in health and humanitarian systems, with a multidisciplinary, multi-stakeholder perspective. Recent work has focused on disease modeling, evaluating interventions, resource allocation, process improvement for healthcare delivery, and disaster preparedness, response, and recovery. Her research has appeared in leading journals and has been supported by government agencies, industry, NGOs, and foundations.
+
+Her leadership and service within Georgia Tech, professional communities, and nationwide have been extensive, including serving as President of INFORMS.  Dr. Keskinocak is a Fellow of INFORMS and IISE. She is the recipient of the INFORMS President’s Award (2024), George E. Kimball Medal (2024), Women in Operations Research and Management Science Award.
+
+Infectious diseases continue to affect millions of people around the world.  Pharmaceutical or non-pharmaceutical interventions such as testing, vaccines, or treatments help control their spread.   Resources for the deployment of interventions are often limited, and decisions regarding what, when, and how to deploy need to incorporate various short- and long-term considerations, as well as human behaviors.  In this presentation, we will illustrate these challenges using a few examples from infectious diseases that are targeted for elimination or eradication, and share results from modeling studies to help inform these complex decisions.",https://events.umich.edu/event/145897,"Lurie Robert H. Engin. Ctr","Johnson Rooms (3rd floor)","Lurie Robert H. Engin. Ctr",,"Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering","Industrial & Operations Engineering"
+137880-21880975,"2026-04-03 10:00:00","2026-04-03 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+146128-21898421,"2026-04-07 11:00:00","2026-04-07 12:00:00","Scalable quantum and classical photonics","Jelena Vuckovic, Jensen Huang Professor of Global Leadership, Professor of Electrical Engineering and, by courtesy, of Applied Physics, Stanford University","Lecture / Discussion","Abstract: 
+There is now a broad agreement that photonics is essential for reducing energy consumption of AI hardware through optical interconnects, but quantum technologies also need photonics for scaling. This is true even for “non-photonic” quantum systems based on superconductors, or trapped atoms and ions in vacuum. For example, new types of spatial light modulators and switches are needed to trap and control atoms and ions, microwave to optical quantum transducers are needed for networking superconducting processors, chip-scale laser systems are required for controlling atoms or spin qubits in solids, and very high efficiency integrated photonics is needed for quantum networks, sensors, and chip-based semiconductor quantum systems. Unfortunately, the desired level of performance and some of the functionalities are not available even in today’s best integrated photonics.   We show how this can be addressed by photonics inverse design combined with emerging materials, new nanofabrication and heterogenous integration approaches. Specific examples include development of miniaturized titanium:sapphire lasers and amplifiers on chip, quantum network nodes in diamond, and a quantum simulator with silicon carbide color centers. Classical photonic technologies that will be discussed  include fast, compact and error-free  chip-scale optical interconnects, as well as CMOS compatible laser isolators and frequency stabilizers. 
+Bio: 
+Jelena Vuckovic (PhD Caltech 2002) is the Jensen Huang Professor of Global Leadership, Professor of Electrical Engineering and, by courtesy, of Applied Physics at Stanford. She is a member of the National Academy of Sciences and an External Scientific Member of the Max Planck Institute for Quantum Optics. Her awards include the Zeiss Award, Vannevar Bush Faculty Fellowship, Geoffrey Frew Fellowship from the Australian Academy of Sciences, the IET A. F. Harvey Engineering Research Prize, Mildred Dresselhaus Lectureship from MIT, and the Humboldt Prize. She is a Fellow of the APS, Optica, and IEEE, a lead editor of Physical Review Applied, and an Editor of PNAS.",https://events.umich.edu/event/146128,"Herbert H. Dow  Building","1010 Dow","Herbert H. Dow  Building",,"Computer Engineering
+Electrical And Computer Engineering
+Electrical Engineering and Computer Science
+engineering
+Lecture","Electrical and Computer Engineering"
+146560-21899271,"2026-04-07 11:30:00","2026-04-07 13:00:00","Slice of IOE","Learn more about IOE and declare","Social / Informal Gathering","Thinking about IOE? Come grab a slice of pizza and ask questions about classes, careers, and student life. 
+
+Ready to commit? You'll be able to declare IOE on the spot during this event.",https://events.umich.edu/event/146560,"Industrial and Operations Engineering Building","Commons (1700)","Industrial and Operations Engineering Building",,"Food
+Industrial And Operations Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+146200-21898649,"2026-04-08 10:00:00","2026-04-08 13:00:00","ECRC Career Cafe featuring BAE Systems",,"Careers / Jobs","Stop by the Career Cafe (2nd Floor Duderstadt) to speak with representatives from BAE Systems who will be on campus to network with candidates for future opportunities.
+
+The Career Cafe provides students with an opportunity to connect with employers for networking and/or recruitment purposes in a casual setting. The Career Cafe is open to students across all majors and degree levels within the College of Engineering. Students participate on a drop in basis and may use this opportunity to explore different career paths, learn about various employment opportunities, and when appropriate, present themselves as a candidate for open positions.
+
+This event has a pre-registration option as well as a drop-in option. Please review Career Fair Plus for more information.
+
+This is a College of Engineering event.",https://events.umich.edu/event/146200,"Duderstadt Center","Second Floor","Duderstadt Center",,"Career
+Graduate Students
+Michigan Engineering
+Undergraduate Students","Engineering Career Resource Center"
+143468-21893232,"2026-04-08 11:00:00","2026-04-08 12:00:00","Coping with Stress","Campus Mind Works Wellness Group",Well-being,"Let’s be real - college is stressful! Join our Coping with Stress wellness group to learn some coping strategies, hear from other students and get some free lunch! This FREE in-person educational wellness group is for students only and will include an interactive presentation facilitated by staff from the Eisenberg Family Depression Center and is a collaborative service with U-M Engineering's C.A.R.E. Center and the Newnan Academic Advising Center.
+
+Registration is not required for in-person wellness groups, but is recommended so there is enough lunch for all attendees. You can register using the link. Learn more at campusmindworks.org",https://events.umich.edu/event/143468,"Haven Hall",G634,"Haven Hall",,"Campus Mind Works
+Central Campus
+Food
+Free
+Free Food
+Graduate and Professional Students
+Health & Wellness
+In Person
+mental health
+Undergraduate Students
+Well-being
+Wellness
+Workshop","Michigan Engineering C.A.R.E. Center"
+139740-21894089,"2026-04-08 12:00:00","2026-04-08 13:00:00","2025-2026 MICDE Ph.D. in Scientific Computing Student Seminars","See Sessions for details","Workshop / Seminar","The MICDE PhD Student Seminar Series showcases the research of students in the Ph.D. in Scientific Computing. Lunch will be served. These events are open to the public, but we request that all who plan to attend register in advance via Sessions (see link). 
+
+Presenter details will be available on the registration form and on the MICDE events calendar. Planned sessions will be canceled if no one signs up to present, and registrants will be notified.
+
+If you have any questions, please email micde-phd@umich.edu.",https://events.umich.edu/event/139740,,,"Room 4425, Green Court Building",,"Aerospace Engineering
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+College Of Engineering
+Computation
+Computational Medicine
+Computational Modeling
+Computational Science
+Computational Social Science
+Data Science
+Engineering
+Free
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Health Behavior & Health Equity
+In Person
+Interdisciplinary
+Machine Learning
+Materials Science
+Micde
+Phd Seminar
+Political Science
+Prospective Graduate Students
+Public Health
+Research
+Science
+Scientific Computing
+Sessions","Michigan Institute for Computational Discovery and Engineering"
+142310-21890464,"2026-04-08 12:30:00","2026-04-08 14:00:00","ClariTEA: Informal Undergraduate Advising Event",,"Social / Informal Gathering","ClariTEA is a weekly informal, drop-in advising event where Robotics and Interested Undergraduate students meet with Robotics Undergraduate Academic Advisors. Refreshments and TEA are offered at each meeting.
+
+Join us in having a conversation with the Robotics Undergraduate community.",https://events.umich.edu/event/142310,"Ford Robotics Building",2000,"Ford Robotics Building",,"Michigan Robotics
+Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+142261-21890281,"2026-04-09 11:00:00","2026-04-09 12:00:00","Quantum Research Institute | Quantum Spin-Mechanics with Color Centers in Diamond: A Potential Platform for Quantum Computing","Hailin Wang (University of Oregon)","Workshop / Seminar","In-Person: West Hall 411
+Zoom: https://umich.zoom.us/j/91761768567?jst=2
+
+Abstract:
+In a spin-mechanical system, electron spins are coupled to vibrations of a nanomechanical resonator.  Coherent interactions between single spins and single phonons take place in the quantum regime of spin-mechanics.  A network of these resonators can enable phonon-mediated coupling between distant electron spin, leading to a mechanical quantum network of spin qubits and providing an experimental platform for developing spin-based quantum computers.  
+In this talk, I will discuss our recent advance in achieving ultracoherent GHz diamond nanomechanical resonators and in developing mechanical quantum networks of spin qubits in diamond.  Localization and localization phase transitions induced by deterministic onsite potentials in a mechanical network are also exploited for the realization of extended network connectivity, which is deemed essential for large-scale fault tolerant quantum computers. 
+
+Bio:
+Hailin Wang received B.S. and Ph.D. degrees in physics from the University of Science and Technology of China and the University of Michigan in 1982 and 1990, respectively. He was a research investigator at the University of Michigan and subsequently a staff consultant at AT&T Bell Laboratories. He joined the University of Oregon in 1995 where he is now a professor of physics. Dr. Wang has made important contributions to the current understanding of coherent as well as incoherent optical processes in semiconductor nanostructures. He also made the first experimental demonstration of amplitude squeezed light from an injection-locked diode laser and developed a fused silica optical resonator that feature highly directional evanescent tunneling. His work on exciton spin coherence and biexciton coherence has recently led to the first demonstration of electromagnetically induced transparency for interband optical transitions in semiconductors. His current research interest includes optical manipulation of quantum coherences in semiconductors and especially its application in both classical and quantum information processing. Dr. Wang is a recipient of an NSF-CAREER award and is a fellow of the Optical Society of America.",https://events.umich.edu/event/142261,"West Hall",411,"West Hall",,"Astronomy
+Chemistry
+Computer Science And Engineering
+Electrical And Computer Engineering
+Electrical Engineering And Computer Science
+Physics
+Quantum
+Quantum Computing
+Quantum Science","Electrical and Computer Engineering
+Computer Science and Engineering Division
+Materials Science and Engineering
+Electrical Engineering and Computer Science"
+138834-21896907,"2026-04-09 11:00:00","2026-04-09 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+143067-21892318,"2026-04-09 12:00:00","2026-04-09 14:00:00","Grub @ the (Idea)Hub",,"Reception / Open House","Join the Center for Campus Involvement (CCI) for Grub at the (Idea)Hub for free food, networking, and to learn about the resources available to student organizations. Whether you are a member of a student organization, leading an organization, interested in joining a group, or forming a new organization - this event is for you! Come and go as you are able and free food will be available while supplies last.",https://events.umich.edu/event/143067,"Michigan Union","IdeaHub (2nd Floor)","Michigan Union",,"Student Organizations","Center for Campus Involvement CCI"
+145391-21897229,"2026-04-09 16:30:00","2026-04-09 18:00:00","Robotics Pathways and Careers Speaker Series - Winter 2026","Kellen Schroeter - Pattern Labs","Workshop / Seminar","The Robotics Pathways and Careers Speaker Series (RPCSS) invites professionals working in robotics to come talk with current undergraduates about their career path, how a background in robotics has impacted their professional growth, and what they hope to see in students looking to enter the profession.
+
+The 90-minute format of the event will consist of a 40-minute presentation from the invited speaker and up to 30 minutes of moderated Q&A and discussion. Session available as in-person and virtual event. Virtual information is included in registration information.
+
+RSVP Required for Event.",https://events.umich.edu/event/145391,"Ford Robotics Building",2300,"Ford Robotics Building",,"Career
+Robotics
+Undergraduate Students","Michigan Robotics"
+142666-21891277,"2026-04-09 17:30:00","2026-04-09 19:00:00","April BIndx Meeting",,Meeting,"The Black Industrial Engineers (BIndx, pronounced BIND-ex) group is composed of IOE students and faculty who come together informally for meaningful conversations and fellowship to promote learning, mentoring, and networking. The BIndx program was initiated to promote a learning space where students feel comfortable engaging with faculty. BIndx meetings occur as informal monthly discussions to help form relationships between faculty and minoritized students. BIndx hosts a diverse group of guest speakers throughout the semester with a specific focus to facilitate conversations, build connections, and empower self-reflection.",https://events.umich.edu/event/142666,"Industrial and Operations Engineering Building",2717,"Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+144942-21896175,"2026-04-10 09:00:00","2026-04-10 17:00:00","Optimaize Day",,"Conference / Symposium","Detroit-area high school students will travel to Ann Arbor for a day of hands-on engineering learning. Students will learn more about industrial and operations engineering, play optimization games and hear from current students.",https://events.umich.edu/event/144942,"Industrial and Operations Engineering Building",G690,"Industrial and Operations Engineering Building",,"Community Engagement","Industrial & Operations Engineering"
+137880-21880976,"2026-04-10 10:00:00","2026-04-10 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+144896-21896112,"2026-04-10 11:00:00","2026-04-10 16:00:00","Undergraduate Research Symposium",,"Conference / Symposium","Interested in presenting your research? The Undergraduate Research Symposium is an accessible, multidisciplinary research forum for all undergraduates at the University of Michigan to showcase their work. Top presenters will receive up to $500 in travel grants to support attendance at external conferences! Additionally, workshops will be hosted leading up to the symposium to help participants prepare. The UR Symposium will be held on April 10th from 11 AM to 4 PM in the Chemistry Building Atrium. To register, fill out the registration form by March 20th.",https://events.umich.edu/event/144896,"Chemistry Dow Lab",,"Chemistry Dow Lab",,"Conference
+Research
+Research Symposium
+Symposium
+Undergraduate
+Undergraduate Students","Computer Science and Engineering Division
+Chemical Engineering
+Climate and Space Sciences and Engineering
+Engineering Office of Student Affairs OSA"
+145657-21897642,"2026-04-10 12:00:00","2026-04-10 13:30:00","Exploring Non-Linear Career Paths: Lunch & Conversation with Lindsey Kilbride",,"Lecture / Discussion","CEW+ and WISE are pleased to host University of Michigan engineering alumna Lindsey Kilbride, who will share valuable insight on navigating career uncertainty, embracing change, and finding meaningful work beyond traditional pathways. This session will explore how to make intentional career choices, leverage transferable skills, and build a professional life that evolves alongside personal interests and priorities. After earning her degree in industrial and operations engineering, Lindsey began a career that took unexpected and rewarding turns, ultimately leading her to work far outside her original field of study. Through multiple transitions, she learned how to apply her analytics and data science skills across new fields and roles that better aligned with her values, strengths, and interests. Her journey underscores the importance of adaptability, continuous learning, and the confidence to pursue non-linear career paths. Alongside her professional growth, Lindsey has navigated career change while raising a family, offering an honest perspective on balancing competing priorities, setting boundaries, and redefining success over time. Her experience reflects the challenges many students will encounter and offers practical insight into building a fulfilling, sustainable career in a changing workforce.",https://events.umich.edu/event/145657,"Center for the Education of Women",,"Center for the Education of Women",,"Career
+career change
+Discussion
+Diversity Equity and Inclusion
+Free
+Graduate and Professional Students
+Graduate Students
+Inclusion
+Industrial and Operations Engineering
+Lifelong Learning
+Personal Development
+Professional Development
+Staff
+Talk
+Undergraduate Students","Women in Science and Engineering (WISE) Program"
+142963-21891861,"2026-04-10 12:00:00","2026-04-10 13:00:00","NERS Colloquium: The Radiological Engineering, Detection, and Dosimetry Group at Georgia Tech","Shaheen Dewji, Georgia Tech","Workshop / Seminar","Dr. Shaheen A. Dewji (she/her/hers) is an Associate Professor in the Nuclear & Radiological Engineering and Medical Physics Programs at the Georgia Institute of Technology, where she oversees the Radiological Engineering, Detection, and Dosimetry (RED²) research group. Dewji joined Georgia Tech following three years as faculty at Texas A&M University in the Department of Nuclear Engineering, and as a Faculty Fellow of the Center for Nuclear Security Science and Policy Initiatives (NSSPI).
+
+In her prior role at Oak Ridge National Laboratory, Dewji was Radiological Scientist in the Center for Radiation Protection Knowledge, where her work included assessment of patient release criteria for nuclear medicine patients, as well as development of dose coefficients associated with the external exposure and internal uptake of radionuclides associated with the external exposure and internal uptake of radionuclides in applications of emergency response, defense, nuclear medicine, long duration space travel, and occupational/public safety. Prior, Dr. Dewji spent five productive years with the Safeguards and Security Technology Group  at ORNL as a Nondestructive Assay Systems Engineer, focusing on nuclear material measurement of uranium enrichment, holdup (MUF/ID), and signature analysis. Dr. Dewji completed her Masters and Ph.D. degrees in Nuclear and Radiological Engineering at the Georgia Institute of Technology in Atlanta, GA and was a fellow of the Sam Nunn Security Program. As a native of Vancouver, Canada, she received her Bachelor of Science in Physics from the University of British Columbia and also participated in the UBC Science Co-op Program and the Go Global/Education Abroad Program with the Department of Nuclear Engineering at the University of California Berkeley as part of her undergraduate studies.
+
+Dewji currently serves on the National Academies of Science, Engineering, and Medicine – Nuclear and Radiation Studies Board.
+
+Research Thrusts
+Thrust Area 1 - Computational Dosimetry: Research activities include the development of dose coefficients using age/sex-specific anthropomorphic computational phantoms and radionuclide biokinetic models for occupational nuclear workers, members of the public, nuclear medicine, space, defense, and emergency response.
+
+Thrust Area 2 - Radiation Detection: Research activities include the employment of validation and verification of gamma-ray spectroscopic detector responses for contaminated environmental media for environmental assessment and decommissioning; field triage assessment of radiation uptake during nuclear, radiological, and fission product release events; and nuclear materials control, accounting, and safeguards of special nuclear material.
+
+Thrust Area 3 - Nuclear Safety, Security & Nonproliferation Policy, and Nuclear Knowledge Management: Research activities include evaluation of nuclear safety, security, and nonproliferation policy, including low dose regulation, nuclear safeguards and nonproliferation, emergency response, nuclear forensics, and nuclear knowledge management.
+
+The NERS Colloquia Series invites leading researchers, industry experts, and thought leaders from across the nuclear engineering and radiological sciences community to share their insights with students, faculty, and guests. Covering a wide range of topics—from cutting-edge research and emerging technologies to policy, education, and professional development—the weekly talks offer an opportunity to explore current issues and innovations shaping the future of the field.",https://events.umich.edu/event/142963,"Chrysler Center",220,"Chrysler Center",,"Michigan Engineering","Nuclear Engineering & Radiological Sciences"
+142846-21891739,"2026-04-14 08:00:00","2026-04-14 17:00:00","2026 MICDE Predictive Science Conference",,"Conference / Symposium","This conference will center around predictive science. Fueled by advances in artificial intelligence and high-performance computing, predictive science is poised to evolve dramatically over the next few years. Featuring presentations and panel discussions from leading voices across academia, national laboratories, industry, and the government, the conference will bring together researchers in high-performance computing, verification and validation, uncertainty quantification, and artificial intelligence to discuss the state of the field of predictive science and its future outlook.",https://events.umich.edu/event/142846,"Palmer Commons","Forum Hall","Palmer Commons",,"Computation
+Computational Science
+Engineering
+Faculty
+Graduate and Professional Students
+Graduate School
+Graduate Students
+high performance computing
+In Person
+Machine Learning
+Micde
+Michigan Engineering
+Science
+Scientific Computing
+symposium","Michigan Institute for Computational Discovery and Engineering"
+142846-21891740,"2026-04-15 08:00:00","2026-04-15 17:00:00","2026 MICDE Predictive Science Conference",,"Conference / Symposium","This conference will center around predictive science. Fueled by advances in artificial intelligence and high-performance computing, predictive science is poised to evolve dramatically over the next few years. Featuring presentations and panel discussions from leading voices across academia, national laboratories, industry, and the government, the conference will bring together researchers in high-performance computing, verification and validation, uncertainty quantification, and artificial intelligence to discuss the state of the field of predictive science and its future outlook.",https://events.umich.edu/event/142846,"Palmer Commons","Forum Hall","Palmer Commons",,"Computation
+Computational Science
+Engineering
+Faculty
+Graduate and Professional Students
+Graduate School
+Graduate Students
+high performance computing
+In Person
+Machine Learning
+Micde
+Michigan Engineering
+Science
+Scientific Computing
+symposium","Michigan Institute for Computational Discovery and Engineering"
+143470-21893233,"2026-04-15 12:00:00","2026-04-15 13:00:00","Coping with Stress","Campus Mind Works Wellness Group",Well-being,"Let’s be real - college is stressful! Join our Coping with Stress wellness group to learn some coping strategies, hear from other students and get some free lunch! This FREE in-person educational wellness group is for students only and will include an interactive presentation facilitated by staff from the Eisenberg Family Depression Center and is a collaborative service with U-M Engineering's C.A.R.E. Center and the Newnan Academic Advising Center.
+
+Registration is not required for in-person wellness groups, but is recommended so there is enough lunch for all attendees. You can register using the link. Learn more at campusmindworks.org",https://events.umich.edu/event/143470,"Chrysler Center",265,"Chrysler Center",,"Campus Mind Works
+Food
+Free
+Free Food
+Graduate and Professional Students
+Health & Wellness
+In Person
+mental health
+north campus
+Undergraduate Students
+Well-being
+Wellness
+Workshop","Michigan Engineering C.A.R.E. Center"
+142310-21890465,"2026-04-15 12:30:00","2026-04-15 14:00:00","ClariTEA: Informal Undergraduate Advising Event",,"Social / Informal Gathering","ClariTEA is a weekly informal, drop-in advising event where Robotics and Interested Undergraduate students meet with Robotics Undergraduate Academic Advisors. Refreshments and TEA are offered at each meeting.
+
+Join us in having a conversation with the Robotics Undergraduate community.",https://events.umich.edu/event/142310,"Ford Robotics Building",2000,"Ford Robotics Building",,"Michigan Robotics
+Robotics
+Undergraduate
+Undergraduate Students","Michigan Robotics"
+144961-21896205,"2026-04-15 16:00:00","2026-04-15 18:00:00","ChE Undergraduate Research Symposium",,"Conference / Symposium","The Michigan Chemical Engineering Undergraduate Research Symposium offers an opportunity for ChE undergraduate students to share their projects with a broad audience.
+
+This year, approximately 40 students who have been conducting research in partnership with faculty or working on a senior design project will present their work at this two-hour open poster session forum.
+
+Attendees include student presenters, other undergraduate and graduate students, department leadership and faculty, alumni and corporate partners.
+
+Poster registration: https://forms.gle/T1Gh5eUa1e54Jfnw9 
+RSVP: https://forms.gle/Q3EYsBG5vZLPXSBCA",https://events.umich.edu/event/144961,"GG Brown Laboratory",Galleria,"GG Brown Laboratory",,"research symposium
+symposium
+Undergraduate
+Undergraduate Students","Chemical Engineering"
+145826-21897857,"2026-04-15 16:00:00","2026-04-15 18:00:00","Undergraduate Symposium",,"Conference / Symposium","The 2026 ChE Undergraduate Symposium will be held on April 15, 2026 from 4-6 p.m.
+
+The Michigan Chemical Engineering Undergraduate Research Symposium offers an opportunity for ChE undergraduate students to share their projects with a broad audience.
+
+This year, approximately 40 students who have been conducting research in partnership with faculty or working on a senior design project will present their work at this two-hour open poster session forum.
+
+Attendees include student presenters, other undergraduate and graduate students, department leadership and faculty, alumni and corporate partners.
+
+For additional information, please contact us at che-ugsymposium@umich.edu
+
+Poster registration: https://forms.gle/T1Gh5eUa1e54Jfnw9
+
+RSVP: https://forms.gle/Q3EYsBG5vZLPXSBCA",https://events.umich.edu/event/145826,"Herbert H. Dow  Building",,"Herbert H. Dow  Building",,Symposium,"Chemical Engineering"
+143480-21893250,"2026-04-15 17:00:00","2026-04-15 18:00:00","April WISE Night In",,"Workshop / Seminar","Join WISE for a dinner party with a side of professional development. Our undergraduate WISE Mentors will lead a short, fun, and productive activity designed to jump start your career/internship search, followed by a delicious catered dinner to chill, eat, and make some new friends.",https://events.umich.edu/event/143480,,,"WISE Office, 3236 Undergraduate Science Building",,Sessions,"Women in Science and Engineering (WISE) Program"
+138834-21896908,"2026-04-16 11:00:00","2026-04-16 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+143399-21892981,"2026-04-16 11:30:00","2026-04-16 12:30:00","ChE SEMINAR: Carl Laird, Carnegie Mellon University",,"Workshop / Seminar","More details to come.",https://events.umich.edu/event/143399,"North Campus Research Complex Building 10","B10 Auditorium","North Campus Research Complex Building 10",,"chemical engineering
+Chemistry","Chemical Engineering"
+145392-21897230,"2026-04-16 16:30:00","2026-04-16 18:00:00","Robotics Pathways and Careers Speaker Series - Winter 2026","Adam Sadilek - AIM Intelligent Machines","Workshop / Seminar","The Robotics Pathways and Careers Speaker Series (RPCSS) invites professionals working in robotics to come talk with current undergraduates about their career path, how a background in robotics has impacted their professional growth, and what they hope to see in students looking to enter the profession.
+
+The 90-minute format of the event will consist of a 40-minute presentation from the invited speaker and up to 30 minutes of moderated Q&A and discussion. Session available as in-person and virtual event. Virtual information is included in registration information.
+
+RSVP Required for Event.",https://events.umich.edu/event/145392,"Ford Robotics Building",2300,"Ford Robotics Building",,"Career
+Robotics
+Undergraduate Students","Michigan Robotics"
+143480-21893251,"2026-04-16 17:00:00","2026-04-16 18:00:00","April WISE Night In",,"Workshop / Seminar","Join WISE for a dinner party with a side of professional development. Our undergraduate WISE Mentors will lead a short, fun, and productive activity designed to jump start your career/internship search, followed by a delicious catered dinner to chill, eat, and make some new friends.",https://events.umich.edu/event/143480,,,"WISE Office, 3236 Undergraduate Science Building",,Sessions,"Women in Science and Engineering (WISE) Program"
+146133-21898430,"2026-04-16 17:00:00","2026-04-16 19:00:00","Impact Venture Demo Day",,Exhibition,"Featuring student ventures tackling global issues through tech for good, health and wellbeing, education, climate, and fintech.
+
+Interact with live demonstrations of prototypes
+
+Connect with visionary student founders
+
+Provide feedback to early-stage solutions to global issues
+
+Light refreshments will be served
+
+Including special guests from Ann Arbor Spark, BCG, Ingeborg Investments, and more!
+
+🔗 Click Here to see special guests lineup
+
+​This event is made possible through our partnerships with the Applebaum Family Philanthropy, Ann Arbor SPARK, Boston Consulting Group, Business+Tech, Center for Entrepreneurship, and Zell Lurie Institute.",https://events.umich.edu/event/146133,"Ross School of Business","Winter Garden","Ross School of Business",,"art and design
+Business
+Design Thinking
+Entrepreneur
+Entrepreneur Services
+Entrepreneurship
+Food
+Free
+Graduate Students
+Inclusion
+Networking
+Social Impact
+Social Justice
+Undergraduate
+Zell Lurie Institute
+Zell Lurie Institute For Entrepreneurial Studies
+Zell Lurie Institute For Entrepreneurship
+Zli","Center for Entrepreneurship"
+144869-21896070,"2026-04-17 07:00:00","2026-04-17 17:00:00","2026 CCAT Global Symposium on Mobility Innovation presented by Mcity and UMTRI",,"Conference / Symposium","We are pleased to bring the ninth annual CCAT Global Symposium on Mobility Innovation, presented by Mcity and University of Michigan Transportation Research Institute (UMTRI), to the Morris Lawrence Building at Washtenaw Community College on Friday, April 17th! This two-track conference will feature a debate, panel discussion, and research presentations on the latest issues facing the transportation industry. Learn from experts in academia, government, and industry by securing your space now!",https://events.umich.edu/event/144869,,"Morris Lawrence Building",,"$25 (Students), $100 (Early-bird)","Civil and Environmental Engineering
+conference
+Discussion
+Education
+Electrical Engineering and Computer Science
+Engineering
+Engineering Academic Calendar
+Faculty
+Graduate and Professional Students
+Graduate Students
+Industrial and Operations Engineering
+Industry Session
+Information and Technology
+Leadership
+Lecture
+Mechanical Engineering
+Michigan Engineering
+Networking
+Professional Development
+Research
+seminar
+symposium
+Talk
+Virtual
+Webcast","Center for Connected and Automated Transportation
+University of Michigan Transportation Research Institute"
+137880-21880977,"2026-04-17 10:00:00","2026-04-17 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+142964-21891862,"2026-04-17 12:00:00","2026-04-17 13:00:00","NERS Colloquium: Experimental Nuclear Thermal Hydraulics","Saya Lee, Penn State University","Workshop / Seminar","Saya Lee is an assistant professor in the Ken and Mary Alice Lindquist Department of Nuclear Engineering. Lee earned his Ph.D. in nuclear engineering from Texas A&M University and his M.S. in mechanical engineering and B.S. in mechanical and electrical engineering with a minor in computer science from Handong University in South Korea. Lee has expertise in experimental nuclear thermal hydraulics for both light water reactors and advanced reactors and is developing advanced measurement techniques.
+
+The NERS Colloquia Series invites leading researchers, industry experts, and thought leaders from across the nuclear engineering and radiological sciences community to share their insights with students, faculty, and guests. Covering a wide range of topics—from cutting-edge research and emerging technologies to policy, education, and professional development—the weekly talks offer an opportunity to explore current issues and innovations shaping the future of the field.",https://events.umich.edu/event/142964,"Chrysler Center",220,"Chrysler Center",,"Michigan Engineering","Nuclear Engineering & Radiological Sciences"
+145396-21897243,"2026-04-17 15:00:00","2026-04-17 18:30:00","Senior Design Expo",,Exhibition,"U-M IOE students will showcase their real-world impact at the biannual Senior Design Expo.",https://events.umich.edu/event/145396,"Ford Robotics Building",Atrium,"Ford Robotics Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+142671-21891283,"2026-04-21 14:00:00","1970-01-01 00:00:00","IOE Community Event",,"Social / Informal Gathering","Join fellow members of the IOE community for some delicious treats in the Community Suite!",https://events.umich.edu/event/142671,"Industrial and Operations Engineering Building","Community Suite (IOE 1700)","Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+139740-21894090,"2026-04-22 12:00:00","2026-04-22 13:00:00","2025-2026 MICDE Ph.D. in Scientific Computing Student Seminars","See Sessions for details","Workshop / Seminar","The MICDE PhD Student Seminar Series showcases the research of students in the Ph.D. in Scientific Computing. Lunch will be served. These events are open to the public, but we request that all who plan to attend register in advance via Sessions (see link). 
+
+Presenter details will be available on the registration form and on the MICDE events calendar. Planned sessions will be canceled if no one signs up to present, and registrants will be notified.
+
+If you have any questions, please email micde-phd@umich.edu.",https://events.umich.edu/event/139740,,,"Room 4425, Green Court Building",,"Aerospace Engineering
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+College Of Engineering
+Computation
+Computational Medicine
+Computational Modeling
+Computational Science
+Computational Social Science
+Data Science
+Engineering
+Free
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Health Behavior & Health Equity
+In Person
+Interdisciplinary
+Machine Learning
+Materials Science
+Micde
+Phd Seminar
+Political Science
+Prospective Graduate Students
+Public Health
+Research
+Science
+Scientific Computing
+Sessions","Michigan Institute for Computational Discovery and Engineering"
+138834-21896909,"2026-04-23 11:00:00","2026-04-23 12:00:00","Weekly coffee chat hosted by INFORMS & HFES",,"Social / Informal Gathering","Come join us in the IOE Commons for some coffee and networking!",https://events.umich.edu/event/138834,"Industrial and Operations Engineering Building","Community Suite, Room 1700","Industrial and Operations Engineering Building",,"Graduate
+Graduate Students
+Hfes
+Human Factors And Ergonomics Society
+Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+143400-21892983,"2026-04-23 11:30:00","2026-04-23 12:30:00","ChE SEMINAR: Bryan McCloskey, University of California, Berkeley",,"Workshop / Seminar","More details to come.",https://events.umich.edu/event/143400,"North Campus Research Complex Building 32","B32 Auditorium","North Campus Research Complex Building 32",,"chemical engineering
+Chemistry","Chemical Engineering"
+137880-21880978,"2026-04-24 10:00:00","2026-04-24 12:00:00","Write with ME!",,"Social / Informal Gathering","Working on an abstract? Polishing up your resume? Writing a paper or dissertation?
+
+Join us for our new Mechanical Engineering Department writing group, “Write with ME!”
+
+All ME undergrads, grads, postdocs, faculty, and staff are welcome to join us for any of their writing needs.
+
+Community & support
+Connect with peers, share your writing, exchange feedback, and brainstorm solutions to writing challenges.
+
+Accountability & consistency
+Sharpen your writing skills and develop positive, consistent writing routines. Learn from other members of the ME department!
+
+Food & flexibility
+No need to attend every week! Drop in at any time, and leave at any time. Light snacks, coffee, and tea will be available.
+
+Weekly on Fridays, starting September 12
+2636 G.G.B
+10 am – 12 pm",https://events.umich.edu/event/137880,"GG Brown Laboratory",2636,"GG Brown Laboratory",,"Faculty
+Graduate Students
+Mechanical Engineering
+Postdoctoral Research Fellows
+Staff
+Undergraduate Students
+Writing","Mechanical Engineering"
+139740-21894091,"2026-04-29 12:00:00","2026-04-29 13:00:00","2025-2026 MICDE Ph.D. in Scientific Computing Student Seminars","See Sessions for details","Workshop / Seminar","The MICDE PhD Student Seminar Series showcases the research of students in the Ph.D. in Scientific Computing. Lunch will be served. These events are open to the public, but we request that all who plan to attend register in advance via Sessions (see link). 
+
+Presenter details will be available on the registration form and on the MICDE events calendar. Planned sessions will be canceled if no one signs up to present, and registrants will be notified.
+
+If you have any questions, please email micde-phd@umich.edu.",https://events.umich.edu/event/139740,,,"Room 4425, Green Court Building",,"Aerospace Engineering
+Chemical Engineering
+Chemistry
+Civil and Environmental Engineering
+College Of Engineering
+Computation
+Computational Medicine
+Computational Modeling
+Computational Science
+Computational Social Science
+Data Science
+Engineering
+Free
+Graduate
+Graduate and Professional Students
+Graduate School
+Graduate Students
+Health Behavior & Health Equity
+In Person
+Interdisciplinary
+Machine Learning
+Materials Science
+Micde
+Phd Seminar
+Political Science
+Prospective Graduate Students
+Public Health
+Research
+Science
+Scientific Computing
+Sessions","Michigan Institute for Computational Discovery and Engineering"
+142669-21891280,"2026-04-30 16:30:00","1970-01-01 00:00:00","IOE Grad Student Banquet",,"Social / Informal Gathering","Banquet for the graduate students. The banquet will be from 5:30pm to 7:30pm.",https://events.umich.edu/event/142669,"Michigan Union",,"Michigan Union",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+142670-21891281,"2026-05-01 16:00:00","2026-05-01 17:30:00","Undergraduate Graduation Open House",,"Reception / Open House","Open house to celebrate the graduation of the undergraduates. The open house will be from 4pm - 5:30pm.",https://events.umich.edu/event/142670,"Industrial and Operations Engineering Building","Community Suite (IOE 1700) & Reflecting Pool.","Industrial and Operations Engineering Building",,"Industrial And Operations Engineering
+Michigan Engineering
+Undergraduate
+Undergraduate Students","Industrial & Operations Engineering"
+142243-21890265,"2026-05-05 09:00:00","2026-05-05 17:00:00","2026 Borchardt Conference","27th Triennial Symposium on Advancements in Water & Wastewater","Conference / Symposium","Every three years, the Borchardt Conference brings together engineers, scientists, practitioners, and students to present and discuss the latest issues and advances in water and wastewater science and engineering.
+
+In addition to keynote lectures, presenters for oral and poster sessions will be selected from submitted abstracts on recent developments in drinking water and wastewater. Graduate and undergraduate students are encouraged to participate.",https://events.umich.edu/event/142243,"Rackham Graduate School (Horace H.)",,"Rackham Graduate School (Horace H.)","2-Day Attendee: $300 1-Day Attendee: $180  Student Registration: $25 per day","Civil and Environmental Engineering
+conference
+Environment
+Faculty
+Graduate and Professional Students
+Michigan Engineering
+Undergraduate Students
+water","Civil and Environmental Engineering"
+142243-21890266,"2026-05-06 09:00:00","2026-05-06 17:00:00","2026 Borchardt Conference","27th Triennial Symposium on Advancements in Water & Wastewater","Conference / Symposium","Every three years, the Borchardt Conference brings together engineers, scientists, practitioners, and students to present and discuss the latest issues and advances in water and wastewater science and engineering.
+
+In addition to keynote lectures, presenters for oral and poster sessions will be selected from submitted abstracts on recent developments in drinking water and wastewater. Graduate and undergraduate students are encouraged to participate.",https://events.umich.edu/event/142243,"Rackham Graduate School (Horace H.)",,"Rackham Graduate School (Horace H.)","2-Day Attendee: $300 1-Day Attendee: $180  Student Registration: $25 per day","Civil and Environmental Engineering
+conference
+Environment
+Faculty
+Graduate and Professional Students
+Michigan Engineering
+Undergraduate Students
+water","Civil and Environmental Engineering"
+146165-21898610,"2026-05-21 09:00:00","2026-05-21 10:00:00","PhD Defense: Jaeshin Park",,"Lecture / Discussion","Join us for Jaeshin's defense!
+Chair: Eunshin Byon",https://events.umich.edu/event/146165,"Industrial and Operations Engineering Building",2717,"Industrial and Operations Engineering Building",,"Dissertation
+Graduate
+Graduate Students
+Industrial And Operations Engineering
+Michigan Engineering","Industrial & Operations Engineering"
+145812-21897843,"2026-06-16 14:00:00","2026-06-16 15:00:00","Rare Failures, Public Perception, and Automated Driving: Why Exceptional Events Shape Trust in Emerging Safety Technologies","Professor Daniel V. McGehee","Lecture / Discussion","This lecture explores the “vaccine paradox” of automated driving: why rare, highly publicized failures of self-driving vehicles provoke intense emotional and political reactions while the far more common harms of human driving remain normalized. Drawing on risk psychology, public-health history, and human-factors research, Prof. McGehee examines how visibility imbalance, trust, and perceptions of control shape public acceptance of emerging vehicle automation. Using real-world examples from automated-vehicle deployments alongside lessons from vaccine adoption and safety communication, the talk argues that societal expectations for perfection in automation may obscure meaningful population-level safety gains. The presentation concludes by discussing how transparency, responsible system design, and careful language around driver-assistance technologies can help align public perception with evidence as automated driving evolves toward broader deployment.
+---
+About the speaker: Daniel V. McGehee, is Professor of Industrial and Systems Engineering at the University of Iowa and Director of the Driving Safety Research Institute (DSRI) and the National Advanced Driving Simulator (NADS), one of the world’s largest and most advanced ground-vehicle simulation facilities. For more than three decades, his work has focused on human factors, driver behavior, and the safe integration of advanced vehicle technologies, including automated driving and driver-assistance systems. Dr. McGehee’s research spans engineering, medicine, public health, and transportation policy, with projects funded by the U.S. Department of Transportation, National Institutes of Health, and the automotive industry. He has led over $40 million in sponsored research and authored more than 160 scientific publications addressing driver attention, crash avoidance, vulnerable road users, and the design of vehicle interfaces. His work combines naturalistic driving studies, simulation, and field research to better understand how humans interact with emerging mobility systems. At the University of Iowa, he holds joint appointments in emergency medicine and public health, reflecting his longstanding interest in traffic safety as a population-level health issue.",https://events.umich.edu/event/145812,"Transportation Research Institute","Room 139","Transportation Research Institute",,"Basic Science
+Civil and Environmental Engineering
+conference
+Discussion
+Education
+Engineering
+Engineering Academic Calendar
+Faculty
+Free
+Graduate and Professional Students
+Graduate Students
+Industrial and Operations Engineering
+Information and Technology
+Leadership
+Lecture
+Mechanical Engineering
+Michigan Engineering
+Networking
+Professional Development
+Research
+seminar
+Talk
+Undergraduate
+Undergraduate Students
+Virtual
+Webcast","Center for Connected and Automated Transportation
+University of Michigan Transportation Research Institute"
+142598-21891206,"2026-09-06 14:00:00","2026-09-06 16:00:00","Pride Outside: LGBTQIA2S+ Welcome","Welcome to Michigan 2026","Fair / Festival","A major part of Welcome to Michigan, Pride Outside is an annual welcome event for new and returning students of all genders and sexualities to celebrate the beginning of fall semester. Join us on Ingalls Mall for lawn games, a drag show, shaved ice, t-shirt giveaways, resource tables, and more.
+
+MORE SPECTRUM CENTER EVENTS
+https://spectrumcenter.umich.edu/events",https://events.umich.edu/event/142598,"Ingalls Mall",,"Ingalls Mall",,"Anchor2026
+Free
+Games
+Graduate and Professional Students
+Graduate Students
+LGBT
+Prospective Graduate Students
+Prospective Undergraduate Students
+Queer Trans Indigenous People of Color-QTIPOC
+Social
+Undergraduate Students
+Welcome to Michigan
+Welcome2026","Michigan Engineering
+oSTEM"

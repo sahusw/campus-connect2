@@ -14,6 +14,8 @@ import { useToast } from '@/hooks/use-toast';
 import type { CampusEvent, ScheduleBlock } from '@/lib/types';
 import { downloadICS, buildGCalURL } from '@/lib/calendarExport';
 import { ClassCalendarExport } from '@/components/ClassCalendarExport';
+import { MandalaLogo } from '@/components/MandalaLogo';
+import { SUPPORTED_UNIVERSITY } from '@/lib/constants';
 
 type DashView = 'planner' | 'explore';
 
@@ -40,7 +42,7 @@ export function Dashboard() {
         setCourseKeywords(keywords);
 
         const discoveredEvents = await discoverEvents(
-          profile.university || 'University',
+          SUPPORTED_UNIVERSITY,
           profile.interests || [],
           keywords,
           profile.year
@@ -122,7 +124,7 @@ export function Dashboard() {
   // ── Calendar export actions ────────────────────────────────────────────────
   const handleDownloadICS = () => {
     if (!selectedEvents.length) return;
-    downloadICS(selectedEvents, 'campusflow-events.ics');
+    downloadICS(selectedEvents, 'mandala-events.ics');
     toast({ title: `Downloaded ${selectedEvents.length} event${selectedEvents.length !== 1 ? 's' : ''} as .ics` });
     setCalDropdownOpen(false);
   };
@@ -152,8 +154,8 @@ export function Dashboard() {
       <header className="border-b bg-card/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-primary" />
-            <span className="font-display text-lg">CampusFlow</span>
+            <MandalaLogo className="w-7 h-7 text-primary" />
+            <span className="font-display text-lg">Mandala</span>
           </div>
 
           <div className="flex items-center gap-1 bg-muted rounded-lg p-1">
@@ -176,7 +178,7 @@ export function Dashboard() {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-sm text-muted-foreground hidden sm:block">{profile.university}</span>
+            <span className="text-sm text-muted-foreground hidden sm:block">{SUPPORTED_UNIVERSITY}</span>
             <Button variant="ghost" size="sm" onClick={() => { setStep('onboarding'); setWeekGenerated(false); }}>
               <LogOut className="w-4 h-4" />
             </Button>
@@ -205,7 +207,7 @@ export function Dashboard() {
               {loadingEvents && (
                 <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  Finding events at {profile.university}...
+                  Finding events at {SUPPORTED_UNIVERSITY}...
                 </div>
               )}
               {courseKeywords.length > 0 && (
@@ -404,3 +406,4 @@ export function Dashboard() {
     </div>
   );
 }
+
